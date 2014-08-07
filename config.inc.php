@@ -8,10 +8,10 @@ define('ADMIN_PASS', 'acpass');
 session_start();
 
 // MYSQL CONNECTION
-define('DB_HOST', 'sql312.byethost6.com');
-define('DB_NAME', 'b6_15005925_ac');
-define('DB_USER', 'b6_15005925');
-define('DB_PASS', '11n0vembre');
+define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST'));
+define('DB_NAME', 'autresclimats');
+define('DB_USER', getenv('OPENSHIFT_MYSQL_DB_USERNAME'));
+define('DB_PASS', getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));
 
 // BASE SERVER INFO
 define('BASE_HOST', $_SERVER['HTTP_HOST']);
