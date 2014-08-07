@@ -1,0 +1,29 @@
+.img-thumbnail {
+    /*width: 200px;*/
+    border-radius: 2px;
+}
+
+.img-container {
+    height: 300px;
+    width: 210px;
+    display: table-cell;
+    vertical-align: bottom;
+    float: none;
+}
+
+.img-pres {
+    width: 200px;
+}
+
+.img-table {
+    height: 32px;
+}
+
+.img-description {
+    height: 100px;
+    width: auto;
+}
+
+.empty {
+    height: 50px;
+}
