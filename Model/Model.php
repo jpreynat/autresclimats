@@ -119,18 +119,98 @@ function recordLogo($img_name) {
 // Save project in database
 function recordProject($details) {
     $db = getDB();
-    $query = 'INSERT INTO projects (proj_name, coun_id, proj_description, logo_id) VALUES (?, ?, ?, ?)';
+    $query = 'INSERT INTO projects (p_name,
+                                    coun_id, 
+                                    p_city, 
+                                    t_id,
+                                    p_sect,
+                                    p_proj_fr,
+                                    p_proj_en,
+                                    p_proj_es,
+                                    p_summ_fr,
+                                    p_summ_en,
+                                    p_summ_es,
+                                    p_bene_fr,
+                                    p_bene_en,
+                                    p_bene_es,
+                                    p_logo,
+                                    p_pic1,
+                                    p_pic2,
+                                    p_pic3,
+                                    p_vid1,
+                                    p_vid2,
+                                    p_vid3,
+                                    c_id) 
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)';
     
     $project = $db->prepare($query);
     
     extract($details);
-    $project->execute(array($proj_name, $coun_id, $proj_description, $logo_id));
+    $project->execute(array($p_name,
+                            $coun_id, 
+                            $p_city, 
+                            $t_id,
+                            $p_sect,
+                            $p_proj_fr,
+                            $p_proj_en,
+                            $p_proj_es,
+                            $p_summ_fr,
+                            $p_summ_en,
+                            $p_summ_es,
+                            $p_bene_fr,
+                            $p_bene_en,
+                            $p_bene_es,
+                            $p_logo,
+                            $p_pic1,
+                            $p_pic2,
+                            $p_pic3,
+                            $p_vid1,
+                            $p_vid2,
+                            $p_vid3,
+                            $c_id
+                            ));
     
     $project_id = $db->lastInsertId();
     
     // GOOD RECORD
     if ($project_id > 0)
         return $project_id;
+    
+    // BAD RECORD
+    else return -1;
+}
+
+// Save a contact in database
+function recordContact($details) {
+    $db = getDB();
+    $query = 'INSERT INTO contacts (c_first,
+                                    c_last,
+                                    c_mail,
+                                    c_phone,
+                                    c_street,
+                                    c_city,
+                                    c_postal,
+                                    coun_id)
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?)';
+    
+    $new_contact = $db->prepare($query);
+    
+    extract($details);
+    $new_contact->execute(array($c_first,
+                                $c_last,
+                                $c_mail,
+                                $c_phone,
+                                $c_street,
+                                $c_city,
+                                $c_postal,
+                                $coun_id)
+                                );
+    
+    $contact_id = $db->lastInsertId();
+    
+    // GOOD RECORD
+    if ($contact_id > 0)
+        return $contact_id;
     
     // BAD RECORD
     else return -1;

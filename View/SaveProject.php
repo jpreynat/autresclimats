@@ -3,44 +3,107 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
-    //RECORD CONTACT IN DB!
-    $c_first = $_POST['c_first'];
-    $c_last = $_POST['c_last'];
-    $c_mail = $_POST['c_mail'];
-    $c_phone = $_POST['c_phone'];
-    $c_street = $_POST['c_street'];
-    $c_city = $_POST['c_city'];
-    $c_postal = $_POST['c_postal'];
-    $c_coun_id = $_POST['c_coun_id'];
+    //*********** RECORD CONTACT IN DB! *************//
     
-    $a = "Valeur de rue : " . $c_street . "<br>Longueur : " . strlen($c_street);
-    /*
+    // GET THE FIELDS AND TRIM THE STRINGS
+    $c_first    = trim($_POST['c_first']);
+    $c_last     = trim($_POST['c_last']);
+    $c_mail     = trim($_POST['c_mail']);
+    $c_phone    = trim($_POST['c_phone']);
+    $c_street   = trim($_POST['c_street']);
+    $c_city     = trim($_POST['c_city']);
+    $c_postal   = trim($_POST['c_postal']);
+    $c_coun_id  = $_POST['c_coun_id'];
     
-    $details = array();
+    // PUT IN DETAILS ARRAY
+    $details = array('c_first'  => $c_first,
+                     'c_last'   => $c_last,
+                     'c_mail'   => $c_mail,
+                     'c_phone'  => $c_phone,
+                     'c_street' => $c_street,
+                     'c_city'   => $c_city,
+                     'c_postal' => $c_postal,
+                     'coun_id'  => $c_coun_id
+                     );
+    
+    // RECORD IN DATABASE AND GET CONTACT ID FOR PROJECT
+    $c_id = recordContact($details);
     
     
-    
-    $proj_name = $_POST['name'];
-    $proj_description = $_POST['description'];
-    $coun_id = $_POST['country'];
-    $logo_id = NULL;
-    
-
-    
-    // RECORD PROJECT IN DB
-    // PREPARE $details ARRAY
-    $details = array('p_name' => $proj_name);
-                     
-    
-    // GET NEW PROJECT ID
-    $proj_id = recordProject($details);
-    
-    if ($proj_id > 0) {
-        $a = "Le projet a bien été enregistré.";
-        
+    // IN CASE OF BAD RECORD
+    if($c_id <= 0){
+        $a = "Erreur à l'enregistrement du contact.";
     }
-    else $a = "Erreur à l'enregistrement";
-    */
+    
+    // ELSE
+    else {
+        // GET THE FIELDS AND TRIM THE STRINGS
+        $p_name     = trim($_POST['p_name']);
+        $p_coun_id  = $_POST['p_count_id'];
+        $p_city     = trim($_POST['p_city']);
+        
+        $t_id       = $_POST['t_id'];
+        $p_sect     = $_POST['p_sect'];
+        
+        $p_proj_fr  = trim($_POST['p_proj_fr']);
+        $p_proj_en  = trim($_POST['p_proj_en']);
+        $p_proj_es  = trim($_POST['p_proj_es']);
+        
+        $p_summ_fr  = trim($_POST['p_summ_fr']);
+        $p_summ_en  = trim($_POST['p_summ_en']);
+        $p_summ_es  = trim($_POST['p_summ_es']);
+        
+        $p_bene_fr  = trim($_POST['p_bene_fr']);
+        $p_bene_en  = trim($_POST['p_bene_en']);
+        $p_bene_es  = trim($_POST['p_bene_es']);
+        
+        $p_logo     = trim($_POST['p_logo']);
+        
+        $p_pic1     = trim($_POST['p_pic1']);
+        $p_pic2     = trim($_POST['p_pic2']);
+        $p_pic3     = trim($_POST['p_pic3']);
+        
+        $p_vid1     = trim($_POST['p_vid1']);
+        $p_vid2     = trim($_POST['p_vid2']);
+        $p_vid3     = trim($_POST['p_vid3']);
+        
+        // $c_id already exists
+        
+        // PREPARE ARRAY FOR RECORDING
+        $details = array('p_name'       => $p_name,
+                         'coun_id'      => $p_coun_id,
+                         'p_city'       => $p_city,
+                         't_id'         => $t_id,
+                         'p_sect'       => $p_sect,
+                         'p_proj_fr'    => $p_proj_fr,
+                         'p_proj_en'    => $p_proj_en,
+                         'p_proj_es'    => $p_proj_es,
+                         'p_summ_fr'    => $p_summ_fr,
+                         'p_summ_en'    => $p_summ_en,
+                         'p_summ_es'    => $p_summ_es,
+                         'p_bene_fr'    => $p_bene_fr,
+                         'p_bene_en'    => $p_bene_en,
+                         'p_bene_es'    => $p_bene_es,
+                         'p_logo'       => $p_logo,
+                         'p_pic1'       => $p_pic1,
+                         'p_pic2'       => $p_pic2,
+                         'p_pic3'       => $p_pic3,
+                         'p_vid1'       => $p_vid1,
+                         'p_vid2'       => $p_vid2,
+                         'p_vid3'       => $p_vid3,
+                         'c_id'         => $c_id
+                         );
+                         
+        // ACTUALLY RECORD IN DATABASE
+        $proj_id = recordProject($details);
+        
+        if ($proj_id > 0) {
+            $a = "Le projet a bien été enregistré.";
+        }
+        else {
+            $a = "Erreur à l'enregistrement du projet.";
+        }
+    }
 }
 
 else {

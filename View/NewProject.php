@@ -43,7 +43,7 @@
         <div class="form-group">
             <label for="inputCity" class="col-sm-2 control-label">Ville</label>
             <div class="col-sm-3">
-              <input type="text" class="form-control" id="p_city" name="p_city" placeholder="Ville" required>
+              <input type="text" class="form-control" id="p_city" name="p_city" placeholder="Ville">
             </div>
         </div>
         
