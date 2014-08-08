@@ -63,12 +63,48 @@ function getThemes() {
 function getProject($project_id) {
     $db = getDB();
     
+    // REQUEST FOR CONTACT COUNTRY NAME
+    $q1 = '(SELECT c_id, coun_name_fr AS c_country
+            FROM contacts
+            INNER JOIN countries ON contacts.coun_id = countries.coun_id
+           ) AS Q1';
+    
+    $query = 'SELECT p_id,
+                     p_name,
+                     coun_name_fr as country,
+                     p_city,
+                     t_fr as theme,
+                     p_proj_fr as p_proj,
+                     p_summ_fr as p_summ,
+                     p_bene_fr as p_bene,
+                     p_sect,
+                     p_logo,
+                     p_pic1,
+                     p_pic2,
+                     p_pic3,
+                     p_vid1,
+                     p_vid2,
+                     p_vid3,
+                     c_first,
+                     c_last,
+                     c_mail,
+                     c_phone,
+                     c_street,
+                     c_city,
+                     c_postal,
+                     c_country
+              FROM projects
+              INNER JOIN countries ON projects.coun_id = countries.coun_id
+              INNER JOIN {$q1} ON projects.c_id = Q1.c_id';
+    
+    /*
     $query = 'SELECT proj_id AS id, proj_name AS name, coun_name_fr AS country, proj_language AS language,'
             .' proj_description AS description, logo_path AS img_path, projects.coun_id AS country_id'
             .' FROM projects'
             .' LEFT OUTER JOIN logos ON projects.logo_id = logos.logo_id'
             .' INNER JOIN countries ON projects.coun_id = countries.coun_id'
             .' WHERE proj_id = ?';
+    */        
     $project = $db->prepare($query);
     
     $project->execute(array($project_id));
@@ -99,7 +135,7 @@ function deleteProject($project_id) {
         throw new Exception("Aucun projet ne correspond à l'identifiant $project_id");
 }
 
-// Save logo in database
+/* Used to save logo in database
 function recordLogo($img_name) {
     $db = getDB();
     $query = 'INSERT INTO logos (logo_path) VALUES (?)';
@@ -115,6 +151,7 @@ function recordLogo($img_name) {
     // BAD RECORD
     else return -1;
 }
+*/
 
 // Save project in database
 function recordProject($details) {
