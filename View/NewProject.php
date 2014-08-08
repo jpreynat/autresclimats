@@ -206,7 +206,7 @@
         <div class="form-group">
             <label for="inputPhone" class="col-sm-2 control-label">Téléphone</label>
             <div class="col-sm-3">
-              <input type="tel" class="form-control" id="c_phone" name="c_phone" placeholder="04 72 00 22 44" required>
+              <input type="tel" class="form-control" id="c_phone" name="c_phone" placeholder="04 72 00 22 44">
             </div>
         </div>
             
@@ -214,7 +214,7 @@
         <div class="form-group">
             <label for="inputStreet" class="col-sm-2 control-label">Adresse</label>
             <div class="col-sm-3">
-              <input type="text" class="form-control" id="c_street" name="c_street" placeholder="1, place des Terreaux" required>
+              <input type="text" class="form-control" id="c_street" name="c_street" placeholder="1, place des Terreaux">
             </div>
         </div>
 
@@ -222,7 +222,7 @@
         <div class="form-group">
             <label for="inputPostal" class="col-sm-2 control-label">Code Postal</label>
             <div class="col-sm-2">
-              <input type="tel" class="form-control" id="c_postal" name="c_postal" placeholder="69001" required>
+              <input type="tel" class="form-control" id="c_postal" name="c_postal" placeholder="69001">
             </div>
         </div>
             
@@ -230,7 +230,7 @@
         <div class="form-group">
             <label for="inputCCity" class="col-sm-2 control-label">Ville</label>
             <div class="col-sm-3">
-              <input type="text" class="form-control" id="c_city" name="c_city" placeholder="Lyon" required>
+              <input type="text" class="form-control" id="c_city" name="c_city" placeholder="Lyon">
             </div>
         </div>
         

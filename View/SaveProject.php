@@ -3,41 +3,34 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
+    //RECORD CONTACT IN DB!
+    $c_first = $_POST['c_first'];
+    $c_last = $_POST['c_last'];
+    $c_mail = $_POST['c_mail'];
+    $c_phone = $_POST['c_phone'];
+    $c_street = $_POST['c_street'];
+    $c_city = $_POST['c_city'];
+    $c_postal = $_POST['c_postal'];
+    $c_coun_id = $_POST['c_coun_id'];
+    
+    $a = "Valeur de rue : " . $c_street . "<br>Longueur : " . strlen($c_street);
+    /*
+    
+    $details = array();
+    
+    
+    
     $proj_name = $_POST['name'];
     $proj_description = $_POST['description'];
     $coun_id = $_POST['country'];
     $logo_id = NULL;
     
-    // CHECK IF FILE INCLUDED AND NOT TO BIG
-    if ($_FILES['logo']['error'] == 0) {
-    
-        // SET NAME CORRESPONDING TO PROJECT NAME LOWERCASE NO WHITESPACES
-        $file_name = stripAccents($proj_name);
-        $file_name = mb_strtolower(preg_replace('/\s+/u', '', $file_name), 'UTF-8');
-        $file_extension = strtolower(substr(strrchr($_FILES['logo']['name'], '.'), 1));
 
-        $file_name = "$file_name.$file_extension";
-        $file_def_path = "img/$file_name";
-
-        // TRY TO COPY FILE
-        $result = move_uploaded_file($_FILES['logo']['tmp_name'], $file_def_path);
-
-        // SUCCESS
-        if ($result) {
-            // RECORD IN DB
-            $logo_id = recordLogo($file_name);
-            $a = "file saved as '$file_def_path' with id: '$logo_id'";
-        }
-        // UNSUCCESSFUL
-        else $a = "didn't work";
-    }
     
     // RECORD PROJECT IN DB
     // PREPARE $details ARRAY
-    $details = array('proj_name' => $proj_name,
-                     'coun_id' => $coun_id,
-                     'proj_description' => $proj_description,
-                     'logo_id' => $logo_id);
+    $details = array('p_name' => $proj_name);
+                     
     
     // GET NEW PROJECT ID
     $proj_id = recordProject($details);
@@ -47,6 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
     }
     else $a = "Erreur à l'enregistrement";
+    */
 }
 
 else {
