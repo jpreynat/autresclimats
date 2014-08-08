@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     else {
         // GET THE FIELDS AND TRIM THE STRINGS
         $p_name     = trim($_POST['p_name']);
-        $p_coun_id  = $_POST['p_count_id'];
+        $p_coun_id  = $_POST['p_coun_id'];
         $p_city     = trim($_POST['p_city']);
         
         $t_id       = $_POST['t_id'];
