@@ -18,10 +18,22 @@
 </header>
 
 <article>
+
+    <!-- #################### GENERAL INFORMATIONS ################### -->
+
     <div class="row">
-        <h3>Pays</h3>
+        <h3>Lieu</h3>
+        
+        <?php if (strlen($project['p_city']) > 0): ?>
+        <h4><?= "{$project['p_city']}, {$project['country']}" ?></h4>
+        
+        <?php else: ?>
         <h4><?= $project['country'] ?></h4>
+        
+        <?php endif; ?>
     </div>
+    
+    
     <div class="row">
         <h3>Description du projet</h3>
         <p><?= $project['p_proj'] ?></p>
