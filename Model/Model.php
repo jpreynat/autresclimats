@@ -48,6 +48,17 @@ function getCountries() {
     return $countries;
 }
 
+// Get themes list
+function getThemes() {
+    $db = getDB();
+    $query = 'SELECT t_id AS id, t_fr AS name'
+            .' FROM themes'
+            .' ORDER BY name';
+    
+    $themes = $db->query($query);
+    return $themes;
+}
+
 // Get project by id
 function getProject($project_id) {
     $db = getDB();
