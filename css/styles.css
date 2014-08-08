@@ -1,6 +1,7 @@
 .img-thumbnail {
     /*width: 200px;*/
     border-radius: 2px;
+    padding: 3px;
 }
 
 .img-container {
