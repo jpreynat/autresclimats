@@ -8,7 +8,7 @@
     <div class="row">
         <!-- INSERT IMAGE IF EXISTS -->
         <?php if ($project['p_logo']): ?>
-        <?php echo '<img src="img/' . $project['p_logo'] . '" alt="..." class="img-thumbnail img-description pull-right" />'; ?>
+        <?php echo '<img src="' . $project['p_logo'] . '" alt="' . $project['p_name'] . '" class="img-thumbnail img-description pull-right" />'; ?>
         <?php endif; ?>
         
         <div class="page-header">
@@ -98,6 +98,62 @@
             <?php endif; ?>
             
         </div>
+    </div>
+    
+    <!-- #################### MEDIAS ################### -->
+    
+                        <!-- Pictures -->
+    
+    <div class="row">
+        
+        <?php if(strlen($project['p_pic1']) > 0) : ?>
+        <div class="col-sm-4">
+            <img src="<?= $project['p_pic1'] ?>" class="img img-responsive" alt="Photo 1">
+        </div>
+        <?php endif; ?>
+        
+        <?php if(strlen($project['p_pic2']) > 0) : ?>
+        <div class="col-sm-4">
+            <img src="<?= $project['p_pic2'] ?>" class="img img-responsive" alt="Photo 2">
+        </div>
+        <?php endif; ?>
+        
+        <?php if(strlen($project['p_pic3']) > 0) : ?>
+        <div class="col-sm-4">
+            <img src="<?= $project['p_pic3'] ?>" class="img img-responsive" alt="Photo 3">
+        </div>
+        <?php endif; ?>
+        
+    </div>
+    
+                        <!-- Videos -->
+    
+    <div class="row">
+        
+        <?php if(strlen($project['p_vid1']) > 0) : ?>
+        <div class="col-sm-4">
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="<?= $project['p_vid1'] ?>"></iframe>
+            </div>
+        </div>
+        <?php endif; ?>
+        
+        <?php if(strlen($project['p_vid2']) > 0) : ?>
+        <div class="col-sm-4">
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="<?= $project['p_vid2'] ?>"></iframe>
+            </div>
+        </div>
+        <?php endif; ?>
+        
+        <?php if(strlen($project['p_vid3']) > 0) : ?>
+        <div class="col-sm-4">
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="<?= $project['p_vid3'] ?>"></iframe>
+            </div>
+        </div>
+        <?php endif; ?>
+        
     </div>
     
 </article>
