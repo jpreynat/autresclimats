@@ -1,4 +1,4 @@
-<?php $page_title = 'Détail du projet ' . $project['name']; ?>
+<?php $page_title = 'Détail du projet ' . $project['p_name']; ?>
 
 <?php ob_start(); ?>
 <?php if (!$project['p_logo'])

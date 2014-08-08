@@ -72,6 +72,7 @@ function getProject($project_id) {
     $query = 'SELECT p_id,
                      p_name,
                      coun_name_fr as country,
+                     coun_id as p_coun_id,
                      p_city,
                      t_fr as theme,
                      p_proj_fr as p_proj,
