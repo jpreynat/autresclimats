@@ -254,6 +254,25 @@
         <fieldset>
             <legend>Médias</legend>
         
+                                        <!-- LOGO URL -->
+        <div class="form-group">
+            <label for="inputLogo" class="col-sm-2 control-label">Logo</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="p_logo" name="p_logo" placeholder="URL du logo">
+            </div>
+        </div>
+
+        <!--
+        <div class="form-group">
+            <label for="inputDescription" class="col-sm-2 control-label">Logo</label>
+            <div class="col-sm-8">
+                                        <!-- FILE SIZE LIMIT TO 500ko
+                <input type="hidden" name="MAX_FILE_SIZE" value="512000">
+                <input name="logo" type="file" class="filestyle" data-iconName="glyphicon-inbox" data-input="false">
+            </div>
+        </div>
+        -->
+        
                                          <!-- PICTURE 1 -->
         <div class="form-group">
             <label for="inputPicture1" class="col-sm-2 control-label">Photo 1</label>
@@ -299,16 +318,6 @@
             <label for="inputVideo3" class="col-sm-2 control-label">Vidéo 3</label>
             <div class="col-sm-5">
               <input type="text" class="form-control" id="p_vid3" name="p_vid3" placeholder="URL de la vidéo">
-            </div>
-        </div>
-        
-                                        <!-- INSERT LOGO -->
-        <div class="form-group">
-            <label for="inputDescription" class="col-sm-2 control-label">Logo</label>
-            <div class="col-sm-8">
-                                        <!-- FILE SIZE LIMIT TO 500ko -->
-                <input type="hidden" name="MAX_FILE_SIZE" value="512000">
-                <input name="logo" type="file" class="filestyle" data-iconName="glyphicon-inbox" data-input="false">
             </div>
         </div>
         
