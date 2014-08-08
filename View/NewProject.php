@@ -21,7 +21,7 @@
                                         <!-- NAME -->
         <div class="form-group">
             <label for="inputName" class="col-sm-2 control-label">Nom</label>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
               <input type="text" class="form-control" id="p_name" name="p_name" placeholder="Nom" required>
             </div>
         </div>
@@ -42,7 +42,7 @@
                                         <!-- CITY -->
         <div class="form-group">
             <label for="inputCity" class="col-sm-2 control-label">Ville</label>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
               <input type="text" class="form-control" id="p_city" name="p_city" placeholder="Ville" required>
             </div>
         </div>
@@ -87,7 +87,7 @@
         
                                         <!-- PROJECTS-TEXT-FR -->
         <div class="form-group">
-            <label for="inputProjectsFR" class="col-sm-2 control-label">Projets (français)</label>
+            <label for="inputProjectsFR" class="col-sm-2 control-label">Français</label>
             <div class="col-sm-8">
                 <textarea class="form-control" rows="3" id="p_proj_fr" name="p_proj_fr"></textarea>
             </div>
@@ -95,7 +95,7 @@
         
                                         <!-- PROJECTS-TEXT-EN -->
         <div class="form-group">
-            <label for="inputProjectsEN" class="col-sm-2 control-label">Projets (anglais)</label>
+            <label for="inputProjectsEN" class="col-sm-2 control-label">Anglais</label>
             <div class="col-sm-8">
                 <textarea class="form-control" rows="3" id="p_proj_en" name="p_proj_en"></textarea>
             </div>
@@ -103,7 +103,7 @@
         
                                         <!-- PROJECTS-TEXT-ES -->
         <div class="form-group">
-            <label for="inputProjectsES" class="col-sm-2 control-label">Projets (espagnol)</label>
+            <label for="inputProjectsES" class="col-sm-2 control-label">Espagnol</label>
             <div class="col-sm-8">
                 <textarea class="form-control" rows="3" id="p_proj_es" name="p_proj_es"></textarea>
             </div>
@@ -118,7 +118,7 @@
         
                                         <!-- SUMMARY-TEXT-FR -->
         <div class="form-group">
-            <label for="inputSummaryFR" class="col-sm-2 control-label">Résumé des actions (français)</label>
+            <label for="inputSummaryFR" class="col-sm-2 control-label">Français</label>
             <div class="col-sm-8">
                 <textarea class="form-control" rows="3" id="p_summ_fr" name="p_summ_fr"></textarea>
             </div>
@@ -126,7 +126,7 @@
         
                                         <!-- SUMMARY-TEXT-EN -->
         <div class="form-group">
-            <label for="inputSummaryEN" class="col-sm-2 control-label">Résumé des actions (anglais)</label>
+            <label for="inputSummaryEN" class="col-sm-2 control-label">Anglais</label>
             <div class="col-sm-8">
                 <textarea class="form-control" rows="3" id="p_summ_en" name="p_summ_en"></textarea>
             </div>
@@ -134,7 +134,7 @@
         
                                         <!-- SUMMARY-TEXT-ES -->
         <div class="form-group">
-            <label for="inputSummaryES" class="col-sm-2 control-label">Résumé des actions (espagnol)</label>
+            <label for="inputSummaryES" class="col-sm-2 control-label">Espagnol</label>
             <div class="col-sm-8">
                 <textarea class="form-control" rows="3" id="p_summ_es" name="p_summ_es"></textarea>
             </div>
@@ -149,7 +149,7 @@
         
                                         <!-- BENEFICIARIES-TEXT-FR -->
         <div class="form-group">
-            <label for="inputBenefFR" class="col-sm-2 control-label">Bénéficiaires (français)</label>
+            <label for="inputBenefFR" class="col-sm-2 control-label">Français</label>
             <div class="col-sm-8">
                 <textarea class="form-control" rows="3" id="p_bene_fr" name="p_bene_fr"></textarea>
             </div>
@@ -157,7 +157,7 @@
         
                                         <!-- BENEFICIARIES-TEXT-EN -->
         <div class="form-group">
-            <label for="inputBenefEN" class="col-sm-2 control-label">Bénéficiaires (anglais)</label>
+            <label for="inputBenefEN" class="col-sm-2 control-label">Anglais</label>
             <div class="col-sm-8">
                 <textarea class="form-control" rows="3" id="p_bene_en" name="p_bene_en"></textarea>
             </div>
@@ -165,7 +165,7 @@
         
                                         <!-- BENEFICIARIES-TEXT-ES -->
         <div class="form-group">
-            <label for="inputBenefES" class="col-sm-2 control-label">Bénéficiaires (espagnol)</label>
+            <label for="inputBenefES" class="col-sm-2 control-label">Espagnol</label>
             <div class="col-sm-8">
                 <textarea class="form-control" rows="3" id="p_bene_es" name="p_bene_es"></textarea>
             </div>
@@ -181,7 +181,7 @@
                                          <!-- FIRST NAME -->
         <div class="form-group">
             <label for="inputFirstName" class="col-sm-2 control-label">Prénom</label>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
               <input type="text" class="form-control" id="c_first" name="c_first" placeholder="Prénom" required>
             </div>
         </div>    
@@ -189,7 +189,7 @@
                                          <!-- LAST NAME -->
         <div class="form-group">
             <label for="inputLastName" class="col-sm-2 control-label">Nom</label>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
               <input type="text" class="form-control" id="c_last" name="c_last" placeholder="Nom" required>
             </div>
         </div>
@@ -197,7 +197,7 @@
                                          <!-- MAIL -->
         <div class="form-group">
             <label for="inputMail" class="col-sm-2 control-label">eMail</label>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
               <input type="email" class="form-control" id="c_mail" name="c_mail" placeholder="mon.exemple@gmail.com" required>
             </div>
         </div>
@@ -205,7 +205,7 @@
                                          <!-- PHONE -->
         <div class="form-group">
             <label for="inputPhone" class="col-sm-2 control-label">Téléphone</label>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
               <input type="tel" class="form-control" id="c_phone" name="c_phone" placeholder="04 72 00 22 44" required>
             </div>
         </div>
@@ -213,27 +213,27 @@
                                         <!-- STREET -->
         <div class="form-group">
             <label for="inputStreet" class="col-sm-2 control-label">Adresse</label>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
               <input type="text" class="form-control" id="c_street" name="c_street" placeholder="1, place des Terreaux" required>
             </div>
         </div>
-        
-                                        <!-- CITY -->
-        <div class="form-group">
-            <label for="inputCCity" class="col-sm-2 control-label">Ville</label>
-            <div class="col-sm-2">
-              <input type="text" class="form-control" id="c_city" name="c_city" placeholder="Lyon" required>
-            </div>
-        </div>
-        
+
                                         <!-- POSTAL CODE -->
         <div class="form-group">
             <label for="inputPostal" class="col-sm-2 control-label">Code Postal</label>
             <div class="col-sm-2">
-              <input type="number" class="form-control" id="c_postal" name="c_postal" placeholder="69001" required>
+              <input type="tel" class="form-control" id="c_postal" name="c_postal" placeholder="69001" required>
             </div>
         </div>
             
+                                        <!-- CITY -->
+        <div class="form-group">
+            <label for="inputCCity" class="col-sm-2 control-label">Ville</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="c_city" name="c_city" placeholder="Lyon" required>
+            </div>
+        </div>
+        
                                         <!-- COUNTRY -->
         <div class="form-group">
             <label for="inputCountry" class="col-sm-2 control-label">Pays</label>
