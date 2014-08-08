@@ -97,7 +97,7 @@ function getProject($project_id) {
               INNER JOIN countries ON projects.coun_id = countries.coun_id
               INNER JOIN themes ON projects.t_id = themes.t_id
               INNER JOIN ' . $q1 . ' ON projects.c_id = Q1.c_id
-              WHERE p_id = ' . $project_id;
+              WHERE p_id = ?';
     
     /*
     $query = 'SELECT proj_id AS id, proj_name AS name, coun_name_fr AS country, proj_language AS language,'
