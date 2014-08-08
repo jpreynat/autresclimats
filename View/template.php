@@ -58,7 +58,9 @@
         </header>
         
         <div id="contents" class="container">
+        <div class="col-md-10 col-md-offset-1">
             <?= $contents ?>
+        </div>
         </div>
         
         <footer>
