@@ -2,6 +2,8 @@
 
 <?php ob_start(); ?>
 
+<?= count($projects); ?>
+
 <article>
 <table class="table table-striped table-hover">
     

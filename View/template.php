@@ -6,7 +6,7 @@
         
         <link href="autresclimats.ico" rel="shortcut icon" type="image/x-icon">
         <link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.1.1/yeti/bootstrap.min.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
+        <link href="../css/styles.css" rel="stylesheet">
     </head>
     
     <body>
