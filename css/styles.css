@@ -27,3 +27,7 @@
 .empty {
     height: 50px;
 }
+
+.proj-name {
+    font-size: 14px;
+}

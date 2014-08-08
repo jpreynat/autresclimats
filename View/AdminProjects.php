@@ -19,18 +19,18 @@
     <tbody>
 <?php foreach ($projects as $project): ?>
         
-<?php if (!$project['img_path'])
-        $project['img_path'] = 'js/holder.js/32x32'; ?>
+<?php if (!$project['p_logo'])
+        $project['p_logo'] = 'js/holder.js/32x32'; ?>
 
     <tr>
-        <td><?= $project['name'] ?></td>    
+        <td><?= $project['p_name'] ?></td>    
         <td><?= $project['country'] ?></td>
         <!--
-        <td class="text-center"><img src="img/<?= $project['img_path'] ?>" alt="..." class="img-table"></td>
+        <td class="text-center"><img src="img/<?= $project['p_logo'] ?>" alt="..." class="img-table"></td>
         -->
-        <td><a href="index.php?action=project&id=<?= $project['id'] ?>">Voir</a></td>
-        <td><a href="index.php?action=edit&id=<?= $project['id'] ?>">Modifier</a></td>
-        <td><a href="index.php?action=delete&id=<?= $project['id'] ?>">Supprimer</a></td>
+        <td><a href="index.php?action=project&id=<?= $project['p_id'] ?>">Voir</a></td>
+        <td><a href="index.php?action=edit&id=<?= $project['p_id'] ?>">Modifier</a></td>
+        <td><a href="index.php?action=delete&id=<?= $project['p_id'] ?>">Supprimer</a></td>
     </tr>
 
 <?php endforeach; ?>

@@ -17,7 +17,7 @@
                     </a>
                 </div>
                 <div class="row">
-                    <label><?= $project['p_name'] ?></label>
+                    <label class="proj-name"><?= $project['p_name'] ?></label>
                 </div>
                 <div class="row empty">
                 </div>
