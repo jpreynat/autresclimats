@@ -72,12 +72,19 @@ function getProject($project_id) {
     $query = 'SELECT p_id,
                      p_name,
                      coun_name_fr as country,
-                     coun_id as p_coun_id,
+                     projects.coun_id as p_coun_id,
                      p_city,
+                     t_id
                      t_fr as theme,
-                     p_proj_fr as p_proj,
-                     p_summ_fr as p_summ,
-                     p_bene_fr as p_bene,
+                     p_proj_fr,
+                     p_proj_en,
+                     p_proj_es,
+                     p_summ_fr,
+                     p_summ_en,
+                     p_summ_es,
+                     p_bene_fr,
+                     p_bene_en,
+                     p_bene_es,
                      p_sect,
                      p_logo,
                      p_pic1,
@@ -93,7 +100,8 @@ function getProject($project_id) {
                      c_street,
                      c_city,
                      c_postal,
-                     c_country
+                     c_country,
+                     contacts.coun_id as c_coun_id
               FROM projects
               INNER JOIN countries ON projects.coun_id = countries.coun_id
               INNER JOIN themes ON projects.t_id = themes.t_id

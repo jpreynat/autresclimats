@@ -48,17 +48,17 @@
     
     <div class="row">
         <h4 class="page-header">Projets</h4>
-        <p><?= $project['p_proj'] ?></p>
+        <p><?= $project['p_proj_fr'] ?></p>
     </div>
     
     <div class="row">
         <h4 class="page-header">Résumé des actions</h4>
-        <p><?= $project['p_summ'] ?></p>
+        <p><?= $project['p_summ_fr'] ?></p>
     </div>
     
     <div class="row">
         <h4 class="page-header">Bénéficiaires</h4>
-        <p><?= $project['p_bene'] ?></p>
+        <p><?= $project['p_bene_fr'] ?></p>
     </div>
     
     <!-- #################### CONTACT INFORMATIONS ################### -->
