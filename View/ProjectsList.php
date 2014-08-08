@@ -13,7 +13,7 @@
         <div class="img-container">
                 <div class="row img-thumbnail">
                     <a href="<?= "index.php?action=project&id=" . $project['p_id'] ?>">
-                        <img src="img/<?= $project['p_logo'] ?>" alt="..." class="img-pres"/>
+                        <img src="<?= $project['p_logo'] ?>" alt="..." class="img-pres"/>
                     </a>
                 </div>
                 <div class="row">
