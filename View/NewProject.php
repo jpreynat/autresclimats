@@ -254,6 +254,54 @@
         <fieldset>
             <legend>Médias</legend>
         
+                                         <!-- PICTURE 1 -->
+        <div class="form-group">
+            <label for="inputPicture1" class="col-sm-2 control-label">Photo 1</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="p_pic1" name="p_pic1" placeholder="URL de l'image">
+            </div>
+        </div>
+        
+                                         <!-- PICTURE 2 -->
+        <div class="form-group">
+            <label for="inputPicture2" class="col-sm-2 control-label">Photo 2</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="p_pic2" name="p_pic2" placeholder="URL de l'image">
+            </div>
+        </div>
+
+                                         <!-- PICTURE 3 -->
+        <div class="form-group">
+            <label for="inputPicture3" class="col-sm-2 control-label">Photo 3</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="p_pic3" name="p_pic3" placeholder="URL de l'image">
+            </div>
+        </div>
+        
+                                         <!-- VIDEO 1 -->
+        <div class="form-group">
+            <label for="inputVideo1" class="col-sm-2 control-label">Vidéo 1</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="p_vid1" name="p_vid1" placeholder="URL de la vidéo">
+            </div>
+        </div>
+        
+                                         <!-- VIDEO 2 -->
+        <div class="form-group">
+            <label for="inputVideo2" class="col-sm-2 control-label">Vidéo 2</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="p_vid2" name="p_vid2" placeholder="URL de la vidéo">
+            </div>
+        </div>
+        
+                                         <!-- VIDEO 3 -->
+        <div class="form-group">
+            <label for="inputVideo3" class="col-sm-2 control-label">Vidéo 3</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="p_vid3" name="p_vid3" placeholder="URL de la vidéo">
+            </div>
+        </div>
+        
                                         <!-- INSERT LOGO -->
         <div class="form-group">
             <label for="inputDescription" class="col-sm-2 control-label">Logo</label>
@@ -268,7 +316,7 @@
         
         <div class="form-group">
             <div class="col-sm-offset-5 col-sm-7">
-              <button type="submit" class="btn btn-default">Enregistrer</button>
+              <button type="submit" class="btn btn-primary btn-sm">Enregistrer</button>
             </div>
         </div>
     </form>
