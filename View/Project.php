@@ -22,7 +22,7 @@
     <!-- #################### GENERAL INFORMATIONS ################### -->
 
     <div class="row">
-        <div class="col-sm-5">
+        <div class="col-sm-4">
             
             <h4 class="page-header">Lieu</h4>
         
@@ -36,7 +36,7 @@
             
         </div>
         
-        <div class="col-sm-5 col-sm-offset-2">
+        <div class="col-sm-4 col-sm-offset-4">
             
             <h4 class="page-header">Thème</h4>
             <p><?= $project['theme'] ?></p>
@@ -64,33 +64,37 @@
     <!-- #################### CONTACT INFORMATIONS ################### -->
     
     <div class="row">
-        <div class="col-sm-6 col-sm-offset-1">
+        <div class="col-sm-5">
         
             <h4 class="page-header">Contact</h4>
             
             <p><?= "{$project['c_first']} {$project['c_last']}" ?></p>
             
+            <p>
             <?php if(strlen($project['c_street']) > 0) : ?>
-            <p><?= $project['c_street'] ?></p>
+            <?= "{$project['c_street']}</br>" ?>
             <?php endif; ?>
             
             <?php if(strlen($project['c_city']) > 0) : ?>
-            <p>
+            
                 <?php if(strlen($project['c_postal']) > 0) : ?>
-                <?= "{$project['c_street']} " ?>
+                <?= "{$project['c_postal']} " ?>
                 <?php endif; ?>
-            <?= "{$project['c_city']} " ?>
-            </p>
+            <?= "{$project['c_city']}</br>" ?>
+            
             <?php endif; ?>
             
             <?php if(strlen($project['c_country']) > 0) : ?>
-            <p><?= $project['c_country'] ?></p>
+            <?= $project['c_country'] ?>
             <?php endif; ?>
+            </p>
             
-            <p><?= $project['c_mail'] ?></p>
+            <p><?= "{$project['c_mail']}</br>" ?>
             
             <?php if(strlen($project['c_phone']) > 0) : ?>
-            <p><?= $project['c_phone'] ?></p>
+            <?= $project['c_phone'] ?></p>
+            <?php else: ?>
+            </p>
             <?php endif; ?>
             
         </div>
