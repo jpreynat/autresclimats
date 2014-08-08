@@ -12,7 +12,7 @@
     <body>
         <header>
             <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-                <div class="container-fluid">
+                <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -68,7 +68,7 @@
         </footer>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>  
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>  
         <script src="js/bootstrap-filestyle.min.js"></script>
         <script src="js/holder.js"></script>
         
