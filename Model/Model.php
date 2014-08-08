@@ -19,10 +19,8 @@ function endAdmin() {
 // Get projects list
 function getProjects() {
     $db = getDB();
-    $query = 'SELECT proj_id AS id, proj_name AS name, coun_name_fr AS country, proj_language AS language,'
-            .' proj_description AS description, logo_path AS img_path'
+    $query = 'SELECT p_id, p_name, p_logo'
             .' FROM projects'
-            .' LEFT OUTER JOIN logos ON projects.logo_id = logos.logo_id'
             .' INNER JOIN countries ON projects.coun_id = countries.coun_id';
     
     $projects = $db->query($query);
