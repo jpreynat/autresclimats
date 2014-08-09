@@ -128,7 +128,7 @@ else {
 <?php $javascript = ''; ?>
 
 <?php // REDIRECT TO PROJECT DETAILS AFTER 5s
-    $extra = "index.php?action=project&id=$proj_id";
+    $extra = "index.php?action=project&id=" . $p_id;
     header("Refresh: 5; URL=http://".BASE_HOST.BASE_URI."/$extra");
 ?>
 

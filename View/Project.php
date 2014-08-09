@@ -100,6 +100,12 @@
         </div>
     </div>
     
+    <!-- #################### FILLER ################### -->
+    
+    <div class="filler">
+        &nbsp;
+    </div>
+    
     <!-- #################### MEDIAS ################### -->
     
                         <!-- Pictures -->
@@ -124,6 +130,12 @@
         </div>
         <?php endif; ?>
         
+    </div>
+    
+    <!-- #################### FILLER ################### -->
+    
+    <div class="filler">
+        &nbsp;
     </div>
     
                         <!-- Videos -->
@@ -154,6 +166,12 @@
         </div>
         <?php endif; ?>
         
+    </div>
+    
+    <!-- #################### FILLER ################### -->
+    
+    <div class="filler">
+        &nbsp;
     </div>
     
 </article>
