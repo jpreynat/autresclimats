@@ -41,7 +41,7 @@
                                 $selected = ' selected="selected"';
                             else
                                 $selected = ''; ?>
-                    <?= '<option value="' . $country['id'] . $selected . '">' . $country['name'] . '</option>'; ?>
+                    <?= '<option value="' . $country['id'] . '"' . $selected . '>' . $country['name'] . '</option>'; ?>
                     <?php endforeach; ?>
                 </select>
             </div>
@@ -74,7 +74,7 @@
                           else:
                             $select = '';
                           endif; ?>    
-                    <?= '<option value="' . $theme['id'] . $select . '">' . $theme['name'] . '</option>'; ?>
+                    <?= '<option value="' . $theme['id'] . '"' . $select . '>' . $theme['name'] . '</option>'; ?>
                     <?php endforeach; ?>
                 </select>
             </div>
