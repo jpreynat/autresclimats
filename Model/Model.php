@@ -256,19 +256,19 @@ function recordContact($details) {
     
     $contact_id = $db->lastInsertId();
     
-    // GOOD RECORD
-    if ($contact_id > 0)
-        return $contact_id;
+         / / GOOD RECORD
+    if ($conta      c t_id > 0)
+        return $co      n tact_id;
     
-    // BAD RECORD
+    // BAD REC     O RD
     else return -1;
 }
 
-// Update a contact in database
-function updateContact($details) {
+/    /  Update a contact in database       
+function updateContact($detail    s ) {
     $db = getDB();
-    $query = 'UPDATE contacts 
-                SET c_first=?,
+    $     q uery = 'UPDATE contacts 
+                  SET c_first=?,
                     c_last=?,
                     c_mail=?,
                     c_phone=?,
@@ -286,27 +286,27 @@ function updateContact($details) {
                                     $c_mail,
                                     $c_phone,
                                     $c_street,
-                                    $c_city,
-                                    $c_postal,
-                                    $coun_id,
-                                    $c_id));
+                                    $c_c    i ty,
+                                        $c_postal,
+                                                $coun_id,
+                                         $c_id ) );
 }
 
-// Update a project in database
-function updateProjectDB($details) {
-    $db = getDB();
-    $query = 'UPDATE projects
-              SET p_name=?,
-                  coun_id=?,
-                  p_city=?,
+// Update a project i n  database
+function updateProj e ctDB($details) {
+    $db = ge t DB();
+    $query = 'UPDATE pr o jects
+              SET p_nam e =?,
+                  coun_id = ?,
+                  p_city=? , 
                   t_id=?,
-                  p_sect=?,
-                  p_proj_fr=?,
-                  p_proj_en=?,
-                  p_proj_es=?,
-                  p_summ_fr=?,
-                  p_summ_en=?,
-                  p_summ_es=?,
+                    p_sect=?,
+                       p_proj_fr=    ? ,
+                  p_proj    _ en=?,
+                  p_    p roj_es=?,
+                       p_summ_fr=?,
+                       p_summ_en=?,
+                       p_summ_es=?,
                   p_bene_fr=?,
                   p_bene_en=?,
                   p_bene_es=?,
@@ -316,7 +316,7 @@ function updateProjectDB($details) {
                   p_pic3=?,
                   p_vid1=?,
                   p_vid2=?,
-                  p_vid3=?,
+                  p_vid3=?
               WHERE p_id = ?';
     
     $project = $db->prepare($query);
@@ -342,14 +342,4 @@ function updateProjectDB($details) {
                                     $p_pic3,
                                     $p_vid1,
                                     $p_vid2,
-                                    $p_vid3,
-                                    $p_id
-                            ));
-}
-
-// Get rid of special characters for img names
-function stripAccents($str) {
-    return strtr(utf8_decode($str), utf8_decode('àáâãäçèéêëìíîïñòóôõöùúûüýÿÀÁÂÃÄÇÈÉÊËÌÍÎÏÑÒÓÔÕÖÙÚÛÜÝ'),'aaaaaceeeeiiiinooooouuuuyyAAAAACEEEEIIIINOOOOOUUUUY');
-}
-
-?>
+                   
