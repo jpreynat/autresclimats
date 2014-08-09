@@ -69,7 +69,12 @@
                 <select class="form-control" id="t_id" name="t_id">
                     <?php $themes = getThemes();
                         foreach ($themes as $theme): ?>
-                    <?= '<option value="' . $theme['id'] . '">' . $theme['name'] . '</option>'; ?>
+                    <?php if ($project['t_id'] == $theme['t_id']):
+                            $select = ' selected="selected"';
+                          else:
+                            $select = '';
+                          endif; ?>    
+                    <?= '<option value="' . $theme['id'] . $select . '">' . $theme['name'] . '</option>'; ?>
                     <?php endforeach; ?>
                 </select>
             </div>
