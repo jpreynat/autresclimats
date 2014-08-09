@@ -64,7 +64,7 @@ function getProject($project_id) {
     $db = getDB();
     
     // REQUEST FOR CONTACT COUNTRY NAME
-    $q1 = '(SELECT c_id, c_first, c_last, c_mail, c_phone, c_street, c_city, c_postal, coun_name_fr AS c_country
+    $q1 = '(SELECT c_id, c_first, c_last, c_mail, c_phone, c_street, c_city, c_postal, coun_name_fr AS c_country, contacts.coun_id AS c_coun_id
             FROM contacts
             INNER JOIN countries ON contacts.coun_id = countries.coun_id
            ) AS Q1';
@@ -101,7 +101,7 @@ function getProject($project_id) {
                      c_city,
                      c_postal,
                      c_country,
-                     contacts.coun_id as c_coun_id
+                     c_coun_id
               FROM projects
               INNER JOIN countries ON projects.coun_id = countries.coun_id
               INNER JOIN themes ON projects.t_id = themes.t_id
