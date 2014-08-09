@@ -44,7 +44,11 @@ function newProject() {
 }
 
 function saveProject() {
-    require 'View/SaveProject.php';
+    require 'Controller/SaveProject.php';
+}
+
+function updateProject() {
+    require 'Controller/UpdateProject.php';
 }
 
 function adminProjects() {

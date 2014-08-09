@@ -16,6 +16,7 @@
                                  <!-- SET ID FOR UPDATE -->
                                  
         <input type="hidden" id="p_id" name="p_id" value="<?= $project['p_id'] ?>">
+        <input type="hidden" id="c_id" name="c_id" value="<?= $project['c_id'] ?>">
         
         
         <!--####################### GENERAL INFORMATIONS ########################## -->
