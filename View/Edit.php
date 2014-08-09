@@ -26,7 +26,7 @@
         <div class="form-group">
             <label for="inputName" class="col-sm-2 control-label">Nom</label>
             <div class="col-sm-3">
-              <input type="text" class="form-control" id="p_name" name="p_name" value="<?= $projects['p_name'] ?>" required>
+              <input type="text" class="form-control" id="p_name" name="p_name" value="<?= $project['p_name'] ?>" required>
             </div>
         </div>
         
@@ -41,7 +41,7 @@
                                 $selected = ' selected';
                             else
                                 $selected = ''; ?>
-                    <?= '<option value="' . $country['id'] . '">' . $country['name'] . '</option>'; ?>
+                    <?= '<option value="' . $country['id'] . $selected . '">' . $country['name'] . '</option>'; ?>
                     <?php endforeach; ?>
                 </select>
             </div>
@@ -80,9 +80,8 @@
             <label for="inputSection" class="col-sm-2 control-label">Volet</label>
             <div class="col-sm-3">
                 <select class="form-control" id="p_sect" name="p_sect">
-                    <option value="1" <?php if($project['p_sect'] == 1): echo "selected"; ?>>Volet 1</option>
-                    <option value="2" <?php else: echo "selected"; ?>>Volet 2</option>
-                                      <?php endif; ?>
+                    <option value="1" <?php if($project['p_sect'] == 1) { echo "selected"; } ?>>Volet 1</option>
+                    <option value="2" <?php if($project['p_sect'] == 2) { echo "selected"; } ?>>Volet 2</option>
                 </select>
             </div>
         </div>
