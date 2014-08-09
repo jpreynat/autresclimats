@@ -145,7 +145,7 @@
         <?php if(strlen($project['p_vid1']) > 0) : ?>
         <div class="col-sm-4">
             <div class="embed-responsive embed-responsive-4by3">
-                <iframe class="embed-responsive-item" src="<?= $project['p_vid1'] ?>"></iframe>
+                <iframe class="embed-responsive-item" src="<?= $project['p_vid1'] ?>&output=embed"></iframe>
             </div>
         </div>
         <?php endif; ?>
