@@ -74,7 +74,7 @@ function getProject($project_id) {
                      coun_name_fr as country,
                      projects.coun_id as p_coun_id,
                      p_city,
-                     themes.t_id as t_id,
+                     projects.t_id as t_id,
                      t_fr as theme,
                      p_proj_fr,
                      p_proj_en,
