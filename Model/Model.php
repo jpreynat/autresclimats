@@ -318,7 +318,7 @@ function updateProjectDB($details) {
                   p_vid2=?,
                   p_vid3=?,
                   c_id=?
-              WHERE p_id = ?)';
+              WHERE p_id = ?';
     
     $project = $db->prepare($query);
     
