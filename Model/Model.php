@@ -264,7 +264,7 @@ function recordContact($details) {
     else return -1;
 }
 
-// Save a contact in database
+// Update a contact in database
 function updateContact($details) {
     $db = getDB();
     $query = 'UPDATE contacts 
@@ -290,6 +290,63 @@ function updateContact($details) {
                                     $c_postal,
                                     $coun_id,
                                     $c_id));
+}
+
+// Update a project in database
+function updateProject($details) {
+    $db = getDB();
+    $query = 'UPDATE projects
+              SET p_name=?,
+                  coun_id=?,
+                  p_city=?,
+                  t_id=?,
+                  p_sect=?,
+                  p_proj_fr=?,
+                  p_proj_en=?,
+                  p_proj_es=?,
+                  p_summ_fr=?,
+                  p_summ_en=?,
+                  p_summ_es=?,
+                  p_bene_fr=?,
+                  p_bene_en=?,
+                  p_bene_es=?,
+                  p_logo=?,
+                  p_pic1=?,
+                  p_pic2=?,
+                  p_pic3=?,
+                  p_vid1=?,
+                  p_vid2=?,
+                  p_vid3=?,
+                  c_id=?
+              WHERE p_id = ?)';
+    
+    $project = $db->prepare($query);
+    
+    extract($details);
+    return $project->execute(array( $p_name,
+                                    $coun_id,
+                                    $p_city, 
+                                    $t_id,
+                                    $p_sect,
+                                    $p_proj_fr,
+                                    $p_proj_en,
+                                    $p_proj_es,
+                                    $p_summ_fr,
+                                    $p_summ_en,
+                                    $p_summ_es,
+                                    $p_bene_fr,
+                                    $p_bene_en,
+                                    $p_bene_es,
+                                    $p_logo,
+                                    $p_pic1,
+                                    $p_pic2,
+                                    $p_pic3,
+                                    $p_vid1,
+                                    $p_vid2,
+                                    $p_vid3,
+                                    $c_id,
+                                    $p_id
+                            ));
 }
 
 // Get rid of special characters for img names
