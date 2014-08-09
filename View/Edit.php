@@ -97,7 +97,7 @@
         <div class="form-group">
             <label for="inputProjectsFR" class="col-sm-2 control-label">Français</label>
             <div class="col-sm-8">
-                <textarea class="form-control" rows="3" id="p_proj_fr" name="p_proj_fr" value="<?= $project['p_proj_fr'] ?>"></textarea>
+                <textarea class="form-control" rows="3" id="p_proj_fr" name="p_proj_fr"><?= $project['p_proj_fr'] ?></textarea>
             </div>
         </div>
         
@@ -105,7 +105,7 @@
         <div class="form-group">
             <label for="inputProjectsEN" class="col-sm-2 control-label">Anglais</label>
             <div class="col-sm-8">
-                <textarea class="form-control" rows="3" id="p_proj_en" name="p_proj_en" value="<?= $project['p_proj_en'] ?>"></textarea>
+                <textarea class="form-control" rows="3" id="p_proj_en" name="p_proj_en"><?= $project['p_proj_en'] ?></textarea>
             </div>
         </div>
         
@@ -113,7 +113,7 @@
         <div class="form-group">
             <label for="inputProjectsES" class="col-sm-2 control-label">Espagnol</label>
             <div class="col-sm-8">
-                <textarea class="form-control" rows="3" id="p_proj_es" name="p_proj_es" value="<?= $project['p_proj_es'] ?>"></textarea>
+                <textarea class="form-control" rows="3" id="p_proj_es" name="p_proj_es"><?= $project['p_proj_es'] ?></textarea>
             </div>
         </div>
         
@@ -128,7 +128,7 @@
         <div class="form-group">
             <label for="inputSummaryFR" class="col-sm-2 control-label">Français</label>
             <div class="col-sm-8">
-                <textarea class="form-control" rows="3" id="p_summ_fr" name="p_summ_fr" value="<?= $project['p_summ_fr'] ?>"></textarea>
+                <textarea class="form-control" rows="3" id="p_summ_fr" name="p_summ_fr"><?= $project['p_summ_fr'] ?></textarea>
             </div>
         </div>
         
@@ -136,7 +136,7 @@
         <div class="form-group">
             <label for="inputSummaryEN" class="col-sm-2 control-label">Anglais</label>
             <div class="col-sm-8">
-                <textarea class="form-control" rows="3" id="p_summ_en" name="p_summ_en" value="<?= $project['p_summ_en'] ?>"></textarea>
+                <textarea class="form-control" rows="3" id="p_summ_en" name="p_summ_en"><?= $project['p_summ_en'] ?></textarea>
             </div>
         </div>
         
@@ -144,7 +144,7 @@
         <div class="form-group">
             <label for="inputSummaryES" class="col-sm-2 control-label">Espagnol</label>
             <div class="col-sm-8">
-                <textarea class="form-control" rows="3" id="p_summ_es" name="p_summ_es" value="<?= $project['p_summ_es'] ?>"></textarea>
+                <textarea class="form-control" rows="3" id="p_summ_es" name="p_summ_es"><?= $project['p_summ_es'] ?></textarea>
             </div>
         </div>
         
@@ -159,7 +159,7 @@
         <div class="form-group">
             <label for="inputBenefFR" class="col-sm-2 control-label">Français</label>
             <div class="col-sm-8">
-                <textarea class="form-control" rows="3" id="p_bene_fr" name="p_bene_fr" value="<?= $project['p_bene_fr'] ?>"></textarea>
+                <textarea class="form-control" rows="3" id="p_bene_fr" name="p_bene_fr"><?= $project['p_bene_fr'] ?></textarea>
             </div>
         </div>
         
@@ -167,7 +167,7 @@
         <div class="form-group">
             <label for="inputBenefEN" class="col-sm-2 control-label">Anglais</label>
             <div class="col-sm-8">
-                <textarea class="form-control" rows="3" id="p_bene_en" name="p_bene_en" value="<?= $project['p_bene_en'] ?>"></textarea>
+                <textarea class="form-control" rows="3" id="p_bene_en" name="p_bene_en"><?= $project['p_bene_en'] ?></textarea>
             </div>
         </div>
         
@@ -175,7 +175,7 @@
         <div class="form-group">
             <label for="inputBenefES" class="col-sm-2 control-label">Espagnol</label>
             <div class="col-sm-8">
-                <textarea class="form-control" rows="3" id="p_bene_es" name="p_bene_es" value="<?= $project['p_bene_es'] ?>"></textarea>
+                <textarea class="form-control" rows="3" id="p_bene_es" name="p_bene_es"><?= $project['p_bene_es'] ?></textarea>
             </div>
         </div>
         
