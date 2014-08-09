@@ -70,11 +70,11 @@
                     <?php $themes = getThemes();
                         foreach ($themes as $theme): ?>
                     <?php if ($project['t_id'] == $theme['id']):
-                            $select = ' selected="selected"';
+                            $selected = ' selected="selected"';
                           else:
-                            $select = '';
+                            $selected = '';
                           endif; ?>    
-                    <?= '<option value="' . $theme['id'] . '"' . $select . '>' . $theme['name'] . '</option>'; ?>
+                    <?= '<option value="' . $theme['id'] . '"' . $selected . '>' . $theme['name'] . '</option>'; ?>
                     <?php endforeach; ?>
                 </select>
             </div>
@@ -254,7 +254,12 @@
                 <select class="form-control" id="c_coun_id" name="c_coun_id">
                     <?php $countries = getCountries();
                         foreach ($countries as $country): ?>
-                    <?= '<option value="' . $country['id'] . '">' . $country['name'] . '</option>'; ?>
+                    <?php if ($project['c_coun_id'] == $country['id']):
+                            $selected = ' selected="selected"';
+                          else:
+                            $selected = '';
+                          endif; ?>
+                    <?= '<option value="' . $country['id'] . '"' . $selected . '>' . $country['name'] . '</option>'; ?>
                     <?php endforeach; ?>
                 </select>
             </div>
