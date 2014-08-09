@@ -73,9 +73,8 @@
                             $select = ' selected="selected"';
                           else:
                             $select = '';
-                          endif; ?>
-                    <?= $project['t_id'] . ": " . $theme['t_id'] ; ?>      
-                    <?= '<option value="' . $theme['id'] . $select . '">' . $theme['name'] . '</option>'; ?>
+                          endif; ?>    
+                    <?= '<option value="' . $theme['id'] . $select . '">' . $theme['name'] . ' ' . $theme['t_id'] . ' ' . $project['t_id'] . '</option>'; ?>
                     <?php endforeach; ?>
                 </select>
             </div>
