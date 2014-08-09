@@ -278,27 +278,18 @@ function updateContact($details) {
                     coun_id=?
                 WHERE c_id=?';
     
-    $new_contact = $db->prepare($query);
+    $contact = $db->prepare($query);
     
     extract($details);
-    $new_contact->execute(array($c_first,
-                                $c_last,
-                                $c_mail,
-                                $c_phone,
-                                $c_street,
-                                $c_city,
-                                $c_postal,
-                                $coun_id,
-                                $c_id));
-    
-    $contact_id = $db->lastInsertId();
-    
-    // GOOD RECORD
-    if ($contact_id > 0)
-        return $contact_id;
-    
-    // BAD RECORD
-    else return -1;
+    return $contact->execute(array( $c_first,
+                                    $c_last,
+                                    $c_mail,
+                                    $c_phone,
+                                    $c_street,
+                                    $c_city,
+                                    $c_postal,
+                                    $coun_id,
+                                    $c_id));
 }
 
 // Get rid of special characters for img names
