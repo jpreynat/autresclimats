@@ -39,6 +39,14 @@ try {
                 else
                     logged();
                 break;
+            
+            // UPDATE PROJECT
+            case 'updateProject':
+                if (admin())
+                    updateProject();
+                else
+                    logged();
+                break;
         
             // ADMIN ALL PROJECTS
             case 'adminProjects':
@@ -64,6 +72,7 @@ try {
                 else
                     logged();
                 break;
+                
             // EDIT A PROJECT
             case 'edit':
                 if (admin()) {

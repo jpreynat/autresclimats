@@ -293,7 +293,7 @@ function updateContact($details) {
 }
 
 // Update a project in database
-function updateProject($details) {
+function updateProjectDB($details) {
     $db = getDB();
     $query = 'UPDATE projects
               SET p_name=?,

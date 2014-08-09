@@ -99,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                          );
                          
         // ACTUALLY UPDATE IN DATABASE
-        $recordOK = updateProject($details);
+        $recordOK = updateProjectDB($details);
         
         if ($recordOK) {
             $a = "Le projet a bien été mis à jour.";
