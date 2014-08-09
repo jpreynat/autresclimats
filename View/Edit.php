@@ -38,7 +38,7 @@
                     <?php $countries = getCountries();
                             foreach ($countries as $country): ?>
                     <?php   if ($country['id'] === $project['p_coun_id'])
-                                $selected = ' selected';
+                                $selected = ' selected="selected"';
                             else
                                 $selected = ''; ?>
                     <?= '<option value="' . $country['id'] . $selected . '">' . $country['name'] . '</option>'; ?>
