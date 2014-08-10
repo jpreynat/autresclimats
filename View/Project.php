@@ -114,19 +114,25 @@
         
         <?php if(strlen($project['p_pic1']) > 0) : ?>
         <div class="col-sm-4">
+            <a href="<?= $project['p_pic1'] ?>">
             <img src="<?= $project['p_pic1'] ?>" class="img img-responsive" alt="Photo 1">
+            </a>
         </div>
         <?php endif; ?>
         
         <?php if(strlen($project['p_pic2']) > 0) : ?>
         <div class="col-sm-4">
+            <a href="<?= $project['p_pic2'] ?>">
             <img src="<?= $project['p_pic2'] ?>" class="img img-responsive" alt="Photo 2">
+            </a>
         </div>
         <?php endif; ?>
         
         <?php if(strlen($project['p_pic3']) > 0) : ?>
         <div class="col-sm-4">
+            <a href="<?= $project['p_pic3'] ?>">
             <img src="<?= $project['p_pic3'] ?>" class="img img-responsive" alt="Photo 3">
+            </a>
         </div>
         <?php endif; ?>
         
