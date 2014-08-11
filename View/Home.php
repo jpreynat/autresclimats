@@ -27,7 +27,7 @@
 <?php if (!$project['p_logo'])
         $project['p_logo'] = 'js/holder.js/200x200'; ?>
 
-    <div class="col-md-4 text-center">
+    <div class="col-md-3 text-center">
         <div class="img-container">
             <div class="row img-thumbnail">
                 <a href="<?= "index.php?action=project&id=" . $project['p_id'] ?>">
@@ -47,8 +47,4 @@
 </div>
 </article>
 
-<?php $contents = ob_get_clean(); ?>
-
-<?php $javascript = ''; ?>
-
-<?php require 'template.php'; ?>
+<?php $contents = <?php $javascript = ''; ?>ob_ge
