@@ -45,7 +45,7 @@ function getLastProjects($n) {
     $query = 'SELECT p_id, p_name, p_logo, coun_name_fr AS country'
             .' FROM projects'
             .' INNER JOIN countries ON projects.coun_id = countries.coun_id'
-            .' ORDER_BY p_crea DESC'
+            .' ORDER BY p_crea DESC'
             .' LIMIT 0, ' . $n;
     
     $projects = $db->query($query);
