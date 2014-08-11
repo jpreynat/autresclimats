@@ -6,17 +6,18 @@
 
 <div class="row">
 
-  	<div class="col-sm-8 text-justify">
+  	<div class="col-sm-8">
   	
         <h1>Autres Climats</h1>
         <br>
         <p>En 2015 aura lieu à Paris la prochaine conférence sur le climat.<br>
             Le climat change et avec lui de nombreux déséquilibres économiques, politiques, écologiques vont s’accentuer.</p>
 
-        <p>Mais le climat est-il seul à changer ?<br>
-        Et qu’en est-il de tous ces autres climats avec lesquels nous nous débattons chaque jour ?<br>
-        Comment le climat social, économique, éducatif change t-il ?<br>
-        C’est pour répondre à ces questions et proposer des solutions concrètes qu’Autres Climats à vu le jour.</p>
+        <p>Mais le climat est-il seul à changer ?</p>
+        <p>Et qu’en est-il de tous ces autres climats avec lesquels nous nous débattons chaque jour ?<br>
+        Comment le climat social, économique, éducatif change t-il ?</p>
+        
+        <p>C’est pour répondre à ces questions et proposer des solutions concrètes qu’Autres Climats à vu le jour.</p>
     
     </div>
   

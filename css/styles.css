@@ -1,3 +1,10 @@
+/* Override default text-size */
+p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* Home Page */
 .home-logo {
     width: 200px;
     margin-top: 90px;
