@@ -17,6 +17,14 @@ function home() {
     require 'View/Home.php';
 }
 
+function contact() {
+    require 'View/Contact.php';
+}
+
+function about() {
+    require 'View/About.php';
+}
+
 function project($projectId) {
     $project = getProject($projectId);
     require 'View/Project.php';

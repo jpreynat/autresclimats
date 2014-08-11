@@ -45,8 +45,8 @@
                                     echo '<li><a id="adminProjects" href="index.php?action=adminProjects">Gérer les projets</a></li>';
                                 }
                             ?>
-                            <li><a href="#">A propos</a></li>
-                            <li><a href="#">Nous contacter</a></li>
+                            <li><a href="index.php?action=about">A propos</a></li>
+                            <li><a href="index.php?action=contact">Nous contacter</a></li>
                             <li class="dropdown">
                                 <a id="language" href="#" class="dropdown-toggle" data-toggle="dropdown">Langue <b class="caret"></b></a>
                                 <ul id="languages" class="dropdown-menu">

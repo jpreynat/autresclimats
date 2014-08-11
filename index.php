@@ -113,6 +113,14 @@ try {
                 logged();
                 break;
             
+            case 'about':
+                about();
+                break;
+                
+            case 'contact':
+                contact();
+                break;
+            
             default:
                 throw new Exception("Action invalide.");
         
