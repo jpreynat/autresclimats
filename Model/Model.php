@@ -157,7 +157,7 @@ function deleteProject($project_id) {
     
     $db = getDB();
     
-    $query = 'DELETE FROM projects WHERE proj_id = ?';
+    $query = 'DELETE FROM projects WHERE p_id = ?';
     $project = $db->prepare($query);
     
     $project->execute(array($project_id));
