@@ -56,9 +56,11 @@
                                 </ul>
                             </li>
                             
-                            <?php // SET ADMINISTRATION TAB 
+                            <?php // SET ADMINISTRATION TAB
+                            /*
                                 if (admin()) echo '<li><a id="login" href="index.php?action=logout">Déconnexion</a></li>';
                                 else echo '<li><a id="login" href="index.php?action=login">Administration</a></li>';
+                            */
                             ?>
                         </ul>
                     </div>
