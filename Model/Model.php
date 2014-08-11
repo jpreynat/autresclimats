@@ -213,8 +213,9 @@ function recordProject($details) {
                                     p_vid1,
                                     p_vid2,
                                     p_vid3,
-                                    c_id) 
-                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)';
+                                    c_id,
+                                    p_crea) 
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())';
     
     $project = $db->prepare($query);
     
