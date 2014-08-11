@@ -54,9 +54,15 @@
 
 .navbar-brand,
 .navbar-nav li a {
-    line-height: 35px;
+    line-height: 55px;
     height: 60px;
     padding-top: 0;
+}
+
+.navbar {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 /* title 
