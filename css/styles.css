@@ -13,10 +13,6 @@ p {
     box-shadow: #ccc 1px 1px 10px;
 }
 
-/* link to logo
-https://lh3.googleusercontent.com/-1cgJdyB4JFw/U-kTSyZtGbI/AAAAAAAAACs/37Yu383VAm0/w608-h602-no/Other%2BClimates%2BSquare%2BLogo.png
-*/
-
 .img-thumbnail {
     /*width: 200px;*/
     border-radius: 2px;
@@ -25,7 +21,7 @@ https://lh3.googleusercontent.com/-1cgJdyB4JFw/U-kTSyZtGbI/AAAAAAAAACs/37Yu383VA
 
 .img-container {
     height: 210px;
-    width: 210px;
+    width: 290px;
     display: table-cell;
     vertical-align: middle;
     float: none;
