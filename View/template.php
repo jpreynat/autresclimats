@@ -40,11 +40,11 @@
                                 }
                             ?>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Liste des projets <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Le réseau d'acteurs <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="index.php?action=projectsList">Tous les projets</a></li>
-                                    <li><a href="index.php?action=projectsList&section=1">Volet 1</a></li>
-                                    <li><a href="index.php?action=projectsList&section=2">Volet 2</a></li>
+                                    <li><a href="index.php?action=projectsList&section=1">Volet 1 - Actions</a></li>
+                                    <li><a href="index.php?action=projectsList&section=2">Volet 2 - Recherche</a></li>
                                 </ul>
                             </li>
                             <li><a href="index.php?action=contact">Nous contacter</a></li>
