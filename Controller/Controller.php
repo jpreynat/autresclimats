@@ -34,8 +34,15 @@ function edit($projectId) {
     require 'View/Edit.php';
 }
 
-function projectsList() {
-    $projects = getProjects();
+function projectsList($section) {
+    // CASE ALL PROJECTS
+    if($section == 0) {
+        $projects = getProjects();
+    }
+    // CASE FOR SPECIFIC SECTION
+    else {
+        $projects = getProjectsBySection($section);
+    }
     require 'View/ProjectsList.php';
 }
 

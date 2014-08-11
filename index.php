@@ -21,7 +21,13 @@ try {
         
             // LIST OF PROJECTS
             case 'projectsList':
-                projectsList();
+                if (isset($_GET['section'])) {
+                    projectsList(intval($_GET['section']));
+                }
+                // IF NO SPECIFIC SECTION
+                else {
+                    projectsList(0);
+                }
                 break;
         
             // CREATE NEW PROJECT

@@ -3,6 +3,7 @@
 <?php ob_start(); ?>
 
 <article>
+
 <div class="row">
     
 <?php foreach ($projects as $project): ?>
@@ -27,6 +28,7 @@
 <?php endforeach; ?>
     
 </div>
+
 </article>
     
 <?php $contents = ob_get_clean(); ?>

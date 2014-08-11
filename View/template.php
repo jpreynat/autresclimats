@@ -28,6 +28,14 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Liste des projets <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="index.php?action=projectsList">Tous les projets</a></li>
+                                    <li><a href="index.php?action=projectsList&section=1">Volet 1</a></li>
+                                    <li><a href="index.php?action=projectsList&section=2">Volet 2</a></li>
+                                </ul>
+                            </li>
                             <li><a id="projectList" href="index.php?action=projectsList">Liste des projets</a></li>
                         </ul>
 

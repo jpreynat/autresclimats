@@ -27,6 +27,18 @@ function getProjects() {
     return $projects;
 }
 
+// GET PROJECTS BY SECTION
+function getProjectsBySection($section) {
+    $db = getDB();
+    $query = 'SELECT p_id, p_name, p_logo, coun_name_fr AS country'
+            .' FROM projects'
+            .' INNER JOIN countries ON projects.coun_id = countries.coun_id'
+            .' WHERE p_sect=' . $section;
+    
+    $projects = $db->query($query);
+    return $projects;
+}
+
 // Get current number of projects
 function getNbProjects() {
     $db = getDB();
