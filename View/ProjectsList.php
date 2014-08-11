@@ -1,4 +1,4 @@
-<?php $page_title = 'Liste des projets'; ?>
+<?php $page_title = 'Le réseau Autres Climats'; ?>
 
 <?php ob_start(); ?>
 
