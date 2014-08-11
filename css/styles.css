@@ -5,10 +5,10 @@
 }
 
 .img-container {
-    height: 300px;
+    height: 230px;
     width: 210px;
     display: table-cell;
-    vertical-align: bottom;
+    vertical-align: middle;
     float: none;
 }
 
