@@ -1,9 +1,6 @@
 <?php $page_title = 'Bienvenue sur Autres Climats'; ?>
 
-
-
 <?php ob_start(); ?>
-
 
 <header>
 
@@ -52,4 +49,6 @@
 
 <?php $contents = ob_get_clean(); ?>
 
-<?php 
+<?php $javascript = ''; ?>
+
+<?php require 'template.php'; ?>
