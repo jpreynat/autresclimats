@@ -48,9 +48,17 @@
 /* Custom navbar colors */
 /* navbar */
 .navbar-default {
-    background-color: #FFB347;
+    background-color: #EB9100;
     /*border-color: #E7E7E7;*/
 }
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 35px;
+    height: 60px;
+    padding-top: 0;
+}
+
 /* title 
 .navbar-default .navbar-brand {
     color: #777;
