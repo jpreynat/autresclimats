@@ -4,15 +4,30 @@
 
 <header>
 
-    <div class="jumbotron">
+<div class="row">
 
-        <h1>Bienvenue !</h1>
+  	<div class="col-sm-8 text-justify">
+  	
+        <h1>Autres Climats</h1>
+        <br>
+        <p>En 2015 aura lieu à Paris la prochaine conférence sur le climat.<br>
+            Le climat change et avec lui de nombreux déséquilibres économiques, politiques, écologiques vont s’accentuer.</p>
 
-        <p>Bienvenue sur le site d'Autres Climats.</p>
-
-        <p>Venez rejoindre nos <?= $nbProjects ?> projets !</p>
-
+        <p>Mais le climat est-il seul à changer ?<br>
+        Et qu’en est-il de tous ces autres climats avec lesquels nous nous débattons chaque jour ?<br>
+        Comment le climat social, économique, éducatif change t-il ?<br>
+        C’est pour répondre à ces questions et proposer des solutions concrètes qu’Autres Climats à vu le jour.</p>
+    
     </div>
+  
+    <div class="col-sm-4">
+    
+        <img src="https://lh3.googleusercontent.com/-1cgJdyB4JFw/U-kTSyZtGbI/AAAAAAAAACs/37Yu383VAm0/w608-h602-no/Other%2BClimates%2BSquare%2BLogo.png"
+             class="img-responsive home-logo"/>
+    
+    </div>
+
+</div>
 
 </header>
 
