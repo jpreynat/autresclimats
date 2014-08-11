@@ -11,8 +11,8 @@ function logged() {
 }
 
 function home() {
-    // GET 3 LAST PROJECTS
-    $projects = getLastProjects(3);
+    // GET 4 LAST PROJECTS
+    $projects = getLastProjects(4);
     $nbProjects = getNbProjects();
     require 'View/Home.php';
 }
