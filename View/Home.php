@@ -11,10 +11,8 @@
 </header>
 
 <article>
-</article>
 
-
-<h4 class="page-header">Derniers projets</h4>
+<h4 class="page-header">Ils ont rejoint Autres Climats</h4>
 
 <div class="row">
     
@@ -40,8 +38,10 @@
 <?php endforeach; ?>
 
 </div>
+</article>
+
 <?php $contents = ob_get_clean(); ?>
 
-<?php $javascript = ''; ?>
+?php $javascri<pt = ''; ?>
 
 <?php require 'template.php'; ?>
