@@ -36,7 +36,6 @@
                                     <li><a href="index.php?action=projectsList&section=2">Volet 2</a></li>
                                 </ul>
                             </li>
-                            <li><a id="projectList" href="index.php?action=projectsList">Liste des projets</a></li>
                         </ul>
 
                         <ul class="nav navbar-nav navbar-right">
