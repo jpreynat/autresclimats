@@ -45,7 +45,8 @@
                                     echo '<li><a id="adminProjects" href="index.php?action=adminProjects">Gérer les projets</a></li>';
                                 }
                             ?>
-                            
+                            <li><a href="#">A propos</a></li>
+                            <li><a href="#">Nous contacter</a></li>
                             <li class="dropdown">
                                 <a id="language" href="#" class="dropdown-toggle" data-toggle="dropdown">Langue <b class="caret"></b></a>
                                 <ul id="languages" class="dropdown-menu">
@@ -72,7 +73,9 @@
         </div>
         
         <footer>
-        
+        <div class="container">
+            <p class="text-muted"></p>
+        </div>
         </footer>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
