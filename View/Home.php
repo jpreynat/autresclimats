@@ -47,4 +47,8 @@
 </div>
 </article>
 
-<?php $contents = <?php $javascript = ''; ?>ob_ge
+<?php $contents = ob_get_clean(); ?
+
+<?php $javascript = ''; ?>
+>
+<?php require 'template.php'; ?>
