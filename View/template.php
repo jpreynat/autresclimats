@@ -84,7 +84,7 @@
         <script src="js/bootstrap-filestyle.min.js"></script>
         <script src="js/holder.js"></script>
         
-        <?= $javascript ?
+        <?= $javascript ?>
         
     </body>
 </html>>
