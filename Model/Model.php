@@ -118,6 +118,7 @@ function getProject($project_id) {
                      p_vid1,
                      p_vid2,
                      p_vid3,
+                     c_id,
                      c_first,
                      c_last,
                      c_mail,
