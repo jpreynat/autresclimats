@@ -33,7 +33,7 @@
 </p>
 
 <p>
-    Comment le climat éducatif , change-t-il ?<br>
+    Comment le climat éducatif change-t-il ?<br>
     Lui qui se dérégule, s’individualise depuis les plus petites classes.<br>
     Il nous amène des rafales de l’évaluation précoce, de l’ennui, et des orientations subies , des pluies d’échec, et la glaciation de la reproduction sociale.<br>
     Et nous comment changeons nous, alors que nous sommes sans arrêt contraints de nous adapter à des changements futiles et que rien, jamais rien, ne change sur le fond ?
@@ -140,6 +140,10 @@
 </div>
 </div>
 </article>
+
+<div class="filler">
+&nbsp;
+</div>
 
 <?php $contents = ob_get_clean(); ?>
 
