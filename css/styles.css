@@ -67,6 +67,10 @@ strong {
     margin-top: 1.2em;
 }
 
+.about-page p:last-child {
+    margin-bottom: 50px;
+}
+
 .about-contact {
     margin-top: 1em;
     margin-bottom: 1em;
