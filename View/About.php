@@ -15,23 +15,24 @@
 </p>
 
 <p>
-    Mais le climat est-il seul à changer ? Et qu’en est-il de tous ces autres climats avec lesquels nous nous débattons chaque jour ?
+    Mais le climat est-il seul à changer ?<br>
+    Et qu’en est-il de tous ces autres climats avec lesquels nous nous débattons chaque jour ?
 </p>
 
 <p>
-    Comment le climat social change t-il ?<br>
+    Comment le climat social change-t-il ?<br>
     Lui qui se tend, s’aiguise, se rigidifie ?<br>
     Nous vivons des averses de précarité, des tempêtes d’insécurité sociale, le grand gel des idéaux et illusions.
 </p>
 
 <p>
-    Comment le climat économique, change t-il ?<br>
+    Comment le climat économique, change-t-il ?<br>
     Lui qui nous assène les naufrages du chômage, la montée des eaux des emplois précaires ?<br>
     Lui qui charrie toujours plus d’épaves de sans logis, de sans emploi, de sans papiers, de sans attaches ?<br>
 </p>
 
 <p>
-    Comment le climat éducatif , change t-il ?<br>
+    Comment le climat éducatif , change-t-il ?<br>
     Lui qui se dérégule, s’individualise depuis les plus petites classes.<br>
     Il nous amène des rafales de l’évaluation précoce, de l’ennui, et des orientations subies , des pluies d’échec, et la glaciation de la reproduction sociale.<br>
     Et nous comment changeons nous, alors que nous sommes sans arrêt contraints de nous adapter à des changements futiles et que rien, jamais rien, ne change sur le fond ?
@@ -81,21 +82,29 @@
     Autres Climats comprend deux volets:
 </p>
 
-<dl>
-	<dt>Volet 1 : Mobilisation active</dt>
-	<dd>
+<div class="row">
+    <h4>Volet 1 - Mobilisation active</h4>
+    <p>
       Ce volet regroupe les actions menées sur le terrain en poursuivant l’action de Demain la Terre, la jeunesse prend la parole.<br>
       Les projets sont créés à l’initiatives de citoyens ou d’associations du monde entier. Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.<br>
       La coordination du volet 1 est assurée depuis la France par Elsa Münch (tel: 06 12 03 13 58). 
-  </dd>
+    </p>
+    
 
-	<dt>Volet 2 : Documentation</dt>
-	<dd>
+    <h4>Volet 2 - Documentation</h4>
+	  <p>
       Ce volet regroupe les recherches effectuées autour des thèmes abordés par Autres Climats.<br>
       Les supports sont divers (mémoires, poèmes, expositions photographiques ou autres supports artistiques…).<br>
       La coordination est assurée depuis la France par Kelly Gene (tel: 06 21 15 00 91) et Raphaëlle Pallarès (tel: 06 32 14 44 51). 
-  </dd>
-</dl>
+    </p>
+    
+    <div class="col-sm-4 col-sm-offset-1">
+        <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c116.0.160.160/p160x160/970164_546637382053805_1659763638_n.jpg?oh=844879a85957f1e3e5a83392ec522c27&amp;oe=54714D18&amp;__gda__=1416000347_a2b9a0b76834595afe395806525562e7" class="img img-responsive img-contact">
+    </div>
+    <div class="col-sm-4 col-sm-offset-1">
+        <img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10485526_10204587660602118_7874936852379322337_n.jpg?oh=a8c32a8efc246cde47303696afd9645d&amp;oe=545FC8E8" class="img img-responsive img-contact">
+    </div>
+</div>
     
 <p>
     Les associations et les chercheurs échangent régulièrement avec la coordinatrice projet associée au volet correspondant.<br>
