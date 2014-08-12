@@ -54,14 +54,16 @@
 </div>
 
 <p>
-    Il y a longtemps, fort longtemps, les jeunes générations étaient priées de se préparer à l’avenir. On nous promettait: vous verrez, rien ne sera pareil. Tout sera différent, plus moderne.
+    Il y a longtemps, fort longtemps, les jeunes générations étaient priées de se préparer à l’avenir.<br>
+    On nous promettait : vous verrez, rien ne sera pareil. Tout sera différent, plus moderne.
 </p>
 
 <p>
     C’était le temps d’avant, le temps où on croyait au futur. Mais aujourd’hui, il n’y a plus d’avenir, car à la place nous avons le changement.<br>
-    Le changement perpétuel, le changement qui ne change rien: les vieilles pédagogies se renouvellent sur des supports High Tech; les vieilles inégalités sociales se renouvellent sur la forme d’échecs personnels, et les classiques dominations deviennent discriminations.<br>
+    Le changement perpétuel, le changement qui ne change rien : les vieilles pédagogies se renouvellent sur des supports High Tech.<br>
+    Les vieilles inégalités sociales se renouvellent sur la forme d’échecs personnels, et les classiques dominations deviennent discriminations.<br>
     Sommés au changement, nous ne changeons pas, nous ne changeons plus. Nos anciennes pratiques se perpétuent. Rien ne vaut la bonne vielle autorité, et puis les punitions, et puis les sélections, et puis les exclusions (seulement on les appellera inclusions)...<br>
-    Les temps changent, chantait autrefois Dylan, et nous, nous avons perdu le pouvoir de changer, de changer les choses, de nous changer nous mêmes.
+    Les temps changent, chantait autrefois Dylan, et nous, nous avons perdu le pouvoir de changer, de changer les choses, de nous changer nous-mêmes.
 </p>
 
 <p>
