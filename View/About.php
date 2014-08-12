@@ -76,7 +76,9 @@
 <h3 class="page-header">ORGANISATION</h3>
 
 <p>
-    Autres Climats est une association de loi 1901 basée à Chilly Mazarin dans l’Essonne.
+    Autres Climats est une association de loi 1901 basée à Chilly Mazarin dans l’Essonne. <br>
+    Son but est de mettre en avant le fruits des recherches de ceux qui se penchent chaque jour sur les changements sociaux, 
+    économiques ou encore politique, ainsi que les initiatives citoyennes efficaces et déjà mises en oeuvre partout dans le monde.
 </p>
 
 <p>
@@ -85,18 +87,23 @@
 
 <div class="row">
     <div class="col-sm-12">
-        <h4>Volet 1 - Mobilisation active</h4>
+        <h4 class="about-page">Volet 1 - Mobilisation active</h4>
         <p>
           Ce volet regroupe les actions menées sur le terrain en poursuivant l’action de Demain la Terre, la jeunesse prend la parole.<br>
-          Les projets sont créés à l’initiatives de citoyens ou d’associations du monde entier. Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.<br>
+          Les projets sont créés à l’initiatives de citoyens ou d’associations du monde entier.<br>
+          Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.
+        </p>
+        <p>
           La coordination du volet 1 est assurée depuis la France par Elsa Münch (tel: 06 12 03 13 58). 
         </p>
         
     
-        <h4>Volet 2 - Documentation</h4>
-    	  <p>
+        <h4 class="about-page">Volet 2 - Documentation</h4>
+    	<p>
           Ce volet regroupe les recherches effectuées autour des thèmes abordés par Autres Climats.<br>
-          Les supports sont divers (mémoires, poèmes, expositions photographiques ou autres supports artistiques…).<br>
+          Les supports sont divers (mémoires, poèmes, expositions photographiques ou autres supports artistiques…).
+        </p>
+        <p>
           La coordination est assurée depuis la France par Kelly Gene (tel: 06 21 15 00 91) et Raphaëlle Pallarès (tel: 06 32 14 44 51). 
         </p>
         
