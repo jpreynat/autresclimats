@@ -49,7 +49,7 @@
   </div>
   <div class="col-sm-5 col-sm-offset-1">
     <img src="http://www.diplomatie.gouv.fr/fr/local/cache-vignettes/L800xH533/B50A9756net_cle412d88-17527.jpg" 
-         class="img img-responsive">
+         class="img img-responsive" id="about-ac-img">
   </div>
 </div>
 

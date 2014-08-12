@@ -77,6 +77,12 @@ strong {
     margin-bottom: 1.5em;
 }
 
+#about-ac-img {
+    margin-top: 3.5em;
+    border-radius: 2px;
+    box-shadow: #aaa 1px 1px 10px;
+}
+
 /* Override form-control of bootswatch */
 .form-control {
     font-size: 12px;
