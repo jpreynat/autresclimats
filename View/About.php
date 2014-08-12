@@ -84,30 +84,32 @@
 </p>
 
 <div class="row">
-    <h4>Volet 1 - Mobilisation active</h4>
-    <p>
-      Ce volet regroupe les actions menées sur le terrain en poursuivant l’action de Demain la Terre, la jeunesse prend la parole.<br>
-      Les projets sont créés à l’initiatives de citoyens ou d’associations du monde entier. Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.<br>
-      La coordination du volet 1 est assurée depuis la France par Elsa Münch (tel: 06 12 03 13 58). 
-    </p>
+    <div class="col-sm-12">
+        <h4>Volet 1 - Mobilisation active</h4>
+        <p>
+          Ce volet regroupe les actions menées sur le terrain en poursuivant l’action de Demain la Terre, la jeunesse prend la parole.<br>
+          Les projets sont créés à l’initiatives de citoyens ou d’associations du monde entier. Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.<br>
+          La coordination du volet 1 est assurée depuis la France par Elsa Münch (tel: 06 12 03 13 58). 
+        </p>
+        
     
-
-    <h4>Volet 2 - Documentation</h4>
-	  <p>
-      Ce volet regroupe les recherches effectuées autour des thèmes abordés par Autres Climats.<br>
-      Les supports sont divers (mémoires, poèmes, expositions photographiques ou autres supports artistiques…).<br>
-      La coordination est assurée depuis la France par Kelly Gene (tel: 06 21 15 00 91) et Raphaëlle Pallarès (tel: 06 32 14 44 51). 
-    </p>
-    
-    <div class="col-sm-4 col-sm-offset-1 text-center">
-        <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c116.0.160.160/p160x160/970164_546637382053805_1659763638_n.jpg?oh=844879a85957f1e3e5a83392ec522c27&amp;oe=54714D18&amp;__gda__=1416000347_a2b9a0b76834595afe395806525562e7"
-             class="img img-responsive img-thumbnail img-contact">
-        <p><em>Raphaëlle Pallarès</em></p>
-    </div>
-    <div class="col-sm-4 col-sm-offset-1 text-center">
-        <img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10485526_10204587660602118_7874936852379322337_n.jpg?oh=a8c32a8efc246cde47303696afd9645d&amp;oe=545FC8E8"
-             class="img img-responsive img-thumbnail img-contact">
-        <p><em>Kelly Gene</em></p>
+        <h4>Volet 2 - Documentation</h4>
+    	  <p>
+          Ce volet regroupe les recherches effectuées autour des thèmes abordés par Autres Climats.<br>
+          Les supports sont divers (mémoires, poèmes, expositions photographiques ou autres supports artistiques…).<br>
+          La coordination est assurée depuis la France par Kelly Gene (tel: 06 21 15 00 91) et Raphaëlle Pallarès (tel: 06 32 14 44 51). 
+        </p>
+        
+        <div class="col-sm-4 col-sm-offset-1 text-center">
+            <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c116.0.160.160/p160x160/970164_546637382053805_1659763638_n.jpg?oh=844879a85957f1e3e5a83392ec522c27&amp;oe=54714D18&amp;__gda__=1416000347_a2b9a0b76834595afe395806525562e7"
+                 class="img img-responsive img-thumbnail img-contact">
+            <p><em>Raphaëlle Pallarès</em></p>
+        </div>
+        <div class="col-sm-4 col-sm-offset-1 text-center">
+            <img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10485526_10204587660602118_7874936852379322337_n.jpg?oh=a8c32a8efc246cde47303696afd9645d&amp;oe=545FC8E8"
+                 class="img img-responsive img-thumbnail img-contact">
+            <p><em>Kelly Gene</em></p>
+        </div>
     </div>
 </div>
     
