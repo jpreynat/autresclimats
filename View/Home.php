@@ -11,13 +11,15 @@
         <h1>Autres Climats</h1>
         <br>
         <p>
-            En 2015 aura lieu à Paris la prochaine conférence sur le climat.<br>
+            En 2015 aura lieu à Paris la prochaine conférence sur le climat.
+            <br>
             Car ce n’est un scoop pour personne, le climat change et avec lui de nombreux 
             déséquilibres économiques, politiques, écologiques vont s’accentuer.
         </p>
 
         <p>
-            <strong>Le climat n’est pas seul à changer !</strong><br>
+            <em><strong>Le climat n’est pas seul à changer !</strong></em>
+            <br>
             Le climat social, économique, éducatif, politique changent également.
         </p>
         
