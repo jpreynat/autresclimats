@@ -52,9 +52,9 @@ p {
 }
 /* About page */
 .img-contact {
-    width: 18em;
-    height: auto;
-    margin: 1.5em;
+    height:200px;
+    width: auto;
+    margin: 1.5em 0 1em;
 }
 
 
