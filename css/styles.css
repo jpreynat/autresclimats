@@ -49,7 +49,17 @@ p {
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
+}
+/* About page */
+.img-contact {
+    width: 18em;
+    height: auto;
+    margin: 1.5em;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    padding: 0.2em;
 }
+
 
 /* Override form-control of bootswatch */
 .form-control {
