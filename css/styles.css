@@ -6,7 +6,7 @@ p {
 }
 
 strong {
-    font-weight: bolder;
+    font-weight: 400;
 }
 
 /* Home Page */
@@ -57,8 +57,12 @@ strong {
 }
 
 /* About page */
+.about-page img {
+    box-shadow: #ccc 1px 1px 8px;
+}
+
 .img-contact {
-    height:130px;
+    height: 130px;
     width: auto;
     margin: 1.5em 0 0.4em;
 }
@@ -80,7 +84,6 @@ strong {
 #about-ac-img {
     margin-top: 3.5em;
     border-radius: 2px;
-    box-shadow: #aaa 1px 1px 10px;
 }
 
 /* Override form-control of bootswatch */
