@@ -67,7 +67,7 @@
 </p>
 
 <p>
-    Le climat change, ... alors changeons tout!
+    Le climat change... alors changeons tout!
 </p>
 
 
