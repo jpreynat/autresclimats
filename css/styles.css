@@ -67,6 +67,11 @@ strong {
     margin-top: 1.2em;
 }
 
+.about-contact {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 /* Override form-control of bootswatch */
 .form-control {
     font-size: 12px;
