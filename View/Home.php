@@ -10,14 +10,32 @@
   	
         <h1>Autres Climats</h1>
         <br>
-        <p>En 2015 aura lieu à Paris la prochaine conférence sur le climat.<br>
-            Le climat change et avec lui de nombreux déséquilibres économiques, politiques, écologiques vont s’accentuer.</p>
+        <p>
+            En 2015 aura lieu à Paris la prochaine conférence sur le climat.<br>
+            Car ce n’est un scoop pour personne, le climat change et avec lui de nombreux 
+            déséquilibres économiques, politiques, écologiques vont s’accentuer.
+        </p>
 
-        <p>Mais le climat est-il seul à changer ?</p>
-        <p>Et qu’en est-il de tous ces autres climats avec lesquels nous nous débattons chaque jour ?<br>
-        Comment le climat social, économique, éducatif change t-il ?</p>
+        <p>
+            <strong>Le climat n’est pas seul à changer !</strong><br>
+            Le climat social, économique, éducatif, politique changent également.
+        </p>
         
-        <p>C’est pour répondre à ces questions et proposer des solutions concrètes qu’Autres Climats à vu le jour.</p>
+        <p>
+            Autres Climats entend mettre en avant les témoins de ces changements 
+            et les acteurs qui oeuvrent quotidiennement pour un avenir plus solidaire, 
+            équitable et contre l’exclusion, partout dans le monde.
+        </p>
+        
+        <p>
+            Consultez les projets du réseau d’Autres Climats et rejoignez 
+            ces dizaines de chercheurs, artistes, associations et citoyens 
+            en nous présentant vos actions.
+        </p>
+        
+        <a href="index.php?action=contact">
+            <p>Rejoignez-nous !</p>
+        </a>
     
     </div>
   
