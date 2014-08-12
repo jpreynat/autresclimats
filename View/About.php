@@ -6,6 +6,7 @@
 </header>
 
 <article>
+<div class="col-sm-10 col-sm-offset-1">
 <h3 class="page-header">AUTRES CLIMATS</h3>
 
 <p>
@@ -90,6 +91,7 @@
     A l’issu de ces quelques mois d’échange et de recherches, les participants se retrouveront en France lors d’un temps fort de restitution et de partage qui aura lieu en parallèle de la Conférence mondiale sur le Climat de Paris en 2015. Cet évènement marquera l’aboutissement du projet  par le biais de : conférences, débats, présentations artistiques, exposition de photos autour des actions réalisés par les membres d’Autres Climats. Il s’agira de rassembler un public large et de communiquer autour des initiatives citoyennes qui auront fait leur preuves afin d’inspirer de nouvelles initiatives et d’inciter les citoyens d’aujourd’hui à (re)prendre leur destin en main pour un avenir plus solidaire, plus équitable et un développement qui place l’humain au premier plan.
 </p>
 
+</div>
 </article>
 
 <?php $contents = ob_get_clean(); ?>
