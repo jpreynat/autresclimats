@@ -19,10 +19,22 @@
 </p>
 
 <p>
-    Comment le climat social change t-il ? Lui qui se tend, s’aiguise, se rigidifie ? Nous vivons des averses de précarité, des tempêtes d’insécurité sociale, le grand gel des idéaux et illusions.<br>
-    Comment le climat économique, change t-il ? Lui qui nous assène les naufrages du chômage, la montée des eaux des emplois précaires ? Lui qui charrie toujours plus d’épaves de sans logis, de sans emploi, de sans papiers, de sans attaches ?<br>
-    Comment le climat éducatif , change t-il ? Lui qui se dérégule, s’individualise depuis les plus petites classes. Il nous amène des rafales de l’évaluation précoce, de l’ennui, et des orientations subies , des pluies d’échec, et la glaciation de la reproduction sociale.<br>
-    Et nous comment changeons nous ?, alors que nous sommes sans arrêt contraints de nous adapter à des changements futiles et que rien, jamais rien, ne change sur le fond ?
+    Comment le climat social change t-il ?<br>
+    Lui qui se tend, s’aiguise, se rigidifie ?<br>
+    Nous vivons des averses de précarité, des tempêtes d’insécurité sociale, le grand gel des idéaux et illusions.
+</p>
+
+<p>
+    Comment le climat économique, change t-il ?<br>
+    Lui qui nous assène les naufrages du chômage, la montée des eaux des emplois précaires ?<br>
+    Lui qui charrie toujours plus d’épaves de sans logis, de sans emploi, de sans papiers, de sans attaches ?<br>
+</p>
+
+<p>
+    Comment le climat éducatif , change t-il ?<br>
+    Lui qui se dérégule, s’individualise depuis les plus petites classes.<br>
+    Il nous amène des rafales de l’évaluation précoce, de l’ennui, et des orientations subies , des pluies d’échec, et la glaciation de la reproduction sociale.<br>
+    Et nous comment changeons nous, alors que nous sommes sans arrêt contraints de nous adapter à des changements futiles et que rien, jamais rien, ne change sur le fond ?
 </p>
 
 <p>
@@ -41,7 +53,7 @@
 </p>
 
 
-<h3 class="page-header">HISTORIQUE D’AUTRES CLIMATS</h3>
+<h3 class="page-header">HISTORIQUE</h3>
 
 <p>
     En 2012, la Conférence de Rio a offert l’opportunité de mettre en lumière les multiples composantes du développement durable et d’amener chacun à interroger ses pratiques personnelles et professionnelles.<br>
