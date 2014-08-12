@@ -20,24 +20,38 @@
     Et qu’en est-il de tous ces autres climats avec lesquels nous nous débattons chaque jour ?
 </p>
 
-<p>
-    Comment le climat social change-t-il ?<br>
-    Lui qui se tend, s’aiguise, se rigidifie ?<br>
-    Nous vivons des averses de précarité, des tempêtes d’insécurité sociale, le grand gel des idéaux et illusions.
-</p>
+<div id="about-climat" class="row">
+  <div class="col-sm-5">
 
-<p>
-    Comment le climat économique, change-t-il ?<br>
-    Lui qui nous assène les naufrages du chômage, la montée des eaux des emplois précaires ?<br>
-    Lui qui charrie toujours plus d’épaves de sans logis, de sans emploi, de sans papiers, de sans attaches ?<br>
-</p>
+    <p>
+        <em><strong>Comment le climat social change-t-il ?</strong></em><br>
+        Lui qui se tend, s’aiguise, se rigidifie ?<br>
+        Nous vivons des averses de précarité, des tempêtes d’insécurité sociale, le grand gel des idéaux et illusions.
+    </p>
 
-<p>
-    Comment le climat éducatif change-t-il ?<br>
-    Lui qui se dérégule, s’individualise depuis les plus petites classes.<br>
-    Il nous amène des rafales de l’évaluation précoce, de l’ennui, et des orientations subies , des pluies d’échec, et la glaciation de la reproduction sociale.<br>
-    Et nous comment changeons nous, alors que nous sommes sans arrêt contraints de nous adapter à des changements futiles et que rien, jamais rien, ne change sur le fond ?
-</p>
+    <p>
+        <em><strong>Comment le climat économique, change-t-il ?</strong></em><br>
+        Lui qui nous assène les naufrages du chômage, la montée des eaux des emplois précaires ?<br>
+        Lui qui charrie toujours plus d’épaves de sans logis, de sans emploi, de sans papiers, de sans attaches ?<br>
+    </p>
+
+    <p>
+        <em><strong>Comment le climat éducatif , change-t-il ?</strong></em><br>
+        Lui qui se dérégule, s’individualise depuis les plus petites classes.<br>
+        Il nous amène des rafales de l’évaluation précoce, de l’ennui, et des orientations subies , des pluies d’échec, et la glaciation de la reproduction sociale.<br>
+    </p>
+    
+    <p>
+    <em><strong>Et nous comment changeons nous</strong></em>, alors que nous sommes sans arrêt contraints 
+    de nous adapter à des changements futiles et que rien, jamais rien, ne change sur le fond ?
+    </p>
+    
+  </div>
+  <div class="col-sm-5 col-sm-offset-1">
+    <img src="http://www.diplomatie.gouv.fr/fr/local/cache-vignettes/L800xH533/B50A9756net_cle412d88-17527.jpg" 
+         class="img img-responsive">
+  </div>
+</div>
 
 <p>
     Il y a longtemps, fort longtemps, les jeunes générations étaient priées de se préparer à l’avenir. On nous promettait: vous verrez, rien ne sera pareil. Tout sera différent, plus moderne.

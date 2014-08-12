@@ -72,6 +72,19 @@ strong {
     margin-bottom: 1em;
 }
 
+#about-climat {
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.about-page strong {
+    font-weight: 400;
+}
+
+.about-page em {
+    font-weight: 400;
+}
+
 /* Override form-control of bootswatch */
 .form-control {
     font-size: 12px;
