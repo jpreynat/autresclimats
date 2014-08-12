@@ -6,7 +6,7 @@
 
 <div class="row">
 
-  	<div class="col-sm-8">
+  	<div class="col-sm-8 home-page">
   	
         <h1>Autres Climats</h1>
         <br>

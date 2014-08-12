@@ -6,7 +6,7 @@
 </header>
 
 <article>
-<h1 class="page-header">AUTRES CLIMATS</h1>
+<h3 class="page-header">AUTRES CLIMATS</h3>
 
 <p>
     En 2015 aura lieu à Paris la prochaine conférence sur le climat.<br>
@@ -40,7 +40,7 @@
 </p>
 
 
-<h2 class="page-header">HISTORIQUE D’AUTRES CLIMATS</h2>
+<h3 class="page-header">HISTORIQUE D’AUTRES CLIMATS</h3>
 
 <p>
     En 2012, la Conférence de Rio a offert l’opportunité de mettre en lumière les multiples composantes du développement durable et d’amener chacun à interroger ses pratiques personnelles et professionnelles.<br>
@@ -66,22 +66,25 @@
 
 <p>
     Autres Climats comprend deux volets:
+</p>
+
+<dl>
+	<dt>Volet 1 : Mobilisation active</dt>
+	<dd>
+      Ce volet regroupe les actions menées sur le terrain en poursuivant l’action de Demain la Terre, la jeunesse prend la parole.<br>
+      Les projets sont créés à l’initiatives de citoyens ou d’associations du monde entier. Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.<br>
+      La coordination du volet 1 est assurée depuis la France par Elsa Münch (tel: 06 12 03 13 58). 
+  </dd>
+
+	<dt>Volet 2 : Documentation</dt>
+	<dd>
+      Ce volet regroupe les recherches effectuées autour des thèmes abordés par Autres Climats.<br>
+      Les supports sont divers (mémoires, poèmes, expositions photographiques ou autres supports artistiques…).<br>
+      La coordination est assurée depuis la France par Kelly Gene (tel: 06 21 15 00 91) et Raphaëlle Pallarès (tel: 06 32 14 44 51). 
+  </dd>
+</dl>
     
-    <dl>
-    	<dt>Volet 1 : Mobilisation active</dt>
-    	<dd>
-          Ce volet regroupe les actions menées sur le terrain en poursuivant l’action de Demain la Terre, la jeunesse prend la parole. Les projets sont créés à l’initiatives de citoyens ou d’associations du monde entier. Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.<br>
-          La coordination du volet 1 est assurée depuis la France par Elsa Münch (tel ; 06 12 03 13 58). 
-      </dd>
-    
-    	<dt>Volet 2 : Documentation</dt>
-    	<dd>
-          Ce volet regroupe les recherches effectuées autour des thèmes abordés par Autres Climats. Les supports sont divers (mémoires, poèmes, expositions photographiques ou autres supports artistiques…).<br>
-          La coordination est assurée depuis la France par Kelly Gene (tel: 06 21 15 00 91) et Raphaëlle Pallarès (tel: 06 32 14 44 51). 
-      </dd>
-    </dl>
-    
-    <br>
+<p>
     Les associations et les chercheurs échangent régulièrement avec la coordinatrice projet associée au volet correspondant.<br>
     Autres Climats présente les projets et leur avancée via son site Internet et sa page Facebook.<br>
     A l’issu de ces quelques mois d’échange et de recherches, les participants se retrouveront en France lors d’un temps fort de restitution et de partage qui aura lieu en parallèle de la Conférence mondiale sur le Climat de Paris en 2015. Cet évènement marquera l’aboutissement du projet  par le biais de : conférences, débats, présentations artistiques, exposition de photos autour des actions réalisés par les membres d’Autres Climats. Il s’agira de rassembler un public large et de communiquer autour des initiatives citoyennes qui auront fait leur preuves afin d’inspirer de nouvelles initiatives et d’inciter les citoyens d’aujourd’hui à (re)prendre leur destin en main pour un avenir plus solidaire, plus équitable et un développement qui place l’humain au premier plan.
