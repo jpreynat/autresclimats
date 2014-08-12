@@ -21,17 +21,26 @@
     Comment le climat social change t-il ? Lui qui se tend, s’aiguise, se rigidifie ? Nous vivons des averses de précarité, des tempêtes d’insécurité sociale, le grand gel des idéaux et illusions.<br>
     Comment le climat économique, change t-il ? Lui qui nous assène les naufrages du chômage, la montée des eaux des emplois précaires ? Lui qui charrie toujours plus d’épaves de sans logis, de sans emploi, de sans papiers, de sans attaches ?<br>
     Comment le climat éducatif , change t-il ? Lui qui se dérégule, s’individualise depuis les plus petites classes. Il nous amène des rafales de l’évaluation précoce, de l’ennui, et des orientations subies , des pluies d’échec, et la glaciation de la reproduction sociale.<br>
-    Et nous comment changeons nous ?, alors que nous sommes sans arrêt contraints de nous adapter à des changements futiles et que rien, jamais rien, ne change sur le fond ?<br>
-    Il y a longtemps, fort longtemps, les jeunes générations étaient priées de se préparer à l’avenir. On nous promettait: vous verrez, rien ne sera pareil. Tout sera différent, plus moderne.<br>
+    Et nous comment changeons nous ?, alors que nous sommes sans arrêt contraints de nous adapter à des changements futiles et que rien, jamais rien, ne change sur le fond ?
+</p>
+
+<p>
+    Il y a longtemps, fort longtemps, les jeunes générations étaient priées de se préparer à l’avenir. On nous promettait: vous verrez, rien ne sera pareil. Tout sera différent, plus moderne.
+</p>
+
+<p>
     C’était le temps d’avant, le temps où on croyait au futur. Mais aujourd’hui, il n’y a plus d’avenir, car à la place nous avons le changement.<br>
     Le changement perpétuel, le changement qui ne change rien: les vieilles pédagogies se renouvellent sur des supports High Tech; les vieilles inégalités sociales se renouvellent sur la forme d’échecs personnels, et les classiques dominations deviennent discriminations.<br>
     Sommés au changement, nous ne changeons pas, nous ne changeons plus. Nos anciennes pratiques se perpétuent. Rien ne vaut la bonne vielle autorité, et puis les punitions, et puis les sélections, et puis les exclusions (seulement on les appellera inclusions)...<br>
-    Les temps changent, chantait autrefois Dylan, et nous, nous avons perdu le pouvoir de changer, de changer les choses, de nous changer nous mêmes.<br>
+    Les temps changent, chantait autrefois Dylan, et nous, nous avons perdu le pouvoir de changer, de changer les choses, de nous changer nous mêmes.
+</p>
+
+<p>
     Le climat change, ... alors changeons tout!
 </p>
 
 
-<h1 class="page-header">HISTORIQUE D’AUTRES CLIMATS</h1>
+<h2 class="page-header">HISTORIQUE D’AUTRES CLIMATS</h2>
 
 <p>
     En 2012, la Conférence de Rio a offert l’opportunité de mettre en lumière les multiples composantes du développement durable et d’amener chacun à interroger ses pratiques personnelles et professionnelles.<br>
@@ -49,7 +58,7 @@
 </p>
 
 
-<h1 class="page-header">ORGANISATION</h1>
+<h3 class="page-header">ORGANISATION</h3>
 
 <p>
     Autres Climats est une association de loi 1901 basée à Chilly Mazarin dans l’Essonne.
@@ -58,14 +67,14 @@
 <p>
     Autres Climats comprend deux volets:
     
-    <dl class="dl-horizontal">
-    	<dt>•	Volet 1 : Mobilisation active</dt>
+    <dl>
+    	<dt>Volet 1 : Mobilisation active</dt>
     	<dd>
           Ce volet regroupe les actions menées sur le terrain en poursuivant l’action de Demain la Terre, la jeunesse prend la parole. Les projets sont créés à l’initiatives de citoyens ou d’associations du monde entier. Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.<br>
           La coordination du volet 1 est assurée depuis la France par Elsa Münch (tel ; 06 12 03 13 58). 
       </dd>
     
-    	<dt>•	Volet 2 : Documentation</dt>
+    	<dt>Volet 2 : Documentation</dt>
     	<dd>
           Ce volet regroupe les recherches effectuées autour des thèmes abordés par Autres Climats. Les supports sont divers (mémoires, poèmes, expositions photographiques ou autres supports artistiques…).<br>
           La coordination est assurée depuis la France par Kelly Gene (tel: 06 21 15 00 91) et Raphaëlle Pallarès (tel: 06 32 14 44 51). 
