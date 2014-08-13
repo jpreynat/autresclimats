@@ -107,12 +107,25 @@
 </p>
 -->
 <p>
-    Afin de favoriser les échanges, l’ONG indienne INDP initiait un projet spécifique intitulé Demain la Terre, la jeunesse prend la parole. L’objectif principal du projet était d’enrichir la conférence des réflexions de la jeune génération.<br>
-    D’ Europe, d’Asie, d’Afrique, d’Amérique du Nord et du Sud, de la maternelle aux universités, en passant par les projets en milieu rural, les jeunes citoyens se sont impliqués pour : exprimer leurs points de vue, élaborer des propositions et projets et transmettre leurs espoirs et difficultés aux élus et responsables des différents pays participants à la conférence.
+    Afin de favoriser les échanges, l’ONG indienne INDP initiait un projet spécifique intitulé Demain la Terre, 
+    la jeunesse prend la parole. L’objectif principal du projet était d’enrichir la conférence des réflexions 
+    de la jeune génération.
 </p>
 
 <p>
-    En 2015, afin d’augmenter l’impact de Demain la Terre et d’enrichir le réseau d’association et de citoyens engagés dans le projet, Autres climats voit le jour et devient une associations de loi 1901. Ses actions s’inscrivent dans la continuité de Rio +20  et souhaite profiter de la médiatisation de la Conférence sur le climat pour montrer que des initiatives citoyennes fonctionnent déjà. Le but est de présenter la synthèse des expériences et des solutions déjà trouvées pour repousser le sentiment d’impuissance et insuffler une mobilisation citoyenne partout dans le monde.
+    D’ Europe, d’Asie, d’Afrique, d’Amérique du Nord et du Sud, de la maternelle aux universités, 
+    en passant par les projets en milieu rural, les jeunes citoyens se sont impliqués pour : 
+    exprimer leurs points de vue, élaborer des propositions et projets et transmettre leurs espoirs 
+    et difficultés aux élus et responsables des différents pays participants à la conférence.
+</p>
+
+<p>
+    En 2015, afin d’augmenter l’impact de Demain la Terre et d’enrichir le réseau d’association et 
+    de citoyens engagés dans le projet, Autres climats voit le jour et devient une associations de loi 1901. 
+    Ses actions s’inscrivent dans la continuité de RIO +20  et souhaite profiter de la médiatisation de la 
+    Conférence sur le climat pour montrer que des initiatives citoyennes fonctionnent déjà.<br>
+    Le but est de présenter la synthèse des expériences et des solutions déjà trouvées pour repousser 
+    le sentiment d’impuissance et insuffler une mobilisation citoyenne partout dans le monde.
 </p>
 
 
