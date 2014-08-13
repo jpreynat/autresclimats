@@ -205,10 +205,6 @@
 </div>
 </article>
 
-<div class="filler">
-&nbsp;
-</div>
-
 <?php $contents = ob_get_clean(); ?>
 
 <?php $javascript = ''; ?>
