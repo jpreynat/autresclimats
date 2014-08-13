@@ -18,10 +18,14 @@ p {
     box-shadow: #ccc 1px 1px 10px;
 }
 
+.page-header h4 {
+    font-weight: 400;
+}
+
+/* Image handling for presentation */
+
 .img-thumbnail {
-    /*width: 200px;*/
     border-radius: 2px;
-    /*padding: 3px;*/
 }
 
 .img-container {
@@ -33,7 +37,6 @@ p {
 }
 
 .img-pres {
-    /*width: 200px;*/
     width: 100%;
 }
 

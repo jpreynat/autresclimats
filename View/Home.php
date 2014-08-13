@@ -55,7 +55,7 @@
 
 <article>
 
-<h4 class="page-header">Ils ont rejoint Autres Climats</h4>
+<h4 class="page-header">Ils ont déjà rejoint Autres Climats</h4>
 
 <div class="row">
     
