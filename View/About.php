@@ -8,6 +8,7 @@
 <article>
 <div class="row about-page">
 <div class="col-sm-12">
+<div class="about-part">
 <h3 class="page-header">AUTRES CLIMATS</h3>
 
 <p>
@@ -70,7 +71,9 @@
     Le climat change... alors changeons tout!
 </p>
 
+</div><!-- about-part -->
 
+<div class="about-part">
 <h3 class="page-header">HISTORIQUE</h3>
 
 <div id="about-climat" class="row">
@@ -127,8 +130,9 @@
     Le but est de présenter la synthèse des expériences et des solutions déjà trouvées pour repousser 
     le sentiment d’impuissance et insuffler une mobilisation citoyenne partout dans le monde.
 </p>
+</div><!-- about-part -->
 
-
+<div class="about-part">
 <h3 class="page-header">ORGANISATION</h3>
 
 <p>
@@ -193,6 +197,7 @@
     afin d’inspirer de nouvelles initiatives et d’inciter les citoyens d’aujourd’hui à (re)prendre leur destin en main 
     pour un avenir plus solidaire, plus équitable et un développement qui place l’humain au premier plan.
 </p>
+</div><!-- about-part -->
 
 </div>
 </div>

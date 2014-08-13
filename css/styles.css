@@ -88,6 +88,10 @@ p {
     font-weight: 400;
 }
 
+.about-part p:last-child {
+    margin-bottom: 1.5em;
+}
+
 #about-climat {
     margin-top: 2.5em;
     margin-bottom: 1.5em;
@@ -136,11 +140,12 @@ p {
 .navbar-default .navbar-brand:focus {
     color: #5E5E5E;
 }
-/* link 
+*/
+/* link */
 .navbar-default .navbar-nav > li > a {
-    color: #777;
+    transition: background-color 0.1s ease-out;
 }
-
+/*
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     background-color: #676767;
