@@ -7,8 +7,9 @@
 
 <article>
 <div class="row about-page">
-<div class="col-sm-12">
-<div class="about-part" id="autresclimats">
+
+<div class="col-sm-10">
+<div style="" class="about-part" id="autresclimats">
 <h3 class="page-header">AUTRES CLIMATS</h3>
 
 <p>
@@ -49,8 +50,7 @@
     
   </div>
   <div class="col-sm-5 col-sm-offset-1">
-    <img src="http://www.diplomatie.gouv.fr/fr/local/cache-vignettes/L800xH533/B50A9756net_cle412d88-17527.jpg" 
-         class="img img-responsive" id="about-ac-img">
+    <img src="http://www.diplomatie.gouv.fr/fr/local/cache-vignettes/L800xH533/B50A9756net_cle412d88-17527.jpg" class="img img-responsive" id="about-ac-img">
   </div>
 </div>
 
@@ -96,8 +96,7 @@
     
   </div>
   <div class="col-sm-5 col-sm-offset-1">
-    <img src="http://www.toutsurlenvironnement.fr/files/imagecache/image_actu_full/actu/RIO20_fond_bleu.jpg" 
-         class="img img-responsive">
+    <img src="http://www.toutsurlenvironnement.fr/files/imagecache/image_actu_full/actu/RIO20_fond_bleu.jpg" class="img img-responsive">
   </div>
 </div>
 <!--
@@ -170,13 +169,11 @@
         </div>
         
         <div class="col-sm-4 col-sm-offset-1 text-center about-contact">
-            <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c116.0.160.160/p160x160/970164_546637382053805_1659763638_n.jpg?oh=844879a85957f1e3e5a83392ec522c27&amp;oe=54714D18&amp;__gda__=1416000347_a2b9a0b76834595afe395806525562e7"
-                 class="img img-responsive img-thumbnail img-contact">
+            <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c116.0.160.160/p160x160/970164_546637382053805_1659763638_n.jpg?oh=844879a85957f1e3e5a83392ec522c27&amp;oe=54714D18&amp;__gda__=1416000347_a2b9a0b76834595afe395806525562e7" class="img img-responsive img-thumbnail img-contact">
             <p class="about-label"><em>Raphaëlle Pallarès</em></p>
         </div>
         <div class="col-sm-4 col-sm-offset-1 text-center about-contact">
-            <img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10485526_10204587660602118_7874936852379322337_n.jpg?oh=a8c32a8efc246cde47303696afd9645d&amp;oe=545FC8E8"
-                 class="img img-responsive img-thumbnail img-contact">
+            <img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10485526_10204587660602118_7874936852379322337_n.jpg?oh=a8c32a8efc246cde47303696afd9645d&amp;oe=545FC8E8" class="img img-responsive img-thumbnail img-contact">
             <p class="about-label"><em>Kelly Gene</em></p>
         </div>
     </div>
@@ -202,6 +199,16 @@
 </div><!-- about-part -->
 
 </div>
+
+<div id="menu-panel" class="col-sm-2">
+    <div id="menu" class="affix text-right">
+        <p><strong>NAVIGATION</strong></p><br>
+        <p><a href="#autresclimats">AUTRES CLIMATS</a></p>
+        <p><a href="#historique">HISTORIQUE</a></p>
+        <p><a href="#organisation">ORGANISATION</a></p>
+    </div>
+    
+    </div>
 </div>
 </article>
 

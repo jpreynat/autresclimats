@@ -102,6 +102,17 @@ p {
     border-radius: 2px;
 }
 
+#menu-panel {
+    margin-top: 42px; 
+    padding-right: 0px;
+}
+
+#menu {
+    border-right: 1px solid gray;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
 /* Override form-control of bootswatch */
 .form-control {
     font-size: 12px;
