@@ -108,9 +108,18 @@ p {
 }
 
 #menu {
-    border-right: 1px solid gray;
+    border-right: 1px solid #ccc;
     padding-right: 15px;
     padding-top: 5px;
+}
+
+#menu a {
+    color: gray;
+}
+
+#menu a:hover {
+    color: #008CBA;
+    text-decoration: none;
 }
 
 /* Override form-control of bootswatch */
