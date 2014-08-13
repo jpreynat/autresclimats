@@ -20,7 +20,7 @@
 </p>
 
 <p>
-    <strong>N’hésitez pas à nous contacter<strong> pour nous présenter votre association et vos projets 
+    <strong>N’hésitez pas à nous contacter</strong> pour nous présenter votre association et vos projets 
     à l’adresse suivante: <a href="mailto:autresclimats@gmail.com" target="_top">autresclimats@gmail.com</a>
 <p>
 
