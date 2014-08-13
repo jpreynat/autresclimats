@@ -147,25 +147,27 @@
 
 <div class="row">
     <div class="col-sm-12">
-        <h4>Volet 1 - Mobilisation active</h4>
-        <p>
-          Ce volet regroupe les actions menées sur le terrain en poursuivant l’action de Demain la Terre, la jeunesse prend la parole.<br>
-          Les projets sont créés à l’initiatives de citoyens ou d’associations du monde entier.<br>
-          Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.
-        </p>
-        <p>
-          La coordination du volet 1 est assurée depuis la France par Elsa Münch (tel: 06 12 03 13 58). 
-        </p>
+        <div class="col-sm-11 col-sm-offset-1">
+            <h4>Volet 1 - Mobilisation active</h4>
+            <p>
+              Ce volet regroupe les actions menées sur le terrain en poursuivant l’action de Demain la Terre, la jeunesse prend la parole.<br>
+              Les projets sont créés à l’initiatives de citoyens ou d’associations du monde entier.<br>
+              Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.
+            </p>
+            <p>
+              La coordination du volet 1 est assurée depuis la France par Elsa Münch (tel: 06 12 03 13 58). 
+            </p>
+            
         
-    
-        <h4>Volet 2 - Documentation</h4>
-    	<p>
-          Ce volet regroupe les recherches effectuées autour des thèmes abordés par Autres Climats.<br>
-          Les supports sont divers (mémoires, poèmes, expositions photographiques ou autres supports artistiques…).
-        </p>
-        <p>
-          La coordination est assurée depuis la France par Kelly Gene (tel: 06 21 15 00 91) et Raphaëlle Pallarès (tel: 06 32 14 44 51). 
-        </p>
+            <h4>Volet 2 - Documentation</h4>
+        	<p>
+              Ce volet regroupe les recherches effectuées autour des thèmes abordés par Autres Climats.<br>
+              Les supports sont divers (mémoires, poèmes, expositions photographiques ou autres supports artistiques…).
+            </p>
+            <p>
+              La coordination est assurée depuis la France par Kelly Gene (tel: 06 21 15 00 91) et Raphaëlle Pallarès (tel: 06 32 14 44 51). 
+            </p>
+        </div>
         
         <div class="col-sm-4 col-sm-offset-1 text-center about-contact">
             <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c116.0.160.160/p160x160/970164_546637382053805_1659763638_n.jpg?oh=844879a85957f1e3e5a83392ec522c27&amp;oe=54714D18&amp;__gda__=1416000347_a2b9a0b76834595afe395806525562e7"
