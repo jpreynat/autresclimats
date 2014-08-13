@@ -84,14 +84,17 @@
     <p>
         Le projet « RIO + 20 », au-delà d’évoquer la préparation et la tenue de la Conférence, 
         visait à  mettre à profit les 15 mois qui précédaient la Conférence pour évoquer la mise en œuvre du développement durable 
-        en relation avec plusieurs thèmes et plusieurs régions du monde.<br>
+        en relation avec plusieurs thèmes et plusieurs régions du monde.
+    </p>
+    
+    <p>
         Ce projet avait trois intentions : former, informer, favoriser les échanges.
     </p>
     
   </div>
   <div class="col-sm-5 col-sm-offset-1">
     <img src="http://www.toutsurlenvironnement.fr/files/imagecache/image_actu_full/actu/RIO20_fond_bleu.jpg" 
-         class="img img-responsive" id="about-ac-img">
+         class="img img-responsive">
   </div>
 </div>
 <!--
