@@ -1,14 +1,3 @@
-/* Override default text-size */
-.home-page 
-p {
-    font-weight: 300;
-    font-size: 18px;
-}
-
-.home-page strong {
-    font-weight: 400;
-}
-
 /* Home Page */
 .home-logo {
     width: 200px;
@@ -18,7 +7,14 @@ p {
     box-shadow: #ccc 1px 1px 10px;
 }
 
-.page-header h4 {
+/* Override default text-size */
+.home-page 
+p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.home-page strong {
     font-weight: 400;
 }
 

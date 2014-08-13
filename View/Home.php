@@ -53,9 +53,9 @@
 </header>
 
 
-<article>
+<article class="home-page">
 
-<h4 class="page-header">Ils ont déjà rejoint Autres Climats</h4>
+<h4 class="page-header"><strong>Ils ont déjà rejoint Autres Climats</strong></h4>
 
 <div class="row">
     
