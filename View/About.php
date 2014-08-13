@@ -8,7 +8,7 @@
 <article>
 <div class="row about-page">
 <div class="col-sm-12">
-<div class="about-part">
+<div class="about-part" id="autresclimats">
 <h3 class="page-header">AUTRES CLIMATS</h3>
 
 <p>
@@ -74,7 +74,7 @@
 </div><!-- about-part -->
 
 <div class="about-part">
-<h3 class="page-header">HISTORIQUE</h3>
+<h3 class="page-header" id="historique">HISTORIQUE</h3>
 
 <div id="about-climat" class="row">
   <div class="col-sm-5">
@@ -133,7 +133,7 @@
 </div><!-- about-part -->
 
 <div class="about-part">
-<h3 class="page-header">ORGANISATION</h3>
+<h3 class="page-header" id="organisation">ORGANISATION</h3>
 
 <p>
     Autres Climats est une association de loi 1901 basée à Chilly Mazarin dans l’Essonne. <br>
