@@ -73,6 +73,28 @@
 
 <h3 class="page-header">HISTORIQUE</h3>
 
+<div id="about-climat" class="row">
+  <div class="col-sm-5">
+
+    <p>
+        En 2012, la Conférence de Rio a offert l’opportunité de mettre en lumière les multiples composantes 
+        du développement durable et d’amener chacun à interroger ses pratiques personnelles et professionnelles.
+    </p>
+    
+    <p>
+        Le projet « RIO + 20 », au-delà d’évoquer la préparation et la tenue de la Conférence, 
+        visait à  mettre à profit les 15 mois qui précédaient la Conférence pour évoquer la mise en œuvre du développement durable 
+        en relation avec plusieurs thèmes et plusieurs régions du monde.<br>
+        Ce projet avait trois intentions : former, informer, favoriser les échanges.
+    </p>
+    
+  </div>
+  <div class="col-sm-5 col-sm-offset-1">
+    <img src="http://www.toutsurlenvironnement.fr/files/imagecache/image_actu_full/actu/RIO20_fond_bleu.jpg" 
+         class="img img-responsive" id="about-ac-img">
+  </div>
+</div>
+<!--
 <p>
     En 2012, la Conférence de Rio a offert l’opportunité de mettre en lumière les multiples composantes du développement durable et d’amener chacun à interroger ses pratiques personnelles et professionnelles.<br>
     Le projet « RIO + 20 », au-delà d’évoquer la préparation et la tenue de la Conférence, 
@@ -80,7 +102,7 @@
     en relation avec plusieurs thèmes et plusieurs régions du monde.<br>
     Le projet « RIO + 20 » comportait trois intentions : former, informer, favoriser les échanges.
 </p>
-
+-->
 <p>
     Afin de favoriser les échanges, l’ONG indienne INDP initiait un projet spécifique intitulé Demain la Terre, la jeunesse prend la parole. L’objectif principal du projet était d’enrichir la conférence des réflexions de la jeune génération.<br>
     D’ Europe, d’Asie, d’Afrique, d’Amérique du Nord et du Sud, de la maternelle aux universités, en passant par les projets en milieu rural, les jeunes citoyens se sont impliqués pour : exprimer leurs points de vue, élaborer des propositions et projets et transmettre leurs espoirs et difficultés aux élus et responsables des différents pays participants à la conférence.
