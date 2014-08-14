@@ -71,6 +71,7 @@
     Le climat change... alors changeons tout!
 </p>
 
+<br><br>
 <p class="pull-right text-right back-top">
 <a href="#">Revenir en haut</a>
 </p>
@@ -136,6 +137,7 @@
     le sentiment d’impuissance et insuffler une mobilisation citoyenne partout dans le monde.
 </p>
 
+<br><br>
 <p class="pull-right text-right back-top">
 <a href="#">Revenir en haut</a>
 </p>
@@ -207,6 +209,7 @@
     pour un avenir plus solidaire, plus équitable et un développement qui place l’humain au premier plan.
 </p>
 
+<br><br>
 <p class="pull-right text-right back-top">
 <a href="#">Revenir en haut</a>
 </p>
