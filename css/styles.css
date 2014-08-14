@@ -162,6 +162,10 @@ p {
     text-transform: uppercase;
 }
 
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
 /* title 
 .navbar-default .navbar-brand {
     color: #777;

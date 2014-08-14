@@ -203,9 +203,10 @@
 <div id="menu-panel" class="col-sm-2">
     <div id="menu" class="affix text-right">
         <p><strong>NAVIGATION</strong></p><br>
-        <p><a href="#">AUTRES CLIMATS</a></p>
+        <p><a href="#autresclimats">AUTRES CLIMATS</a></p>
         <p><a href="#historique">HISTORIQUE</a></p>
         <p><a href="#organisation">ORGANISATION</a></p>
+        <p><a href="#">Revenir en haut</a></p>
     </div>
     
     </div>
