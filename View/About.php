@@ -8,7 +8,7 @@
 <article>
 <div class="row about-page">
 
-<div class="col-sm-10">
+<div class="col-sm-12">
 <div style="" class="about-part" id="autresclimats">
 <h3 class="page-header">AUTRES CLIMATS</h3>
 
@@ -214,6 +214,7 @@
 
 </div>
 
+<!-- Lateral menu part
 <div id="menu-panel" class="col-sm-2">
     <div id="menu" class="affix text-right">
         <p><strong>NAVIGATION</strong></p><br>
@@ -225,6 +226,7 @@
     
     </div>
 </div>
+-->
 </article>
 
 <?php $contents = ob_get_clean(); ?>

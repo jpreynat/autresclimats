@@ -29,7 +29,7 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos</a>
+                                <a href="index.php?action=about" class="dropdown-toggle" data-toggle="dropdown">A propos</a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="index.php?action=about">Autres Climats</a></li>
                                     <li><a href="index.php?action=about#historique">Historique</a></li>
@@ -48,18 +48,18 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Le réseau d'acteurs</span></a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="index.php?action=projectsList">Tous les projets</a></li>
-                                    <li><a href="index.php?action=projectsList&section=1">Volet 1 - Actions</a></li>
-                                    <li><a href="index.php?action=projectsList&section=2">Volet 2 - Recherche</a></li>
+                                    <li class="text-right"><a href="index.php?action=projectsList">Consulter tous les projets</a></li>
+                                    <li class="text-right"><a href="index.php?action=projectsList&section=1">Volet 1 - Actions</a></li>
+                                    <li class="text-right"><a href="index.php?action=projectsList&section=2">Volet 2 - Recherche</a></li>
                                 </ul>
                             </li>
                             <li><a href="index.php?action=contact">Nous contacter</a></li>
                             <li class="dropdown">
                                 <a id="language" href="#" class="dropdown-toggle" data-toggle="dropdown">Langue</b></a>
                                 <ul id="languages" class="dropdown-menu">
-                                    <li id="fr"><a href="#">Français</a></li>
-                                    <li id="en"><a href="#">English</a></li>
-                                    <li id="es"><a href="#">Español</a></li>
+                                    <li id="fr" class="text-right"><a href="#">Français</a></li>
+                                    <li id="en" class="text-right"><a href="#">English</a></li>
+                                    <li id="es" class="text-right"><a href="#">Español</a></li>
                                 </ul>
                             </li>
                             
