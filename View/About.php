@@ -100,7 +100,9 @@
     
   </div>
   <div class="col-sm-5 col-sm-offset-1">
-    <img src="http://www.toutsurlenvironnement.fr/files/imagecache/image_actu_full/actu/RIO20_fond_bleu.jpg" class="img img-responsive">
+    <img src="http://www.toutsurlenvironnement.fr/files/imagecache/image_actu_full/actu/RIO20_fond_bleu.jpg" 
+         class="img img-responsive"
+         id="about-historique-img">
   </div>
 </div>
 <!--

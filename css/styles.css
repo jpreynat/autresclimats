@@ -88,7 +88,7 @@ p {
     font-weight: 400;
 }
 
-.about-part > p:last-child {
+.about-part {
     margin-bottom: 10em;
 }
 
@@ -100,6 +100,10 @@ p {
 #about-ac-img {
     margin-top: 3.5em;
     border-radius: 2px;
+}
+
+#about-historique-img {
+    margin-top: 2.5em;
 }
 
 #menu-panel {
