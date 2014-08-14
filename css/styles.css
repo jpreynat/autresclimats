@@ -113,11 +113,11 @@ p {
     padding-top: 5px;
 }
 
-#menu a {
-    color: gray;
+.back-top a {
+    color: #008CBA;
 }
 
-#menu a:hover {
+.back-top a:hover {
     color: #008CBA;
     text-decoration: none;
 }

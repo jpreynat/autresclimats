@@ -71,6 +71,10 @@
     Le climat change... alors changeons tout!
 </p>
 
+<p class="pull-right text-right back-top">
+<a href="#">Revenir en haut</a>
+</p>
+
 </div><!-- about-part -->
 
 <div class="about-part">
@@ -128,6 +132,10 @@
     Conférence sur le climat pour montrer que des initiatives citoyennes fonctionnent déjà.<br>
     Le but est de présenter la synthèse des expériences et des solutions déjà trouvées pour repousser 
     le sentiment d’impuissance et insuffler une mobilisation citoyenne partout dans le monde.
+</p>
+
+<p class="pull-right text-right back-top">
+<a href="#">Revenir en haut</a>
 </p>
 </div><!-- about-part -->
 
@@ -195,6 +203,10 @@
     Il s’agira de rassembler un public large et de communiquer autour des initiatives citoyennes qui auront fait leur preuves 
     afin d’inspirer de nouvelles initiatives et d’inciter les citoyens d’aujourd’hui à (re)prendre leur destin en main 
     pour un avenir plus solidaire, plus équitable et un développement qui place l’humain au premier plan.
+</p>
+
+<p class="pull-right text-right back-top">
+<a href="#">Revenir en haut</a>
 </p>
 </div><!-- about-part -->
 
