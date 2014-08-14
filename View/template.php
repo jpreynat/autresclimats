@@ -29,7 +29,14 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li><a href="index.php?action=about">A propos</a></li>
-                            
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos 2 <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="index.php?action=about">Autres Climats</a></li>
+                                    <li><a href="index.php?action=about#historique">Historique</a></li>
+                                    <li><a href="index.php?action=about#organisation">Organisation</a></li>
+                                </ul>
+                            </li>
                         </ul>
 
                         <ul class="nav navbar-nav navbar-right">
