@@ -94,7 +94,7 @@
         <script type="text/javascript">
             $(document).ready(function() {
                 // ENABLE ACTIVE CLASS FOR MENU
-                $('.dropdown > .dropdown-menu').children().on('hover', function() {
+                $('.dropdown > ul').children().on('hover', function() {
                     alert($(this).text());
                 });
             });
