@@ -28,9 +28,8 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="index.php?action=about">A propos</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos 2 <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos </a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="index.php?action=about">Autres Climats</a></li>
                                     <li><a href="index.php?action=about#historique">Historique</a></li>
@@ -91,6 +90,15 @@
         <script src="js/bootstrap-filestyle.min.js"></script>
         <script src="js/jquery.jrumble.1.3.min.js"></script>
         <script src="js/holder.js"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+                // ENABLE ACTIVE CLASS FOR MENU
+                $('.dropdown > .dropdown-menu').children().on('hover', function() {
+                    alert($(this).text());
+                });
+            });
+        </script>
         
         <?= $javascript ?>
         
