@@ -122,6 +122,16 @@ p {
     text-decoration: none;
 }
 
+/* Overrides page-header defaults */
+.page-header {
+    margin: 42px 0 21px;
+    padding-top: 20px;
+}
+
+.page-header:first-child {
+    margin: 21px 0;
+}
+
 /* Override form-control of bootswatch */
 .form-control {
     font-size: 12px;
