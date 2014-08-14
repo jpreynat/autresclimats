@@ -29,7 +29,7 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos </a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos</a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="index.php?action=about">Autres Climats</a></li>
                                     <li><a href="index.php?action=about#historique">Historique</a></li>
@@ -46,7 +46,7 @@
                                 }
                             ?>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Le réseau d'acteurs <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Le réseau d'acteurs</span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="index.php?action=projectsList">Tous les projets</a></li>
                                     <li><a href="index.php?action=projectsList&section=1">Volet 1 - Actions</a></li>
@@ -55,7 +55,7 @@
                             </li>
                             <li><a href="index.php?action=contact">Nous contacter</a></li>
                             <li class="dropdown">
-                                <a id="language" href="#" class="dropdown-toggle" data-toggle="dropdown">Langue <b class="caret"></b></a>
+                                <a id="language" href="#" class="dropdown-toggle" data-toggle="dropdown">Langue</b></a>
                                 <ul id="languages" class="dropdown-menu">
                                     <li id="fr"><a href="#">Français</a></li>
                                     <li id="en"><a href="#">English</a></li>
