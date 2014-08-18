@@ -75,6 +75,10 @@
             <?= "{$project['c_street']}</br>" ?>
             <?php endif; ?>
             
+            <?php if(strlen($project['c_street2']) > 0) : ?>
+            <?= "{$project['c_street2']}</br>" ?>
+            <?php endif; ?>
+            
             <?php if(strlen($project['c_city']) > 0) : ?>
             
                 <?php if(strlen($project['c_postal']) > 0) : ?>

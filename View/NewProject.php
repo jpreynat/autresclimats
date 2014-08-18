@@ -217,6 +217,14 @@
               <input type="text" class="form-control" id="c_street" name="c_street" placeholder="1, place des Terreaux">
             </div>
         </div>
+        
+                                        <!-- STREET 2 -->
+        <div class="form-group">
+            <label for="inputStreet2" class="col-sm-2 control-label">Adresse 2</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="c_street2" name="c_street2" placeholder="Bâtiment C">
+            </div>
+        </div>
 
                                         <!-- POSTAL CODE -->
         <div class="form-group">

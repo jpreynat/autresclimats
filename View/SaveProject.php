@@ -11,19 +11,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $c_mail     = trim($_POST['c_mail']);
     $c_phone    = trim($_POST['c_phone']);
     $c_street   = trim($_POST['c_street']);
+    $c_street2  = trim($_POST['c_street2']);
     $c_city     = trim($_POST['c_city']);
     $c_postal   = trim($_POST['c_postal']);
     $c_coun_id  = $_POST['c_coun_id'];
     
     // PUT IN DETAILS ARRAY
-    $details = array('c_first'  => $c_first,
-                     'c_last'   => $c_last,
-                     'c_mail'   => $c_mail,
-                     'c_phone'  => $c_phone,
-                     'c_street' => $c_street,
-                     'c_city'   => $c_city,
-                     'c_postal' => $c_postal,
-                     'coun_id'  => $c_coun_id
+    $details = array('c_first'    => $c_first,
+                     'c_last'     => $c_last,
+                     'c_mail'     => $c_mail,
+                     'c_phone'    => $c_phone,
+                     'c_street'   => $c_street,
+                     'c_street2'  => $c_street2,
+                     'c_city'     => $c_city,
+                     'c_postal'   => $c_postal,
+                     'coun_id'    => $c_coun_id
                      );
     
     // RECORD IN DATABASE AND GET CONTACT ID FOR PROJECT
