@@ -62,6 +62,16 @@ function getNbProjects() {
     return $nbProjects['total'];
 }
 
+// Get current number of contacts
+function getNbContacts() {
+    $db = getDB();
+    $query = 'SELECT COUNT(*) AS total FROM contacts';
+    
+    $nbContacts = $db->query($query);
+    $nbContacts = $nbContacts->fetch();
+    return $nbContacts['total'];
+}
+
 // Get countries list
 function getCountries() {
     $db = getDB();
@@ -134,15 +144,7 @@ function getProject($project_id) {
               INNER JOIN themes ON projects.t_id = themes.t_id
               INNER JOIN ' . $q1 . ' ON projects.c_id = Q1.c_id
               WHERE p_id = ?';
-    
-    /*
-    $query = 'SELECT proj_id AS id, proj_name AS name, coun_name_fr AS country, proj_language AS language,'
-            .' proj_description AS description, logo_path AS img_path, projects.coun_id AS country_id'
-            .' FROM projects'
-            .' LEFT OUTER JOIN logos ON projects.logo_id = logos.logo_id'
-            .' INNER JOIN countries ON projects.coun_id = countries.coun_id'
-            .' WHERE proj_id = ?';
-    */        
+   
     $project = $db->prepare($query);
     
     $project->execute(array($project_id));
@@ -171,6 +173,27 @@ function deleteProject($project_id) {
         return true;
     else
         throw new Exception("Aucun projet ne correspond à l'identifiant $project_id");
+}
+
+// Delete contact by id
+function deleteContact($contact_id) {
+    // Get number of projects to check if deleted
+    $nbContactsBefore = getNbContacts();
+    
+    $db = getDB();
+    
+    $query = 'DELETE FROM contacts WHERE c_id = ?';
+    $contact = $db->prepare($query);
+    
+    $contact->execute(array($contact_id));
+    
+    // Check if number of projects = -1
+    $nbContactsAfter = getNbProjects();
+    
+    if (($nbContactsBefore - $nbContactsAfter) == 1)
+        return true;
+    else
+        throw new Exception("Aucun contact ne correspond à l'identifiant $contact_id");
 }
 
 /* Used to save logo in database
