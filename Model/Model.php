@@ -188,7 +188,7 @@ function deleteContact($contact_id) {
     $contact->execute(array($contact_id));
     
     // Check if number of contacts = -1
-    $nbContactsAfter = getNbProjects();
+    $nbContactsAfter = getNbContacts();
     
     if (($nbContactsBefore - $nbContactsAfter) == 1)
         return true;
