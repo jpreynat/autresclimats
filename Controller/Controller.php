@@ -32,20 +32,22 @@ function project($projectId) {
 
 function delete($projectId) {
     $project = getProject($projectId);
+    $contactId = $project['c_id'];
     
-    // FIRST DELETE ASSOCIATED CONTACT
-    $status = deleteContact($project['c_id']);
+    // FIRST DELETE PROJECT
+    $status = deleteProject($projectId);
     
     if (!$status)
-        error('Erreur à la suppression du contact du projet ' . $project['name']. '.');
+        error('Erreur à la suppression de ' . $project['name'] . '.');
         
-    // IF OK DELETE PROJECT
+    // IF OK DELETE CONTACT
     else {
-        $status = deleteProject($projectId);
+        $status = deleteContact($contactId);
+    
         if ($status)
             require 'View/ConfirmDelete.php';
         else
-            error('Erreur à la suppression de ' . $project['name']. '.');
+            error('Erreur à la suppression du contact du projet ' . $project['name']. '.');
     }
 }
 
