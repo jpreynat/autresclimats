@@ -30,7 +30,7 @@
         -->
         <td><a href="index.php?action=project&id=<?= $project['p_id'] ?>">Voir</a></td>
         <td><a href="index.php?action=edit&id=<?= $project['p_id'] ?>">Modifier</a></td>
-        <td><a href="index.php?action=delete&id=<?= $project['p_id'] ?>">Supprimer</a></td>
+        <td><a class="delete-project" href="index.php?action=delete&id=<?= $project['p_id'] ?>">Supprimer</a></td>
     </tr>
 
 <?php endforeach; ?>
@@ -41,6 +41,14 @@
     
 <?php $contents = ob_get_clean(); ?>
 
-<?php $javascript = ''; ?>
+<?php $javascript = 
+    '<script type="text/javascript">
+        $(document).ready(function() {
+            // ENABLE DELETE VALIDATION
+            $(".delete-project").click(function() {
+                return confirm("Voulez-vous vraiment supprimer ce projet ?");
+            });
+        });
+    </script>'; ?>
 
 <?php require 'template.php'; ?>
