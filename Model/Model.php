@@ -172,7 +172,7 @@ function deleteProject($project_id) {
     if (($nbProjectsBefore - $nbProjectsAfter) == 1)
         return true;
     else
-        throw new Exception("Aucun projet ne correspond à l'identifiant $project_id");
+        error("Aucun projet ne correspond à l'identifiant $project_id");
 }
 
 // Delete contact by id
@@ -187,13 +187,13 @@ function deleteContact($contact_id) {
     
     $contact->execute(array($contact_id));
     
-    // Check if number of projects = -1
+    // Check if number of contacts = -1
     $nbContactsAfter = getNbProjects();
     
     if (($nbContactsBefore - $nbContactsAfter) == 1)
         return true;
     else
-        throw new Exception("Aucun contact ne correspond à l'identifiant $contact_id");
+        error("Aucun contact ne correspond à l'identifiant $contact_id <br> $nbContactsBefore <br> $nbContactsAfter");
 }
 
 /* Used to save logo in database
