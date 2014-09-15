@@ -21,7 +21,8 @@
 
 <p>
     <strong>N’hésitez pas à nous contacter</strong> pour nous présenter votre association et vos projets 
-    à l’adresse suivante: <a href="mailto:autresclimats@gmail.com" target="_top">autresclimats@gmail.com</a>
+    à l’adresse suivante: <a href="mailto:autresclimats@gmail.com" target="_top">autresclimats@gmail.com</a> 
+    en précisant Volet 1 ou Volet 2 dans le titre de votre mail.
 <p>
 
 <p>

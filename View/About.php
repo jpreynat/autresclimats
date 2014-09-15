@@ -153,7 +153,8 @@
               Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.
             </p>
             <p>
-              La coordination du volet 1 est assurée depuis la France par Elsa Münch (tel: 06 12 03 13 58). 
+              La coordination du volet 1 est assurée depuis la France par Elsa Münch.<br>
+              <a href="index.php?action=contact">Rejoignez les acteurs du Volet 1</a>
             </p>
             
         
@@ -163,7 +164,8 @@
               Les supports sont divers (mémoires, poèmes, expositions photographiques ou autres supports artistiques…).
             </p>
             <p>
-              La coordination est assurée depuis la France par Kelly Gene (tel: 06 21 15 00 91) et Raphaëlle Pallarès (tel: 06 32 14 44 51). 
+              La coordination est assurée depuis la France par Kelly Gene et Raphaëlle Pallarès.<br>
+              <a href="index.php?action=contact">Rejoignez les acteurs du Volet 2</a>
             </p>
         </div>
         
