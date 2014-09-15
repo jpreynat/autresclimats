@@ -31,8 +31,7 @@
         
         <p>
             Consultez les projets du réseau d’Autres Climats et rejoignez 
-            ces dizaines de chercheurs, artistes, associations et citoyens 
-            en nous présentant vos actions.
+            ces dizaines de chercheurs, artistes, associations et citoyens.
         </p>
         
         <a href="index.php?action=contact">

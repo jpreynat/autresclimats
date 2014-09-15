@@ -20,6 +20,7 @@ strong {
 p {
     font-weight: 300;
     font-size: 18px;
+    text-align: justify;
 }
 
 .home-page strong {
