@@ -85,6 +85,10 @@ p {
     margin-bottom: 1em;
 }
 
+.about-contact p {
+    text-align: center;
+}
+
 .about-label {
     font-weight: 400;
 }
