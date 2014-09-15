@@ -186,8 +186,8 @@
 </p>
 
 <p>
-    A l’issu de ces quelques mois d’échange et de recherches, les participants se retrouveront en France 
-    lors d’un temps fort de restitution et de partage qui aura lieu en parallèle de la Conférence mondiale sur le Climat de Paris en 2015. 
+    A l’issu de ces quelques mois d’échange et de recherches, les participants se retrouveront en Novembre 2015 à Chilly-Mazarin 
+    pour le congrès Autres Climats qui aura lieu en parallèle de la Conférence mondiale sur le Climat de Paris. 
     Cet évènement marquera l’aboutissement du projet  par le biais de : conférences, débats, présentations artistiques, 
     exposition de photos autour des actions réalisés par les membres d’Autres Climats.
 </p>
