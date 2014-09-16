@@ -165,7 +165,8 @@
             </p>
             <p>
               La coordination est assurée depuis la France par Kelly Gene et Raphaëlle Pallarès.<br>
-              <a href="index.php?action=contact">Rejoignez les acteurs du Volet 2</a>
+              <a href="index.php?action=contact">Rejoignez les acteurs du Volet 2</a><br>
+              <a id="docVolet2" href="#">Documentation Volet 2</a>
             </p>
         </div>
         
