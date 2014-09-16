@@ -102,6 +102,12 @@
                     $(this).children('.dropdown-menu').hide();
                     $(this).removeClass('open');
                 });
+                
+                // ENABLE POPUP FOR DOCUMENTATION
+                $('#docVolet2').click(function(e) {
+                   e.preventDefault();
+                   window.open('files/ACVolet2.pdf');
+                });
             });
         </script>
         
