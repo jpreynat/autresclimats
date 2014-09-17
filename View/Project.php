@@ -47,12 +47,12 @@
     <!-- #################### PROJECTS INFORMATIONS ################### -->
     
     <div class="row">
-        <h4 class="page-header">Projets</h4>
+        <h4 class="page-header">Projets menés par l'association</h4>
         <p><?= $project['p_proj_fr'] ?></p>
     </div>
     
     <div class="row">
-        <h4 class="page-header">Résumé des actions</h4>
+        <h4 class="page-header">Actions présentées dans le cadre d'Autres Climats</h4>
         <p><?= $project['p_summ_fr'] ?></p>
     </div>
     
