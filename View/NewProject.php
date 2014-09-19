@@ -83,7 +83,7 @@
         <!--####################### PROJECTS DESCRIPTION ########################## -->
         
         <fieldset>
-            <legend>Description des projets</legend>
+            <legend>Projets menés par l'association</legend>
         
                                         <!-- PROJECTS-TEXT-FR -->
         <div class="form-group">
@@ -114,7 +114,7 @@
         <!--####################### ACTIONS SUMMARY ########################## -->
         
         <fieldset>
-            <legend>Résumé des actions</legend>
+            <legend>Actions présentées dans le cadre d'Autres Climats</legend>
         
                                         <!-- SUMMARY-TEXT-FR -->
         <div class="form-group">
