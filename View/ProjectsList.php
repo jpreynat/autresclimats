@@ -26,7 +26,7 @@
                 
         </div>
         <div class="row">
-            <label class="proj-name"><?= $key ?><?= $project['p_name'] ?></label>
+            <label class="proj-name"><?= $project['p_name'] ?></label>
         </div>
         <div class="row empty">
         </div>
