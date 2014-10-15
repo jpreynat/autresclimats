@@ -3,10 +3,15 @@
 <?php ob_start(); ?>
 
 <article>
-
-<div class="row">
     
-<?php foreach ($projects as $project): ?>
+<?php foreach ($projects as $key=>$project): ?>
+
+<?php // Conditionnaly add row if new line of 4 cols
+    if ($key % 4 == 0): ?>
+<div class="row">
+<?php
+    endif; ?>
+
 <?php if (!$project['p_logo'])
         $project['p_logo'] = 'js/holder.js/200x200'; ?>
 
@@ -25,7 +30,13 @@
         </div>
         <div class="row empty">
         </div>
+    </div>
+
+<?php // Conditionnaly add row if new line of 4
+    if ($key % 4 == 0): ?>
 </div>
+<?php
+    endif; ?>
 
 <?php endforeach; ?>
     
