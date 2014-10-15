@@ -32,8 +32,8 @@
         </div>
     </div>
 
-<?php // Conditionnaly add row if new line of 4
-    if ($key % 4 == 0): ?>
+<?php // Conditionnaly close row if new line of 4 ended or last index
+    if ($key % 4 == 3 || $key == count($projects) - 1): ?>
 </div>
 <?php
     endif; ?>
