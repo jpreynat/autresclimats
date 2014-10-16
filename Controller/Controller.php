@@ -93,12 +93,4 @@ function error($errorMsg) {
     require 'View/Error.php';
 }
 
-function setLang($lang) {
-    if ($lang !== 'fr' && $lang !== 'en' && $lang !== 'es') {
-        $lang = 'fr';
-    }
-    $language = $lang;
-    home();
-}
-
 ?>

@@ -57,8 +57,8 @@
                             <li class="dropdown">
                                 <a id="language" href="#" class="dropdown-toggle" data-toggle="dropdown">Langue</b></a>
                                 <ul id="languages" class="dropdown-menu">
-                                    <li id="fr" class="text-right"><a href="index.php?action=setLang&lang=fr">Français</a></li>
-                                    <li id="en" class="text-right"><a href="index.php?action=setLang&lang=en">English</a></li>
+                                    <li id="fr" class="text-right"><a href="#">Français</a></li>
+                                    <li id="en" class="text-right"><a href="#">English</a></li>
                                     <li id="es" class="text-right"><a href="#">Español</a></li>
                                 </ul>
                             </li>
