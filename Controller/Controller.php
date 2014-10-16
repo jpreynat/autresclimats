@@ -15,7 +15,7 @@ function home() {
     $projects = getLastProjects(4);
     $nbProjects = getNbProjects();
     
-    if ($lang == 'fr')
+    if ($lang === 'fr')
         require 'View/Home.php';
     else
         require "View/{$lang}/Home.php";
@@ -94,6 +94,9 @@ function error($errorMsg) {
 }
 
 function setLang($lang) {
+    if ($lang !== 'fr' && $lang !== 'en' && $lang !== 'es') {
+        $lang = 'fr';
+    }
     $language = $lang;
     home();
 }
