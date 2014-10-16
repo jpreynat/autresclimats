@@ -18,8 +18,7 @@ function home() {
     if ($_SESSION['language'] === 'fr')
         require "View/Home.php";
     else
-        echo "View/{$_SESSION['language']}/Home.php";
-        //require "View/{$_SESSION['language']}/Home.php";
+        require "View/{$_SESSION['language']}/Home.php";
 }
 
 function contact() {
