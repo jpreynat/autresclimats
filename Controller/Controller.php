@@ -15,10 +15,10 @@ function home() {
     $projects = getLastProjects(4);
     $nbProjects = getNbProjects();
     
-    if ($lang === 'fr')
+    if ($language === 'fr')
         require 'View/Home.php';
     else
-        require "View/{$lang}/Home.php";
+        require "View/{$language}/Home.php";
 }
 
 function contact() {
