@@ -3,11 +3,11 @@
 require 'Model/Model.php';
 
 function login() {
-    require 'View/Login.php';
+    require "View/{$_SESSION['language']}/Login.php";
 }
 
 function logged() {
-    require 'View/Logged.php';
+    require "View/{$_SESSION['language']}/Logged.php";
 }
 
 function home() {
@@ -19,16 +19,16 @@ function home() {
 }
 
 function contact() {
-    require 'View/Contact.php';
+    require "View/{$_SESSION['language']}/Contact.php";
 }
 
 function about() {
-    require 'View/About.php';
+    require "View/{$_SESSION['language']}/About.php";
 }
 
 function project($projectId) {
     $project = getProject($projectId);
-    require 'View/Project.php';
+    require "View/{$_SESSION['language']}/Project.php";
 }
 
 function delete($projectId) {
@@ -46,7 +46,7 @@ function delete($projectId) {
         $status = deleteContact($contactId);
     
         if ($status)
-            require 'View/ConfirmDelete.php';
+            require "View/{$_SESSION['language']}/ConfirmDelete.php";
         else
             error('Erreur à la suppression du contact du projet ' . $project['name']. '.');
     }
@@ -54,7 +54,7 @@ function delete($projectId) {
 
 function edit($projectId) {
     $project = getProject($projectId);
-    require 'View/Edit.php';
+    require "View/{$_SESSION['language']}/Edit.php";
 }
 
 function projectsList($section) {
@@ -66,28 +66,28 @@ function projectsList($section) {
     else {
         $projects = getProjectsBySection($section);
     }
-    require 'View/ProjectsList.php';
+    require "View/{$_SESSION['language']}/ProjectsList.php";
 }
 
 function newProject() {
-    require 'View/NewProject.php';
+    require "View/{$_SESSION['language']}/NewProject.php";
 }
 
 function saveProject() {
-    require 'View/SaveProject.php';
+    require "View/{$_SESSION['language']}/SaveProject.php";
 }
 
 function updateProject() {
-    require 'View/UpdateProject.php';
+    require "View/{$_SESSION['language']}/UpdateProject.php";
 }
 
 function adminProjects() {
     $projects = getProjects();
-    require 'View/AdminProjects.php';
+    require "View/{$_SESSION['language']}/AdminProjects.php";
 }
 
 function error($errorMsg) {
-    require 'View/Error.php';
+    require "View/{$_SESSION['language']}/Error.php";
 }
 
 ?>
