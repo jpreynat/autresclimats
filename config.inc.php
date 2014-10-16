@@ -18,6 +18,8 @@ define('BASE_HOST', $_SERVER['HTTP_HOST']);
 $base_uri = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
 define('BASE_URI', $base_uri);
 
+// DEFAULT LANGUAGE
+$language = 'fr';
 
 // DB Connexion
 function getDB() {

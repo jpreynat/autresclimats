@@ -120,6 +120,19 @@ try {
             case 'contact':
                 contact();
                 break;
+                
+            // SET LANGUAGE
+            case 'setLang':
+                if (isset($_GET['lang'])) {
+                    $newLang = $_GET['lang'];
+                    if ($newLang == 'fr' || $newLang == 'en' || $newLang = 'es')
+                        setLang($newLang);
+                    else
+                        throw new Exception("Langue inconnue.");
+                }
+                else
+                    throw new Exception("Langue non transmise.");
+                break;
             
             default:
                 throw new Exception("Action invalide.");

@@ -14,7 +14,11 @@ function home() {
     // GET 4 LAST PROJECTS
     $projects = getLastProjects(4);
     $nbProjects = getNbProjects();
-    require 'View/Home.php';
+    
+    if ($lang == 'fr')
+        require 'View/Home.php';
+    else
+        require "View/{$lang}/Home.php";
 }
 
 function contact() {
@@ -87,6 +91,11 @@ function adminProjects() {
 
 function error($errorMsg) {
     require 'View/Error.php';
+}
+
+function setLang($lang) {
+    $language = $lang;
+    home();
 }
 
 ?>
