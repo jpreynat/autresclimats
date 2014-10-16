@@ -6,6 +6,7 @@ define('ADMIN_PASS', 'acpass');
 
 // START SESSION
 session_start();
+$_SESSION['language'] = 'fr';
 
 // MYSQL CONNECTION
 define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST'));
@@ -17,9 +18,6 @@ define('DB_PASS', getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));
 define('BASE_HOST', $_SERVER['HTTP_HOST']);
 $base_uri = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
 define('BASE_URI', $base_uri);
-
-// DEFAULT LANGUAGE
-$language = 'fr';
 
 // DB Connexion
 function getDB() {

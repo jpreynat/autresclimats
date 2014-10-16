@@ -12,8 +12,19 @@ function admin() {
 
 // Destroy session
 function endAdmin() {
+    $language = $_SESSION['language'];
     session_unset();
     session_destroy();
+    session_start();
+    $_SESSION['language'] = $language;
+}
+
+// Change language
+function setLanguage($lang) {
+    if ($lang === 'fr')
+        $_SESSION['language'] = '';
+    else 
+        $_SESSION['language'] = $lang;
 }
 
 // Get projects list
