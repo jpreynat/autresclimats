@@ -125,10 +125,12 @@ try {
             case 'setLang':
                 if (isset($_GET['lang'])) {
                     $newLang = $_GET['lang'];
+                    echo $newLang;/*
                     if ($newLang == 'fr' || $newLang == 'en' || $newLang = 'es')
                         setLang($newLang);
                     else
                         throw new Exception("Langue inconnue.");
+                        */
                 }
                 else
                     throw new Exception("Langue non transmise.");
