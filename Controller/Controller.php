@@ -15,10 +15,7 @@ function home() {
     $projects = getLastProjects(4);
     $nbProjects = getNbProjects();
     
-    if ($_SESSION['language'] === 'fr')
-        require "View/Home.php";
-    else
-        require "View/{$_SESSION['language']}/Home.php";
+    require "View/{$_SESSION['language']}/Home.php";
 }
 
 function contact() {

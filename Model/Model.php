@@ -21,10 +21,7 @@ function endAdmin() {
 
 // Change language
 function setLanguage($lang) {
-    if ($lang === 'fr')
-        $_SESSION['language'] = '';
-    else 
-        $_SESSION['language'] = $lang;
+    $_SESSION['language'] = $lang;
 }
 
 // Get projects list
