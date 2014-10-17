@@ -12,7 +12,8 @@ function admin() {
 
 // Destroy session
 function endAdmin() {
-    $language = $_SESSION['language'];
+    if (isset($_SESSION['language']))
+        $language = $_SESSION['language'];
     session_unset();
     session_destroy();
     session_start();
@@ -21,6 +22,7 @@ function endAdmin() {
 
 // Change language
 function setLanguage($lang) {
+    session_start();
     $_SESSION['language'] = $lang;
 }
 
