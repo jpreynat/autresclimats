@@ -1,4 +1,4 @@
-<?php $page_title = 'Pour nous contacter...'; ?>
+<?php $page_title = "Para contactarnos"; ?>
 
 <?php ob_start(); ?>
 
@@ -8,25 +8,19 @@
 <article>
 <div class="row contact-page">
 <div class="col-sm-12">
-<h3 class="page-header">NOUS CONTACTER</h3>
+<h3 class="page-header">CONTACTARNOS</h3>
 
 <p>
-    Vous souhaitez rejoindre Autres Climats ?
+   ¿ Desean alcanzar a Otros Climas ?
 </p>
 
 <p>
-    Vous êtes déjà membres d’Autres Climats, adhérents ou journalistes et 
-    souhaitez recevoir des informations supplémentaires sur l’association et son réseau ?
-</p>
-
-<p>
-    <strong>N’hésitez pas à nous contacter</strong> pour nous présenter votre association et vos projets 
-    à l’adresse suivante: <a href="mailto:autresclimats@gmail.com" target="_top">autresclimats@gmail.com</a> 
-    en précisant Volet 1 ou Volet 2 dans le titre de votre mail.
+    Si ustedes estan ya miembros de Otros Climas, periodistas o interesados por nuestras acciones y desean recibir más información sobre la asociación y su red, no vacilán en contactarnos a : <a href="mailto:autresclimats@gmail.com"  target="_top">autresclimats@gmail.com</a> 
+    precisando 1era Parte o 2nda Parte en el título de su mensaje.
 <p>
 
 <p>
-    Nos coordinatrices prendront contact avec vous dans les plus brefs délais.
+    Nustras coordinadores tomarán contacto con ustedes lo antes posible.
 </p>
 
 </div>

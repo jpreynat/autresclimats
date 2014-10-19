@@ -1,4 +1,4 @@
-<?php $page_title = "A propos d'Autres Climats"; ?>
+<?php $page_title = "¿Quiénes somos?"; ?>
 
 <?php ob_start(); ?>
 
@@ -10,43 +10,37 @@
 
 <div class="col-sm-12">
 <div style="" class="about-part" id="autresclimats">
-<h3 class="page-header">AUTRES CLIMATS</h3>
+<h3 class="page-header">OTROS CLIMAS</h3>
 
 <p>
-    En 2015 aura lieu à Paris la prochaine conférence sur le climat.<br>
-    Car ce n’est un scoop pour personne, le climat change et avec lui de nombreux déséquilibres économiques, politiques, écologiques vont s’accentuer.
+    En París, en 2015, se celebrará la próxima conferencia sobre el cambio climático. Porque no es una novedad para nadie que el clima está cambiando y con él muchos desequilibrios económicos, políticos y ecológicos se amplificarán.
 </p>
 
 <p>
-    Mais le climat est-il seul à changer ?<br>
-    Et qu’en est-il de tous ces autres climats avec lesquels nous nous débattons chaque jour ?
+    ¿Sera el clima lo único que está cambiando? ¿Qué decir de todos esos otros climas con los cuales luchamos cada día?
 </p>
 
 <div id="about-climat" class="row">
   <div class="col-sm-5">
 
     <p>
-        <em><strong>Comment le climat social change-t-il ?</strong></em><br>
-        Lui qui se tend, s’aiguise, se rigidifie ?<br>
-        Nous vivons des averses de précarité, des tempêtes d’insécurité sociale, le grand gel des idéaux et illusions.
+        <em><strong>¿Cómo cambia el clima social?</strong></em><br>
+        El que se tensa, se afila, se vuelve rígido. Vivimos chaparrones de precariedad, tormentas de inseguridad social, la congelación de los ideales y de las ilusiones.
     </p>
 
     <p>
-        <em><strong>Comment le climat économique, change-t-il ?</strong></em><br>
-        Lui qui nous assène les naufrages du chômage, la montée des eaux des emplois précaires ?<br>
-        Lui qui charrie toujours plus d’épaves de sans logis, de sans emploi, de sans papiers, de sans attaches ?<br>
+        <em><strong>¿Cómo cambia el clima económico?</strong></em><br>
+        Él que nos asesta los naufragios del desempleo, la subida del agua, de los trabajos precarios. El que acarrea cada vez más restos de sin techos, desempleados, inmigrantes ilegales, sin raíces.
+<br>
     </p>
 
     <p>
-        <em><strong>Comment le climat éducatif , change-t-il ?</strong></em><br>
-        Lui qui se dérégule, s’individualise depuis les plus petites classes.<br>
-        Il nous amène des rafales de l’évaluation précoce, de l’ennui, et des orientations subies , des pluies d’échec, et la glaciation de la reproduction sociale.<br>
+        <em><strong>¿Cómo cambia el clima educativo?</strong></em><br>
+        El que se desregula, se individualiza desde las primeras clases del ciclo escolar. Nos lleva ráfagas de la evaluación precoz, del aburrimiento y de las orientaciones sufridas, lluvias de fracaso escolar y la glaciación de la reproducción social.<br>
     </p>
     
     <p>
-    <em><strong>Et nous comment changeons nous</strong></em>, alors que nous sommes sans arrêt contraints 
-    de nous adapter à des changements futiles et que rien, jamais rien, ne change sur le fond ?
-    </p>
+    <em><strong>¿Y nosotros, cómo cambiamos?</strong></em>, Mientrasqueestamos siempre obligados a adaptarnos a cambios fútiles y que nada cambia en el fondo.    </p>
     
   </div>
   <div class="col-sm-5 col-sm-offset-1">
@@ -55,35 +49,32 @@
 </div>
 
 <p>
-    Le climat change... alors changeons tout!
-</p>
+    Elcambio es nuestro diario y aun nada cambia de verdad: es importante hoy volver a tener poder sobre nuestro futuro, nuestro presente y nuestro medioambiente.
+Seremos los artesanos de « Otros Climas »</p>
 
 <br><br>
 <p class="pull-right text-right back-top">
-<a href="#">Revenir en haut</a>
+<a href="#">Volver arriba</a>
 </p>
 
 </div><!-- about-part -->
 
 <div class="about-part">
-<h3 class="page-header" id="historique">HISTORIQUE</h3>
+<h3 class="page-header" id="historique">HISTÓRICO</h3>
 
 <div id="about-climat" class="row">
   <div class="col-sm-5">
 
     <p>
-        En 2012, la Conférence de Rio a offert l’opportunité de mettre en lumière les multiples composantes 
-        du développement durable et d’amener chacun à interroger ses pratiques personnelles et professionnelles.
+        En 2012 la Conferencia de Rio ofreció una oportunidad para poner de relieve los múltiples componentes del desarrollo sostenible y conducir a cuestionar sus prácticas personales y profesionales.
     </p>
     
     <p>
-        Le projet « RIO + 20 », au-delà d’évoquer la préparation et la tenue de la Conférence, 
-        visait à  mettre à profit les 15 mois qui précédaient la Conférence pour évoquer la mise en œuvre du développement durable 
-        en relation avec plusieurs thèmes et plusieurs régions du monde.
+        El proyecto « Rio 2012 » no solo pretendía evocar la preparación e implementación de la Conferencia sino que también quería sacar partido de los 15 meses que precedían la Conferencia para evocar la aplicación del desarrollo sostenible con respecto a varios temas y varias regiones del mundo.
     </p>
     
     <p>
-        Ce projet avait trois intentions : former, informer, favoriser les échanges.
+       El proyecto « Rio 2012 » conllevaba tres ideas;; formar, informar, favorecer los intercambios.
     </p>
     
   </div>
@@ -93,80 +84,63 @@
          id="about-historique-img">
   </div>
 </div>
-<!--
 <p>
-    En 2012, la Conférence de Rio a offert l’opportunité de mettre en lumière les multiples composantes du développement durable et d’amener chacun à interroger ses pratiques personnelles et professionnelles.<br>
-    Le projet « RIO + 20 », au-delà d’évoquer la préparation et la tenue de la Conférence, 
-    visait à  mettre à profit les 15 mois qui précédaient la Conférence pour évoquer la mise en œuvre du développement durable 
-    en relation avec plusieurs thèmes et plusieurs régions du monde.<br>
-    Le projet « RIO + 20 » comportait trois intentions : former, informer, favoriser les échanges.
-</p>
--->
-<p>
-    Afin de favoriser les échanges, l’ONG indienne INDP initiait un projet spécifique intitulé Demain la Terre, 
-    la jeunesse prend la parole. L’objectif principal du projet était d’enrichir la conférence des réflexions 
-    de la jeune génération.
+    Con la idea de « favorecer los intercambios », INDP iniciaba el proyecto « Demain la Terre, la jeunesse prend la parole » (Mañana la Tierra,la juventud toma la palabra)cuyo objetivo principal era enriquecer la Conferencia con reflexiones de la joven generación.
+En Europa, Asia, Africa, America del Norte y del Sur, desde el parvulario hasta las universidades, pasando por los proyectos rurales, los jóvenes ciudadanos se implicaron para: expresar sus puntos de vista, elaborar propuestas y proyectos y transmitir sus esperanzas y dificultades a los elegidos y responsables de los varios países participantes a la Conferencia.
+Con la idea de « favorecer los intercambios », INDP iniciaba el proyecto « Demain la Terre, la jeunesse prend la parole » (Mañana la Tierra, la juventud toma la palabra) cuyo objetivo principal era enriquecer la Conferencia con reflexiones de la joven generación.
 </p>
 
 <p>
-    D’ Europe, d’Asie, d’Afrique, d’Amérique du Nord et du Sud, de la maternelle aux universités, 
-    en passant par les projets en milieu rural, les jeunes citoyens se sont impliqués pour : 
-    exprimer leurs points de vue, élaborer des propositions et projets et transmettre leurs espoirs 
-    et difficultés aux élus et responsables des différents pays participants à la conférence.
-</p>
+   En Europa, Asia, África, América del Norte y del Sur, desde el parvulario hasta las universidades, pasando por los proyectos rurales, los jóvenes ciudadanos se implicaron para: expresar sus puntos de vista, elaborar propuestas, proyectos, transmitir sus esperanzas y dificultades a los elegidos y responsables de los varios países participantes a la Conferencia.</p>
 
 <p>
-    En 2015, afin d’augmenter l’impact de Demain la Terre et d’enrichir le réseau d’association et 
-    de citoyens engagés dans le projet, Autres climats voit le jour et devient une associations de loi 1901. 
-    Ses actions s’inscrivent dans la continuité de RIO +20  et souhaite profiter de la médiatisation de la 
-    Conférence sur le climat pour montrer que des initiatives citoyennes fonctionnent déjà.<br>
-    Le but est de présenter la synthèse des expériences et des solutions déjà trouvées pour repousser 
-    le sentiment d’impuissance et insuffler une mobilisation citoyenne partout dans le monde.
-</p>
+    En 2014, nace la asociación Otros Climas con el objetivo de reforzar el impacto del proyecto Demain la Terre y enriquecer la red de asociaciones y ciudadanos movilizados.
+Otros Climas se inscribe en la continuidad de « RIO 2012 » y desea aprovechar la mediatización de la Conferencia sobre el clima para demostrar como iniciativas ciudadanas ya funcionan. 
+Al final del proyecto Otros Climas presentará la síntesis de las experiencias y soluciones ya encontradas para rechazar el sentimiento de impotencia mediante un Congreso y una publicación. </p>
 
 <br><br>
 <p class="pull-right text-right back-top">
-<a href="#">Revenir en haut</a>
+<a href="#">Volver arriba</a>
 </p>
 </div><!-- about-part -->
 
 <div class="about-part">
-<h3 class="page-header" id="organisation">ORGANISATION</h3>
+<h3 class="page-header" id="organisation">ORGANIZACIÓN</h3>
 
 <p>
-    Autres Climats est une association de loi 1901 basée à Chilly Mazarin dans l’Essonne. <br>
-    Son but est de mettre en avant le fruits des recherches de ceux qui se penchent chaque jour sur les changements sociaux, 
-    économiques ou encore politique, ainsi que les initiatives citoyennes efficaces et déjà mises en oeuvre partout dans le monde.
-</p>
+    Otros Climas es una asociación ley 1901 basada en la cuidad de Chilly Mazarin en Francia. <br>
+    Poner de relieve  las síntesis de investigaciones sobre los cambios sociales, económicos o políticos así que iniciativas ciudadanas eficaz y realizadas en el mundo. 
+    
 
 <p>
-    Autres Climats comprend deux volets:
+    Otros Climas se divide en dos partes:
 </p>
 
 <div class="row">
     <div class="col-sm-12">
         <div class="col-sm-11 col-sm-offset-1">
-            <h4>Volet 1 - Mobilisation active</h4>
+            <h4>1era parte - Mobilización activa</h4>
             <p>
-              Ce volet regroupe les actions menées sur le terrain en poursuivant l’action de Demain la Terre, la jeunesse prend la parole.<br>
-              Les projets sont créés à l’initiatives de citoyens ou d’associations du monde entier.<br>
-              Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.
+             Pone de relieve acciones concretas realizadas alrededor del mundo. 
+
+			  Los proyectos proceden de la iniciativa de ciudadanos o asociaciones alrededor del mundo.
+			  Se apoyen sobre una o varias temáticas tratadas por Otros Climas. Pueden tomar varias formas.
             </p>
             <p>
-              La coordination du volet 1 est assurée depuis la France par Elsa Münch.<br>
-              <a href="index.php?action=contact">Rejoignez les acteurs du Volet 1</a>
+              La coordinación será asegurada desde Francia por Elsa Münch<br>
+              <a href="index.php?action=contact">Alcancen a los actores de la "Mobilización activa"</a>
             </p>
             
         
-            <h4>Volet 2 - Documentation</h4>
+            <h4>2nda parte - Documentación</h4>
         	<p>
-              Ce volet regroupe les recherches effectuées autour des thèmes abordés par Autres Climats.<br>
-              Les supports sont divers (mémoires, poèmes, expositions photographiques ou autres supports artistiques…).
+              Compilación de investigaciones y reflexiones llevadas sobre los cambios sociales, económicos o políticos con el fin de difundirles a dirección del gran público. Incluye diferentes modos de comunicación  (escritos, poemas, artes...)  <br>
+              
             </p>
             <p>
-              La coordination est assurée depuis la France par Kelly Gene et Raphaëlle Pallarès.<br>
-              <a href="index.php?action=contact">Rejoignez les acteurs du Volet 2</a><br>
-              <a id="docVolet2" href="#">Documentation Volet 2</a>
+             La coordinación será asegurada desde Francia por Kelly Gene  y Raphaëlle Pallarès.<br>
+              <a href="index.php?action=contact">Alcancen a los actores de la "Documentación"</a><br>
+              <a id="docVolet2" href="#">Presentación de la 2nda parte</a>
             </p>
         </div>
         
@@ -182,44 +156,29 @@
 </div>
     
 <p>
-    Les associations et les chercheurs échangent régulièrement avec la coordinatrice projet associée au volet correspondant.<br>
-    Autres Climats présente les projets et leur avancée via son site Internet et sa page Facebook.
+    Los investigadores y asociaciones intercambian con los coordinadores de manera regular.<br>
+    El sitio web autresclimats.com presenta cada asociaciones y el proyecto elegido para participar a Otros Climas.
 </p>
 
 <p>
-    A l’issu de ces quelques mois d’échange et de recherches, les participants se retrouveront en Novembre 2015 à Chilly-Mazarin 
-    pour le congrès Autres Climats qui aura lieu en parallèle de la Conférence mondiale sur le Climat de Paris. 
-    Cet évènement marquera l’aboutissement du projet  par le biais de : conférences, débats, présentations artistiques, 
-    exposition de photos autour des actions réalisés par les membres d’Autres Climats.
+    Un tiempo fuerte de intercambio y restitución de las acciones se desarrollará en noviembre 2015 en Chilly-Mazarin (cerca de París, Francia)poco antes de la conferencia mundial sobre el clima de 2015 en París. El Congreso Otros Climas marcará el final del proyecto Otros Climas mediante presentaciones de los proyectos, exposiciones, debates y representaciones artísticas. <br>
+    
+    
 </p>
 
 <p>
-    Il s’agira de rassembler un public large et de communiquer autour des initiatives citoyennes qui auront fait leur preuves 
-    afin d’inspirer de nouvelles initiatives et d’inciter les citoyens d’aujourd’hui à (re)prendre leur destin en main 
-    pour un avenir plus solidaire, plus équitable et un développement qui place l’humain au premier plan.
+    Se tratará de réunir a un public margo y de comunicar alrededor de las iniciativas ciudadanas eficaces par inspirar los ciudadanos e incitarles a tomar su destino en mano para un futuro más bien solidario y equitable y para un desarrollo del mundo en el cual el humano está en primer plano.
+   
 </p>
 
 <br><br>
 <p class="pull-right text-right back-top">
-<a href="#">Revenir en haut</a>
+<a href="#">Volver arriba</a>
 </p>
 </div><!-- about-part -->
 
 </div>
 
-<!-- Lateral menu part
-<div id="menu-panel" class="col-sm-2">
-    <div id="menu" class="affix text-right">
-        <p><strong>NAVIGATION</strong></p><br>
-        <p><a href="#autresclimats">AUTRES CLIMATS</a></p>
-        <p><a href="#historique">HISTORIQUE</a></p>
-        <p><a href="#organisation">ORGANISATION</a></p>
-        <p><a href="#">Revenir en haut</a></p>
-    </div>
-    
-    </div>
-</div>
--->
 </article>
 
 <?php $contents = ob_get_clean(); ?>
