@@ -8,6 +8,7 @@
         <link href="autresclimats.ico" rel="shortcut icon" type="image/x-icon">
         <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/yeti/bootstrap.min.css" rel="stylesheet">
         <link href="../css/styles.css" rel="stylesheet">
+        <link href="../css/lightbox.css" rel="stylesheet">
     </head>
     
     <body>
@@ -90,6 +91,7 @@
         <script src="js/bootstrap-filestyle.min.js"></script>
         <script src="js/jquery.jrumble.1.3.min.js"></script>
         <script src="js/holder.js"></script>
+        <script src="js/lightbox.min.js"></script>
         
         <script type="text/javascript">
             $(document).ready(function() {
