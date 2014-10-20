@@ -1,4 +1,4 @@
-<?php $page_title = 'Détail du projet ' . $project['p_name']; ?>
+<?php $page_title = $project['p_name'] . ' project details'; ?>
 
 <?php ob_start(); ?>
 <?php if (!$project['p_logo'])
@@ -24,7 +24,7 @@
     <div class="row">
         <div class="col-sm-4">
             
-            <h4 class="page-header">Lieu</h4>
+            <h4 class="page-header">Location</h4>
         
             <?php if (strlen($project['p_city']) > 0): ?>
             <p><?= "{$project['p_city']}, {$project['country']}" ?></p>
@@ -38,7 +38,7 @@
         
         <div class="col-sm-4 col-sm-offset-4">
             
-            <h4 class="page-header">Thème</h4>
+            <h4 class="page-header">Theme</h4>
             <p><?= $project['theme'] ?></p>
             
         </div>
@@ -47,18 +47,18 @@
     <!-- #################### PROJECTS INFORMATIONS ################### -->
     
     <div class="row">
-        <h4 class="page-header">Projets menés par l'association</h4>
-        <p><?= $project['p_proj_fr'] ?></p>
+        <h4 class="page-header">Projects led by the association</h4>
+        <p><?= $project['p_proj_en'] ?></p>
     </div>
     
     <div class="row">
-        <h4 class="page-header">Actions présentées dans le cadre d'Autres Climats</h4>
-        <p><?= $project['p_summ_fr'] ?></p>
+        <h4 class="page-header">Proposed actions in the context of Other Climates</h4>
+        <p><?= $project['p_summ_en'] ?></p>
     </div>
     
     <div class="row">
-        <h4 class="page-header">Bénéficiaires</h4>
-        <p><?= $project['p_bene_fr'] ?></p>
+        <h4 class="page-header">Beneficiaries</h4>
+        <p><?= $project['p_bene_en'] ?></p>
     </div>
     
     <!-- #################### CONTACT INFORMATIONS ################### -->
