@@ -28,7 +28,6 @@ function contact() {
 
 function about() {
     session_start();
-    echo $_SESSION['language'];
     require "View/{$_SESSION['language']}/About.php";
 }
 

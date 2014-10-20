@@ -22,18 +22,18 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a id="home" class="navbar-brand" href="index.php">Accueil</a>
+                        <a id="home" class="navbar-brand" href="index.php">Inicio</a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li class="dropdown">
-                                <a href="index.php?action=about" class="dropdown-toggle" data-toggle="dropdown">A propos</a>
+                                <a href="index.php?action=about" class="dropdown-toggle" data-toggle="dropdown">Acerca de</a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="index.php?action=about">Autres Climats</a></li>
-                                    <li><a href="index.php?action=about#historique">Historique</a></li>
-                                    <li><a href="index.php?action=about#organisation">Organisation</a></li>
+                                    <li><a href="index.php?action=about">Otros Climas</a></li>
+                                    <li><a href="index.php?action=about#historique">Histórico</a></li>
+                                    <li><a href="index.php?action=about#organisation">Organización</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -53,13 +53,13 @@
                                     <li class="text-right"><a href="index.php?action=projectsList&section=2">Volet 2 - Recherche</a></li>
                                 </ul>
                             </li>
-                            <li><a href="index.php?action=contact">Nous contacter</a></li>
+                            <li><a href="index.php?action=contact">Contactarnos</a></li>
                             <li class="dropdown">
-                                <a id="language" href="#" class="dropdown-toggle" data-toggle="dropdown">Langue</b></a>
+                                <a id="language" href="#" class="dropdown-toggle" data-toggle="dropdown">Lengua</b></a>
                                 <ul id="languages" class="dropdown-menu">
                                     <li id="fr" class="text-right"><a href="index.php?action=setLang&lang=fr">Français</a></li>
                                     <li id="en" class="text-right"><a href="index.php?action=setLang&lang=en">English</a></li>
-                                    <li id="es" class="text-right"><a href="#">Español</a></li>
+                                    <li id="es" class="text-right"><a href="index.php?action=setLang&lang=es">Español</a></li>
                                 </ul>
                             </li>
                             
