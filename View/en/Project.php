@@ -39,7 +39,7 @@
         <div class="col-sm-4 col-sm-offset-4">
             
             <h4 class="page-header">Theme</h4>
-            <p><?= $project['theme'] ?></p>
+            <p><?= $project['theme_en'] ?></p>
             
         </div>
     </div>
