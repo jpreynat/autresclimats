@@ -128,7 +128,7 @@ Al final del proyecto Otros Climas presentará la síntesis de las experiencias
             </p>
             <p>
               La coordinación será asegurada desde Francia por Elsa Münch<br>
-              <a href="index.php?action=contact">Alcancen a los actores de la "Mobilización activa"</a>
+              <a href="index.php?action=contact">Únance a los actores de la "Mobilización activa"</a>
             </p>
             
         
@@ -139,7 +139,7 @@ Al final del proyecto Otros Climas presentará la síntesis de las experiencias
             </p>
             <p>
              La coordinación será asegurada desde Francia por Kelly Gene  y Raphaëlle Pallarès.<br>
-              <a href="index.php?action=contact">Alcancen a los actores de la "Documentación"</a><br>
+              <a href="index.php?action=contact">Únance a los actores de la "Documentación"</a><br>
               <a id="docVolet2" href="#">Presentación de la 2nda parte</a>
             </p>
         </div>
