@@ -116,7 +116,9 @@ function getProject($project_id) {
     
     $query = 'SELECT p_id,
                      p_name,
-                     coun_name_fr AS country,
+                     coun_name_fr AS country_fr,
+                     coun_name_en AS country_en,
+                     coun_name_es AS country_es,
                      projects.coun_id AS p_coun_id,
                      p_city,
                      projects.t_id AS t_id,

@@ -27,10 +27,10 @@
             <h4 class="page-header">Location</h4>
         
             <?php if (strlen($project['p_city']) > 0): ?>
-            <p><?= "{$project['p_city']}, {$project['country']}" ?></p>
+            <p><?= "{$project['p_city']}, {$project['country_en']}" ?></p>
         
             <?php else: ?>
-            <p><?= $project['country'] ?></p>
+            <p><?= $project['country_en'] ?></p>
             
             <?php endif; ?>
             
