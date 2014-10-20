@@ -6,7 +6,6 @@ define('ADMIN_PASS', 'acpass');
 
 // START SESSION
 session_start();
-$_SESSION['language'] = 'fr';
 
 // MYSQL CONNECTION
 define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST'));
