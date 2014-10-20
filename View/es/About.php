@@ -66,11 +66,14 @@ Seremos los artesanos de « Otros Climas »</p>
   <div class="col-sm-5">
 
     <p>
-        En 2012 la Conferencia de Rio ofreció una oportunidad para poner de relieve los múltiples componentes del desarrollo sostenible y conducir a cuestionar sus prácticas personales y profesionales.
+        En 2012 la Conferencia de Rio ofreció una oportunidad para poner de relieve los múltiples
+        componentes del desarrollo sostenible y conducir a cuestionar sus prácticas personales y profesionales.
     </p>
     
     <p>
-        El proyecto « Rio 2012 » no solo pretendía evocar la preparación e implementación de la Conferencia sino que también quería sacar partido de los 15 meses que precedían la Conferencia para evocar la aplicación del desarrollo sostenible con respecto a varios temas y varias regiones del mundo.
+        El proyecto « Rio 2012 » no solo pretendía evocar la preparación e implementación de la Conferencia sino que 
+        también quería sacar partido de los 15 meses que precedían la Conferencia para evocar la aplicación del desarrollo 
+        sostenible con respecto a varios temas y varias regiones del mundo.
     </p>
     
     <p>
@@ -85,18 +88,20 @@ Seremos los artesanos de « Otros Climas »</p>
   </div>
 </div>
 <p>
-    Con la idea de « favorecer los intercambios », INDP iniciaba el proyecto « Demain la Terre, la jeunesse prend la parole » (Mañana la Tierra,la juventud toma la palabra)cuyo objetivo principal era enriquecer la Conferencia con reflexiones de la joven generación.
-En Europa, Asia, Africa, America del Norte y del Sur, desde el parvulario hasta las universidades, pasando por los proyectos rurales, los jóvenes ciudadanos se implicaron para: expresar sus puntos de vista, elaborar propuestas y proyectos y transmitir sus esperanzas y dificultades a los elegidos y responsables de los varios países participantes a la Conferencia.
-Con la idea de « favorecer los intercambios », INDP iniciaba el proyecto « Demain la Terre, la jeunesse prend la parole » (Mañana la Tierra, la juventud toma la palabra) cuyo objetivo principal era enriquecer la Conferencia con reflexiones de la joven generación.
+    Con la idea de « favorecer los intercambios », INDP iniciaba el proyecto « Demain la Terre, la jeunesse prend la parole » 
+    (Mañana la Tierra, la juventud toma la palabra) cuyo objetivo principal era enriquecer la Conferencia con reflexiones de la joven generación.
+</p>
+<p>
+    En Europa, Asia, Africa, America del Norte y del Sur, desde el parvulario hasta las universidades, pasando por los proyectos rurales,
+    los jóvenes ciudadanos se implicaron para: expresar sus puntos de vista, elaborar propuestas y proyectos y transmitir sus esperanzas y
+    dificultades a los elegidos y responsables de los varios países participantes a la Conferencia.
 </p>
 
 <p>
-   En Europa, Asia, África, América del Norte y del Sur, desde el parvulario hasta las universidades, pasando por los proyectos rurales, los jóvenes ciudadanos se implicaron para: expresar sus puntos de vista, elaborar propuestas, proyectos, transmitir sus esperanzas y dificultades a los elegidos y responsables de los varios países participantes a la Conferencia.</p>
-
-<p>
-    En 2014, nace la asociación Otros Climas con el objetivo de reforzar el impacto del proyecto Demain la Terre y enriquecer la red de asociaciones y ciudadanos movilizados.
-Otros Climas se inscribe en la continuidad de « RIO 2012 » y desea aprovechar la mediatización de la Conferencia sobre el clima para demostrar como iniciativas ciudadanas ya funcionan. 
-Al final del proyecto Otros Climas presentará la síntesis de las experiencias y soluciones ya encontradas para rechazar el sentimiento de impotencia mediante un Congreso y una publicación. </p>
+    En 2014, nace la asociación Otros Climas con el objetivo de reforzar el impacto del proyecto « Demain la Terre » y enriquecer la red de asociaciones y ciudadanos movilizados.
+    Otros Climas se inscribe en la continuidad de « RIO 2012 » y desea aprovechar la mediatización de la Conferencia sobre el clima para demostrar como iniciativas ciudadanas ya funcionan.
+    Al final del proyecto Otros Climas presentará la síntesis de la experiencias y soluciones ya encontradas para rechazar el sentimiento de impotencia mediante un Congreso y una publicación.
+</p>
 
 <br><br>
 <p class="pull-right text-right back-top">

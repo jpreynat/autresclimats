@@ -93,15 +93,6 @@
          id="about-historique-img">
   </div>
 </div>
-<!--
-<p>
-    En 2012, la Conférence de Rio a offert l’opportunité de mettre en lumière les multiples composantes du développement durable et d’amener chacun à interroger ses pratiques personnelles et professionnelles.<br>
-    Le projet « RIO + 20 », au-delà d’évoquer la préparation et la tenue de la Conférence, 
-    visait à  mettre à profit les 15 mois qui précédaient la Conférence pour évoquer la mise en œuvre du développement durable 
-    en relation avec plusieurs thèmes et plusieurs régions du monde.<br>
-    Le projet « RIO + 20 » comportait trois intentions : former, informer, favoriser les échanges.
-</p>
--->
 <p>
     Afin de favoriser les échanges, l’ONG indienne INDP initiait un projet spécifique intitulé Demain la Terre, 
     la jeunesse prend la parole. L’objectif principal du projet était d’enrichir la conférence des réflexions 
