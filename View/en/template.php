@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -22,17 +22,17 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a id="home" class="navbar-brand" href="index.php">Accueil</a>
+                        <a id="home" class="navbar-brand" href="index.php">Home</a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li class="dropdown">
-                                <a href="index.php?action=about" class="dropdown-toggle" data-toggle="dropdown">A propos</a>
+                                <a href="index.php?action=about" class="dropdown-toggle" data-toggle="dropdown">About</a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="index.php?action=about">Autres Climats</a></li>
-                                    <li><a href="index.php?action=about#historique">Historique</a></li>
+                                    <li><a href="index.php?action=about">Other Climates</a></li>
+                                    <li><a href="index.php?action=about#historique">History</a></li>
                                     <li><a href="index.php?action=about#organisation">Organisation</a></li>
                                 </ul>
                             </li>
@@ -46,20 +46,20 @@
                                 }
                             ?>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Le réseau d'acteurs</span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">The network of actors</span></a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li class="text-right"><a href="index.php?action=projectsList">Consulter tous les projets</a></li>
-                                    <li class="text-right"><a href="index.php?action=projectsList&section=1">Volet 1 - Actions</a></li>
-                                    <li class="text-right"><a href="index.php?action=projectsList&section=2">Volet 2 - Recherche</a></li>
+                                    <li class="text-right"><a href="index.php?action=projectsList">See all projects</a></li>
+                                    <li class="text-right"><a href="index.php?action=projectsList&section=1">Section 1 - Actions</a></li>
+                                    <li class="text-right"><a href="index.php?action=projectsList&section=2">Section 2 - Research</a></li>
                                 </ul>
                             </li>
-                            <li><a href="index.php?action=contact">Nous contacter</a></li>
+                            <li><a href="index.php?action=contact">Contact us</a></li>
                             <li class="dropdown">
-                                <a id="language" href="#" class="dropdown-toggle" data-toggle="dropdown">Langue</b></a>
+                                <a id="language" href="#" class="dropdown-toggle" data-toggle="dropdown">Language</b></a>
                                 <ul id="languages" class="dropdown-menu">
                                     <li id="fr" class="text-right"><a href="index.php?action=setLang&lang=fr">Français</a></li>
                                     <li id="en" class="text-right"><a href="index.php?action=setLang&lang=en">English</a></li>
-                                    <li id="es" class="text-right"><a href="#">Español</a></li>
+                                    <li id="es" class="text-right"><a href="index.php?action=setLang&lang=es">Español</a></li>
                                 </ul>
                             </li>
                             
