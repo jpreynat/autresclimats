@@ -18,6 +18,11 @@ function home() {
     $nbProjects = getNbProjects();
     
     session_start();
+    
+    if (!isset($_SESSION['language'])) {
+        $_SESSION['language'] = 'fr';
+    }
+    
     require "View/{$_SESSION['language']}/Home.php";
 }
 
