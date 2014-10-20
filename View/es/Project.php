@@ -39,7 +39,7 @@
         <div class="col-sm-4 col-sm-offset-4">
             
             <h4 class="page-header">Thème</h4>
-            <p><?= $project['theme'] ?></p>
+            <p><?= $project['theme_es'] ?></p>
             
         </div>
     </div>
@@ -48,17 +48,17 @@
     
     <div class="row">
         <h4 class="page-header">Projets menés par l'association</h4>
-        <p><?= $project['p_proj_fr'] ?></p>
+        <p><?= $project['p_proj_es'] ?></p>
     </div>
     
     <div class="row">
         <h4 class="page-header">Actions présentées dans le cadre d'Autres Climats</h4>
-        <p><?= $project['p_summ_fr'] ?></p>
+        <p><?= $project['p_summ_es'] ?></p>
     </div>
     
     <div class="row">
         <h4 class="page-header">Bénéficiaires</h4>
-        <p><?= $project['p_bene_fr'] ?></p>
+        <p><?= $project['p_bene_es'] ?></p>
     </div>
     
     <!-- #################### CONTACT INFORMATIONS ################### -->
