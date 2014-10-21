@@ -8,7 +8,7 @@
 
   	<div class="col-sm-7 home-page">
   	
-        <h1>Autres Climats</h1>
+        <h1>Otros Climas</h1>
         <br>
         <p>
             La próxima conferencia sobre el cambio climático se celebrará en París, en 2015.
@@ -18,8 +18,11 @@
         </p>
         
         <p>
-            <em><strong>¿Sera el clima lo único que está cambiando? ¿Qué decir de todos esos otros climas con los cuales luchamos cada día?</strong></em>
-            <br>
+            <em><strong>¿Sera el clima lo único que está cambiando?</strong></em><br>
+            <em><strong>¿Qué decir de todos esos otros climas con los cuales luchamos cada día?</strong></em><br>
+        </p>
+        
+        <p>
             El clima social, económico, educativo tal como el clima político cambian igualmente.
         </p>
         
