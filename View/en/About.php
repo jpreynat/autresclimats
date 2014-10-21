@@ -97,7 +97,7 @@
 </div>
 
 <p>
-    In relation with the third goal « favor exchanges », INDP initiated a specific project: “Tomorrow the Earth, the Youth is speaking”, 
+    In relation with the third goal « favor exchanges », INDP initiated a specific project: « Tomorrow the Earth, the Youth is speaking », 
     whose main purpose was to enrich the Conference with the thoughts of the young generations.
 </p>
 
