@@ -2,6 +2,13 @@
 
 require_once 'config.inc.php';
 
+session_start();
+if (!isset($_SESSION['language'])) {
+    $_SESSION['language'] = 'fr';
+}
+
+header('P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"');
+
 // Check authentification
 function admin() {
     if (isset($_SESSION['userName']) && isset($_SESSION['password']))
@@ -22,7 +29,7 @@ function endAdmin() {
 
 // Change language
 function setLanguage($lang) {
-    session_start();
+    //session_start();
     $_SESSION['language'] = $lang;
 }
 
