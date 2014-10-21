@@ -13,8 +13,8 @@
         <p>
             The next conference on climate will be held in Paris in 2015.
             <br>
-            It is not a scoop. Climate is changing, leading to increasing economical, 
-            political and ecological instabilities.
+            It is not a scoop. Climate is changing, leading to increasing<br>
+            economical, political and ecological instabilities.
         </p>
 
         <p>

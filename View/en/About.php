@@ -26,6 +26,7 @@
 <div id="about-climat" class="row">
   <div class="col-sm-5">
 
+    <br><br> <!-- Adjusting to picture -->
     <p>
         <em><strong>How is social climate changing ?</strong></em><br>
         As climate is getting tense, sharpened, rigidified, we are going through showers of instability, 
