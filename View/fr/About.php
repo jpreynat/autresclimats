@@ -32,13 +32,13 @@
     </p>
 
     <p>
-        <em><strong>Comment le climat économique, change-t-il ?</strong></em><br>
+        <em><strong>Comment le climat économique change-t-il ?</strong></em><br>
         Lui qui nous assène les naufrages du chômage, la montée des eaux des emplois précaires ?<br>
         Lui qui charrie toujours plus d’épaves de sans logis, de sans emploi, de sans papiers, de sans attaches ?<br>
     </p>
 
     <p>
-        <em><strong>Comment le climat éducatif , change-t-il ?</strong></em><br>
+        <em><strong>Comment le climat éducatif change-t-il ?</strong></em><br>
         Lui qui se dérégule, s’individualise depuis les plus petites classes.<br>
         Il nous amène des rafales de l’évaluation précoce, de l’ennui, et des orientations subies , des pluies d’échec, et la glaciation de la reproduction sociale.<br>
     </p>

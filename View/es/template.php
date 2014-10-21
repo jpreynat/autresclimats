@@ -47,11 +47,11 @@
                                 }
                             ?>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Le réseau d'acteurs</span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">La red de Otros Climas</span></a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li class="text-right"><a href="index.php?action=projectsList">Consulter tous les projets</a></li>
-                                    <li class="text-right"><a href="index.php?action=projectsList&section=1">Volet 1 - Actions</a></li>
-                                    <li class="text-right"><a href="index.php?action=projectsList&section=2">Volet 2 - Recherche</a></li>
+                                    <li class="text-right"><a href="index.php?action=projectsList">Ver todos los proyectos</a></li>
+                                    <li class="text-right"><a href="index.php?action=projectsList&section=1">Parte 1 - Acciones</a></li>
+                                    <li class="text-right"><a href="index.php?action=projectsList&section=2">Parte 2 - Investigación</a></li>
                                 </ul>
                             </li>
                             <li><a href="index.php?action=contact">Contactarnos</a></li>

@@ -1,4 +1,4 @@
-<?php $page_title = 'Pour nous contacter...'; ?>
+<?php $page_title = 'Pour nous contacter'; ?>
 
 <?php ob_start(); ?>
 

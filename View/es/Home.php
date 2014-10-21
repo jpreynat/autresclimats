@@ -1,4 +1,4 @@
-<?php $page_title = 'Bienvenue sur Autres Climats'; ?>
+<?php $page_title = 'Bienvenidos al sitio web de Otros Climas'; ?>
 
 <?php ob_start(); ?>
 
@@ -11,31 +11,31 @@
         <h1>Autres Climats</h1>
         <br>
         <p>
-            En 2015 aura lieu à Paris la prochaine conférence sur le climat.
+            La próxima conferencia sobre el cambio climático se celebrará en París, en 2015.
             <br>
-            Car ce n’est un scoop pour personne, le climat change et avec lui de nombreux 
-            déséquilibres économiques, politiques, écologiques vont s’accentuer.
-        </p>
-
-        <p>
-            <em><strong>Le climat n’est pas seul à changer !</strong></em>
-            <br>
-            Le climat social, économique, éducatif, politique changent également.
+            Porque no es una novedad para nadie que el clima está cambiando y con él muchos 
+            desequilibrios económicos, políticos y ecológicos se amplificarán.
         </p>
         
         <p>
-            Autres Climats entend mettre en avant les témoins de ces changements 
-            et les acteurs qui oeuvrent quotidiennement pour un avenir plus solidaire, 
-            équitable et contre l’exclusion, partout dans le monde.
+            <em><strong>¿Sera el clima lo único que está cambiando? ¿Qué decir de todos esos otros climas con los cuales luchamos cada día?</strong></em>
+            <br>
+            El clima social, económico, educativo tal como el clima político cambian igualmente.
         </p>
         
         <p>
-            Consultez les projets du réseau d’Autres Climats et rejoignez 
-            ces dizaines de chercheurs, artistes, associations et citoyens.
+            Otros Climas pretende poner de relieve los testigos de estos cambios y 
+            los actores quienes obran día a un futuro más solidario y equitativo y 
+            luchan contra la exclusión alrededor del mundo.
+        </p>
+        
+        <p>
+            Consulten los proyectos de la red Otros Climas y alcancen a las asociaciones, 
+            los artistas y ciudadanos participantes.
         </p>
         
         <a href="index.php?action=contact">
-            <p>Rejoignez-nous !</p>
+            <p>¡Únanse a nosotros!</p>
         </a>
     
     </div>
@@ -54,7 +54,7 @@
 
 <article class="home-page">
 
-<h4 class="page-header"><strong>Ils ont déjà rejoint Autres Climats</strong></h4>
+<h4 class="page-header"><strong>Se unirón a Otros Climas</strong></h4>
 
 <div class="row">
     

@@ -88,8 +88,8 @@
             
             <?php endif; ?>
             
-            <?php if(strlen($project['c_country']) > 0) : ?>
-            <?= $project['c_country'] ?>
+            <?php if(strlen($project['c_country_fr']) > 0) : ?>
+            <?= $project['c_country_fr'] ?>
             <?php endif; ?>
             </p>
             

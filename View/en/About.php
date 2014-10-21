@@ -1,4 +1,4 @@
-<?php $page_title = "A propos d'Autres Climats"; ?>
+<?php $page_title = "About Other Climates"; ?>
 
 <?php ob_start(); ?>
 
@@ -10,42 +10,43 @@
 
 <div class="col-sm-12">
 <div style="" class="about-part" id="autresclimats">
-<h3 class="page-header">AUTRES CLIMATS</h3>
+<h3 class="page-header">OTHER CLIMATES</h3>
 
 <p>
-    En 2015 aura lieu à Paris la prochaine conférence sur le climat.<br>
-    Car ce n’est un scoop pour personne, le climat change et avec lui de nombreux déséquilibres économiques, politiques, écologiques vont s’accentuer.
+    The next conference on climate will be held in Paris in 2015.<br>
+    It is not a scoop. Climate is changing, leading to increasing economical, 
+    political and ecological instabilities.
 </p>
 
 <p>
-    Mais le climat est-il seul à changer ?<br>
-    Et qu’en est-il de tous ces autres climats avec lesquels nous nous débattons chaque jour ?
+    But is climate the only thing to change?<br>
+    And what about the other climates we are struggling with everyday?
 </p>
 
 <div id="about-climat" class="row">
   <div class="col-sm-5">
 
     <p>
-        <em><strong>Comment le climat social change-t-il ?</strong></em><br>
-        Lui qui se tend, s’aiguise, se rigidifie ?<br>
-        Nous vivons des averses de précarité, des tempêtes d’insécurité sociale, le grand gel des idéaux et illusions.
+        <em><strong>How is social climate changing ?</strong></em><br>
+        As climate is getting tense, sharpened, rigidified, we are going through showers of instability, 
+        storms of social insecurity, the freezing of ideals and illusions.
     </p>
 
     <p>
-        <em><strong>Comment le climat économique, change-t-il ?</strong></em><br>
-        Lui qui nous assène les naufrages du chômage, la montée des eaux des emplois précaires ?<br>
-        Lui qui charrie toujours plus d’épaves de sans logis, de sans emploi, de sans papiers, de sans attaches ?<br>
+        <em><strong>How is the economical climate changing?</strong></em><br>
+        It is striking us with the sinking of unemployment, the rise of insecure jobs, 
+        carrying more and more wrecks of homeless or unemployed people, “illegal” immigrants, without any ties...
     </p>
 
     <p>
-        <em><strong>Comment le climat éducatif , change-t-il ?</strong></em><br>
-        Lui qui se dérégule, s’individualise depuis les plus petites classes.<br>
-        Il nous amène des rafales de l’évaluation précoce, de l’ennui, et des orientations subies , des pluies d’échec, et la glaciation de la reproduction sociale.<br>
+        <em><strong>How is the educational system changing?</strong></em><br>
+        It is deregulating, getting more and more individualized from the bottom to the top.<br>
+        It is bringing to us torrents of early evaluation, boredom, suffered orientations, rains of failure and glaciations of social reproduction.<br>
     </p>
     
     <p>
-    <em><strong>Et nous comment changeons nous</strong></em>, alors que nous sommes sans arrêt contraints 
-    de nous adapter à des changements futiles et que rien, jamais rien, ne change sur le fond ?
+        <em><strong>And how are WE changing ?</strong></em> as we are constantly compelled to adjust 
+        to pointless changes and nothing is really changing.
     </p>
     
   </div>
@@ -55,35 +56,35 @@
 </div>
 
 <p>
-    Le climat change... alors changeons tout!
+    We will be the architects of « Other Climates ».
 </p>
 
 <br><br>
 <p class="pull-right text-right back-top">
-<a href="#">Revenir en haut</a>
+<a href="#">Back to top</a>
 </p>
 
 </div><!-- about-part -->
 
 <div class="about-part">
-<h3 class="page-header" id="historique">HISTORIQUE</h3>
+<h3 class="page-header" id="historique">HISTORY</h3>
 
 <div id="about-climat" class="row">
   <div class="col-sm-5">
 
     <p>
-        En 2012, la Conférence de Rio a offert l’opportunité de mettre en lumière les multiples composantes 
-        du développement durable et d’amener chacun à interroger ses pratiques personnelles et professionnelles.
+        In 2012, The Rio Conference offered an opportunity to shed light on the multiple components of 
+        sustainable development and led everybody to question his/her personal and professional practices.
     </p>
     
     <p>
-        Le projet « RIO + 20 », au-delà d’évoquer la préparation et la tenue de la Conférence, 
-        visait à  mettre à profit les 15 mois qui précédaient la Conférence pour évoquer la mise en œuvre du développement durable 
-        en relation avec plusieurs thèmes et plusieurs régions du monde.
+        The project « RIO 2012 », conducted by the organizations mentioned below was not only aiming at talking about 
+        the preparation and running of the Conference, but also to use the 15 months before the Conference to discuss 
+        the implementation of sustainable development in relation with various themes and various areas of the world.
     </p>
     
     <p>
-        Ce projet avait trois intentions : former, informer, favoriser les échanges.
+        This project had three main goals: train, inform and favor exchanges, and thus the objectives and means resulting of it.
     </p>
     
   </div>
@@ -93,40 +94,27 @@
          id="about-historique-img">
   </div>
 </div>
-<!--
+
 <p>
-    En 2012, la Conférence de Rio a offert l’opportunité de mettre en lumière les multiples composantes du développement durable et d’amener chacun à interroger ses pratiques personnelles et professionnelles.<br>
-    Le projet « RIO + 20 », au-delà d’évoquer la préparation et la tenue de la Conférence, 
-    visait à  mettre à profit les 15 mois qui précédaient la Conférence pour évoquer la mise en œuvre du développement durable 
-    en relation avec plusieurs thèmes et plusieurs régions du monde.<br>
-    Le projet « RIO + 20 » comportait trois intentions : former, informer, favoriser les échanges.
-</p>
--->
-<p>
-    Afin de favoriser les échanges, l’ONG indienne INDP initiait un projet spécifique intitulé Demain la Terre, 
-    la jeunesse prend la parole. L’objectif principal du projet était d’enrichir la conférence des réflexions 
-    de la jeune génération.
+    In relation with the third goal « favor exchanges », INDP initiated a specific project: “Tomorrow the Earth, the Youth is speaking”, 
+    whose main purpose was to enrich the Conference with the thoughts of the young generations.
 </p>
 
 <p>
-    D’ Europe, d’Asie, d’Afrique, d’Amérique du Nord et du Sud, de la maternelle aux universités, 
-    en passant par les projets en milieu rural, les jeunes citoyens se sont impliqués pour : 
-    exprimer leurs points de vue, élaborer des propositions et projets et transmettre leurs espoirs 
-    et difficultés aux élus et responsables des différents pays participants à la conférence.
+    From Europe, Asia, Africa, North America and South America, from kinder garden to universities, from the cities to the rural areas, 
+    young citizens got involved to express their points of view, elaborate proposals and projects and relay their hopes and difficulties 
+    to the politicians and persons in charge from the various countries participating to the Conference.
 </p>
 
 <p>
-    En 2015, afin d’augmenter l’impact de Demain la Terre et d’enrichir le réseau d’association et 
-    de citoyens engagés dans le projet, Autres climats voit le jour et devient une associations de loi 1901. 
-    Ses actions s’inscrivent dans la continuité de RIO +20  et souhaite profiter de la médiatisation de la 
-    Conférence sur le climat pour montrer que des initiatives citoyennes fonctionnent déjà.<br>
-    Le but est de présenter la synthèse des expériences et des solutions déjà trouvées pour repousser 
-    le sentiment d’impuissance et insuffler une mobilisation citoyenne partout dans le monde.
+    In 2015, « Other Climates » is placing itself in the continuity of « Rio 2012 », and would like to take advantage of the media coverage 
+    of the Climate Conference to show that citizens’ initiatives already have success.<br>
+    The final purpose is to present a report of the experiences and solutions already found to cast away the general feeling of powerlessness.
 </p>
 
 <br><br>
 <p class="pull-right text-right back-top">
-<a href="#">Revenir en haut</a>
+<a href="#">Back to top</a>
 </p>
 </div><!-- about-part -->
 
@@ -134,39 +122,39 @@
 <h3 class="page-header" id="organisation">ORGANISATION</h3>
 
 <p>
-    Autres Climats est une association de loi 1901 basée à Chilly Mazarin dans l’Essonne. <br>
-    Son but est de mettre en avant le fruits des recherches de ceux qui se penchent chaque jour sur les changements sociaux, 
-    économiques ou encore politique, ainsi que les initiatives citoyennes efficaces et déjà mises en oeuvre partout dans le monde.
+    Other Climates is an association law 1901 based in the city of Chilly Mazarin, France.<br>
+    Its aim is to highlight the work of researchers working on social, economical or political changes 
+    and the citizens initiatives all around the world.
 </p>
 
 <p>
-    Autres Climats comprend deux volets:
+    The project comprises two sections:
 </p>
 
 <div class="row">
     <div class="col-sm-12">
         <div class="col-sm-11 col-sm-offset-1">
-            <h4>Volet 1 - Mobilisation active</h4>
+            <h4>Section 1 - Actions</h4>
             <p>
               Ce volet regroupe les actions menées sur le terrain en poursuivant l’action de Demain la Terre, la jeunesse prend la parole.<br>
               Les projets sont créés à l’initiatives de citoyens ou d’associations du monde entier.<br>
               Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.
             </p>
             <p>
-              La coordination du volet 1 est assurée depuis la France par Elsa Münch.<br>
-              <a href="index.php?action=contact">Rejoignez les acteurs du Volet 1</a>
+              The coordination will be carried out from France by Elsa Münch.<br>
+              <a href="index.php?action=contact">Join the actors of Section 1</a>
             </p>
             
         
-            <h4>Volet 2 - Documentation</h4>
+            <h4>Section 2 - Research</h4>
         	<p>
-              Ce volet regroupe les recherches effectuées autour des thèmes abordés par Autres Climats.<br>
-              Les supports sont divers (mémoires, poèmes, expositions photographiques ou autres supports artistiques…).
+              Compilation of researches conducted on the field in order to distribute them towards a wider audience (the general public), 
+              using various communications means (writings, songs, poems, arts...)
             </p>
             <p>
-              La coordination est assurée depuis la France par Kelly Gene et Raphaëlle Pallarès.<br>
-              <a href="index.php?action=contact">Rejoignez les acteurs du Volet 2</a><br>
-              <a id="docVolet2" href="#">Documentation Volet 2</a>
+              The coordination will be carried out from France by Kelly Gene and Raphaëlle Pallarès.<br>
+              <a href="index.php?action=contact">Join the actors of Section 2</a><br>
+              <a id="docVolet2" href="#">Section 2 documentation</a>
             </p>
         </div>
         
@@ -182,8 +170,8 @@
 </div>
     
 <p>
-    Les associations et les chercheurs échangent régulièrement avec la coordinatrice projet associée au volet correspondant.<br>
-    Autres Climats présente les projets et leur avancée via son site Internet et sa page Facebook.
+    Associations and researchers will exchange with the coordinators on a regular basis.<br>
+    Other Climates presents the projects on its website autresclimats.com and its facebook page.
 </p>
 
 <p>
@@ -201,25 +189,12 @@
 
 <br><br>
 <p class="pull-right text-right back-top">
-<a href="#">Revenir en haut</a>
+    <a href="#">Back to top</a>
 </p>
 </div><!-- about-part -->
 
 </div>
 
-<!-- Lateral menu part
-<div id="menu-panel" class="col-sm-2">
-    <div id="menu" class="affix text-right">
-        <p><strong>NAVIGATION</strong></p><br>
-        <p><a href="#autresclimats">AUTRES CLIMATS</a></p>
-        <p><a href="#historique">HISTORIQUE</a></p>
-        <p><a href="#organisation">ORGANISATION</a></p>
-        <p><a href="#">Revenir en haut</a></p>
-    </div>
-    
-    </div>
-</div>
--->
 </article>
 
 <?php $contents = ob_get_clean(); ?>

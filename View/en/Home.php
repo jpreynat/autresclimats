@@ -1,4 +1,4 @@
-<?php $page_title = 'Welcome on Autres Climats'; ?>
+<?php $page_title = 'Welcome to Other Climates'; ?>
 
 <?php ob_start(); ?>
 
@@ -8,34 +8,34 @@
 
   	<div class="col-sm-7 home-page">
   	
-        <h1>Autres Climats English version</h1>
+        <h1>Other Climates</h1>
         <br>
         <p>
-            En 2015 aura lieu à Paris la prochaine conférence sur le climat.
+            The next conference on climate will be held in Paris in 2015.
             <br>
-            Car ce n’est un scoop pour personne, le climat change et avec lui de nombreux 
-            déséquilibres économiques, politiques, écologiques vont s’accentuer.
+            It is not a scoop. Climate is changing, leading to increasing economical, 
+            political and ecological instabilities.
         </p>
 
         <p>
-            <em><strong>Le climat n’est pas seul à changer !</strong></em>
+            <em><strong>But climate isn’t the only thing to change!</strong></em>
             <br>
-            Le climat social, économique, éducatif, politique changent également.
+            Social, economical, educational, political climates change too.
         </p>
         
         <p>
-            Autres Climats entend mettre en avant les témoins de ces changements 
-            et les acteurs qui oeuvrent quotidiennement pour un avenir plus solidaire, 
-            équitable et contre l’exclusion, partout dans le monde.
+            Other Climates wants to highlight the witnesses of these changes and the actors 
+            who work for a future with more solidarity and fight against discrimination 
+            on a daily basis all around the world.
         </p>
         
         <p>
-            Consultez les projets du réseau d’Autres Climats et rejoignez 
-            ces dizaines de chercheurs, artistes, associations et citoyens.
+            See our network and join these researchers, artists, associations 
+            and citizens acting for a fairer future.
         </p>
         
         <a href="index.php?action=contact">
-            <p>Rejoignez-nous !</p>
+            <p>Join us!</p>
         </a>
     
     </div>
@@ -54,7 +54,7 @@
 
 <article class="home-page">
 
-<h4 class="page-header"><strong>Ils ont déjà rejoint Autres Climats</strong></h4>
+<h4 class="page-header"><strong>They joined Other Climates</strong></h4>
 
 <div class="row">
     
