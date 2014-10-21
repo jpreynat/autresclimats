@@ -18,6 +18,7 @@ function home() {
     $nbProjects = getNbProjects();
     
     session_start();
+    header('P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"'); 
     
     if (!isset($_SESSION['language'])) {
         $_SESSION['language'] = 'fr';
