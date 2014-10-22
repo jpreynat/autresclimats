@@ -117,7 +117,7 @@ function error($errorMsg) {
 
 function getCountriesInfo() {
     $countriesCount = countriesService();
-    echo $countriesCount;
+    echo json_encode($countriesCount);
 }
 
 ?>
