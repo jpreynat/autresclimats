@@ -96,8 +96,8 @@
 </div>
 
 <p>
-    In relation with the third goal « favor exchanges », INDP initiated a specific project: « Tomorrow the Earth, the Youth is speaking », 
-    whose main purpose was to enrich the Conference with the thoughts of the young generations.
+    In relation with the third goal « favor exchanges », INDP initiated a specific project: « Demain la Terre, la jeunesse prend la parole » 
+    (Tomorrow the Earth, the Youth is speaking), whose main purpose was to enrich the Conference with the thoughts of the young generations.
 </p>
 
 <p>
@@ -136,9 +136,9 @@
         <div class="col-sm-11 col-sm-offset-1">
             <h4>Section 1 - Actions</h4>
             <p>
-              Ce volet regroupe les actions menées sur le terrain en poursuivant l’action de Demain la Terre, la jeunesse prend la parole.<br>
-              Les projets sont créés à l’initiatives de citoyens ou d’associations du monde entier.<br>
-              Ils s’appuient sur une ou plusieurs thématiques abordées par Autres Climats et ils peuvent être de natures très diverses.
+              Keeping up the momentum created by « Demain la Terre, la jeunesse prend la parole », 
+              this section includes every type of field actions launched by citizens or associations worldwide.<br>
+              They rely on one or more topics covered by Other Climates and can be of any kind.
             </p>
             <p>
               The coordination will be carried out from France by Elsa Münch.<br>
