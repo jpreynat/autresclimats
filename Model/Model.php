@@ -446,10 +446,7 @@ function countriesService() {
     $countriesCount = [];
     
     foreach ($result as $country) {
-        $arr = [];
-        $arr[] = $country['country'];
-        $arr[] = $country['total'];
-        $countriesCount[] = $arr;
+        $countriesCount[$country['country']] = $country['total'];
     }
     
     return $countriesCount;
