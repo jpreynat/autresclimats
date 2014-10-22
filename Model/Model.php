@@ -431,7 +431,7 @@ function stripAccents($str) {
     return strtr(utf8_decode($str), utf8_decode('àáâãäçèéêëìíîïñòóôõöùúûüýÿÀÁÂÃÄÇÈÉÊËÌÍÎÏÑÒÓÔÕÖÙÚÛÜÝ'),'aaaaaceeeeiiiinooooouuuuyyAAAAACEEEEIIIINOOOOOUUUUY');
 }
 
-// Returns json by country
+// Returns json count nb projects by country
 function countriesService() {
     $db = getDB();
     $query = 'SELECT COUNT(*) AS total, coun_name_en AS country '
@@ -447,8 +447,8 @@ function countriesService() {
     
     foreach ($result as $country) {
         $arr = [];
-        $arr[] = $country['total'];
         $arr[] = $country['country'];
+        $arr[] = $country['total'];
         $countriesCount[] = $arr;
     }
     
