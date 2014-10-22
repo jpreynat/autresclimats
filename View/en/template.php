@@ -42,8 +42,21 @@
                         <ul class="nav navbar-nav navbar-right">
                             <?php
                                 if (admin()) {
+                                    /*
                                     echo '<li><a id="newProject" href="index.php?action=newProject">Nouveau projet</a></li>';
                                     echo '<li><a id="adminProjects" href="index.php?action=adminProjects">Gérer les projets</a></li>';
+                                    echo '<li><a id="login" href="index.php?action=logout">Déconnexion</a></li>';
+                                    */
+                                    echo(
+                                        '<li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administration</span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="text-right"><a id="newProject" href="index.php?action=newProject">Nouveau projet</a></li>
+                                                <li class="text-right"><a id="adminProjects" href="index.php?action=adminProjects">Gérer les projets</a></li>
+                                                <li class="text-right"><a id="login" href="index.php?action=logout">Déconnexion</a></li>
+                                            </ul>
+                                        </li>'
+                                        );
                                 }
                             ?>
                             <li class="dropdown">
