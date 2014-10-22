@@ -115,4 +115,9 @@ function error($errorMsg) {
     require "View/{$_SESSION['language']}/Error.php";
 }
 
+function getCountriesInfo() {
+    $countriesCount = countriesService();
+    echo $countriesCount;
+}
+
 ?>

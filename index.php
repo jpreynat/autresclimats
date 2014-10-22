@@ -135,6 +135,10 @@ try {
                     throw new Exception("Langue non transmise.");
                 break;
             
+            case 'countriesService':
+                getCountriesInfo();
+                break;
+            
             default:
                 home();
         

@@ -431,4 +431,19 @@ function stripAccents($str) {
     return strtr(utf8_decode($str), utf8_decode('àáâãäçèéêëìíîïñòóôõöùúûüýÿÀÁÂÃÄÇÈÉÊËÌÍÎÏÑÒÓÔÕÖÙÚÛÜÝ'),'aaaaaceeeeiiiinooooouuuuyyAAAAACEEEEIIIINOOOOOUUUUY');
 }
 
+// Returns json by country
+function countriesService() {
+    $db = getDB();
+    $query = 'SELECT COUNT(*), coun_name_en '
+            .'FROM ('
+            .'  SELECT coun_name_en '
+	        .'  FROM projects AS p '
+            .'  INNER JOIN countries AS c ON p.coun_id = c.coun_id '
+            .') AS Q1 '
+            .'GROUP BY coun_name_en';
+    
+    $countriesCount = $db->query($query);
+    return $countriesCount;
+}
+
 ?>
