@@ -434,7 +434,7 @@ function stripAccents($str) {
 // Returns json by country
 function countriesService() {
     $db = getDB();
-    $query = 'SELECT COUNT(*), coun_name_en '
+    $query = 'SELECT COUNT(*) AS total, coun_name_en AS country'
             .'FROM ('
             .'  SELECT coun_name_en '
 	        .'  FROM projects AS p '
@@ -446,7 +446,10 @@ function countriesService() {
     $countriesCount = [];
     
     foreach ($result as $country) {
-        $countriesCount[] = $country;
+        $arr = [];
+        $arr[] = $country['total'];
+        $arr[] = $country['country'];
+        $countriesCount[] = $arr;
     }
     
     return $countriesCount;
