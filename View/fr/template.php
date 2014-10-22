@@ -30,7 +30,7 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li class="dropdown">
-                                <a href="index.php?action=about" class="dropdown-toggle" data-toggle="dropdown">A propos</a>
+                                <a href="index.php?action=about" class="dropdown-toggle" data-toggle="dropdown">À propos</a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="index.php?action=about">Autres Climats</a></li>
                                     <li><a href="index.php?action=about#historique">Historique</a></li>
@@ -42,8 +42,21 @@
                         <ul class="nav navbar-nav navbar-right">
                             <?php
                                 if (admin()) {
+                                    /*
                                     echo '<li><a id="newProject" href="index.php?action=newProject">Nouveau projet</a></li>';
                                     echo '<li><a id="adminProjects" href="index.php?action=adminProjects">Gérer les projets</a></li>';
+                                    echo '<li><a id="login" href="index.php?action=logout">Déconnexion</a></li>';
+                                    */
+                                    echo(
+                                        '<li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administration</span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li class="text-right"><a id="newProject" href="index.php?action=newProject">Nouveau projet</a></li>
+                                                <li class="text-right"><a id="adminProjects" href="index.php?action=adminProjects">Gérer les projets</a></li>
+                                                <li class="text-right"><a id="login" href="index.php?action=logout">Déconnexion</a></li>
+                                            </ul>
+                                        </li>'
+                                        );
                                 }
                             ?>
                             <li class="dropdown">
