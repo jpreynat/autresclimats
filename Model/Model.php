@@ -434,7 +434,7 @@ function stripAccents($str) {
 // Returns json by country
 function countriesService() {
     $db = getDB();
-    $query = 'SELECT COUNT(*) AS total, coun_name_en AS country'
+    $query = 'SELECT COUNT(*) AS total, coun_name_en AS country '
             .'FROM ('
             .'  SELECT coun_name_en '
 	        .'  FROM projects AS p '
