@@ -175,16 +175,16 @@
 </p>
 
 <p>
-    A l’issu de ces quelques mois d’échange et de recherches, les participants se retrouveront en Novembre 2015 à Chilly-Mazarin 
-    pour le congrès Autres Climats qui aura lieu en parallèle de la Conférence mondiale sur le Climat de Paris. 
-    Cet évènement marquera l’aboutissement du projet  par le biais de : conférences, débats, présentations artistiques, 
-    exposition de photos autour des actions réalisés par les membres d’Autres Climats.
+    At the end of those few months of discussion and research, participants will meet in November 2015 in Chilly-Mazarin 
+    for Other Climates congress to be held in parallel with the World Climate Conference in Paris.
+    This event will mark the culmination of the project through lectures, debates, artistic performances and
+    photo exhibitions around the actions carried out by members of other climates.
 </p>
 
 <p>
-    Il s’agira de rassembler un public large et de communiquer autour des initiatives citoyennes qui auront fait leur preuves 
-    afin d’inspirer de nouvelles initiatives et d’inciter les citoyens d’aujourd’hui à (re)prendre leur destin en main 
-    pour un avenir plus solidaire, plus équitable et un développement qui place l’humain au premier plan.
+    This will be a large audience manifestation to communicate about citizen initiatives that have proven themselves, 
+    to inspire new initiatives and encourage today citizens to take (back) control of their destiny for a fairer and
+    more united future and to build a people-centered development model.
 </p>
 
 <br><br>
