@@ -442,7 +442,13 @@ function countriesService() {
             .') AS Q1 '
             .'GROUP BY coun_name_en';
     
-    $countriesCount = $db->query($query);
+    $result = $db->query($query);
+    $countriesCount = [];
+    
+    foreach ($result as $country) {
+        $countriesCount[] = $country;
+    }
+    
     return $countriesCount;
 }
 
