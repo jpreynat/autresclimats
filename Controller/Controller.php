@@ -122,7 +122,7 @@ function getCountriesInfo() {
 
 function getProjectsLocationInfo() {
     $projectsInfo = projectsLocationService();
-    echo json_encode($projectsInfo, , JSON_UNESCAPED_UNICODE);
+    echo json_encode($projectsInfo, JSON_UNESCAPED_UNICODE);
 }
 
 ?>
