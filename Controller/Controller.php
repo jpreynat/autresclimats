@@ -117,12 +117,12 @@ function error($errorMsg) {
 
 function getCountriesInfo() {
     $countriesCount = countriesService();
-    echo json_encode($countriesCount, JSON_UNESCAPED_UNICODE);
+    echo json_encode($countriesCount);
 }
 
 function getProjectsLocationInfo() {
     $projectsInfo = projectsLocationService();
-    echo json_encode($projectsInfo, JSON_UNESCAPED_UNICODE);
+    echo json_encode($projectsInfo);
 }
 
 ?>
