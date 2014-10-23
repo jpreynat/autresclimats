@@ -452,4 +452,22 @@ function countriesService() {
     return $countriesCount;
 }
 
+// Returns json location informations by project
+function projectsLocationService() {
+    $db = getDB();
+    $query = 'SELECT p_name AS name, p_city AS city, coun_name_en AS country '
+            .'FROM '
+	        .'  projects AS p '
+            .'  INNER JOIN countries AS c ON p.coun_id = c.coun_id ';
+    
+    $result = $db->query($query);
+    $projectsInfo = [];
+    
+    foreach ($result as $projectInfo) {
+        $projectsInfo[$projectInfo['name']] = [$projectInfo['city'], $projectInfo['country']];
+    }
+    
+    return $projectsInfo;
+}
+
 ?>

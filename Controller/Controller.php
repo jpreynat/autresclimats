@@ -120,4 +120,9 @@ function getCountriesInfo() {
     echo json_encode($countriesCount);
 }
 
+function getProjectsLocationInfo() {
+    $projectsInfo = projectsLocationService();
+    echo json_encode($projectsInfo);
+}
+
 ?>

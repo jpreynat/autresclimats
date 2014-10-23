@@ -139,6 +139,10 @@ try {
                 getCountriesInfo();
                 break;
             
+            case 'projectsLocationInfo':
+                getProjectsLocationInfo();
+                break;
+            
             default:
                 home();
         
