@@ -465,7 +465,7 @@ function projectsLocationService() {
     $projectsInfo = [];
     
     foreach ($result as $projectInfo) {
-        $projectsInfo[$projectInfo['name']] = [$projectInfo['city'], $projectInfo['country']];
+        $projectsInfo[$projectInfo['name']] = [$projectInfo['city'], $projectInfo['country'], $projectInfo['id']];
     }
     
     return $projectsInfo;
