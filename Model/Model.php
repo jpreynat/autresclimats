@@ -472,7 +472,7 @@ function projectsLocationService() {
         $address = $address . $projectInfo['country'];
         //$projectsInfo[$projectInfo['name']] = [$address, $projectInfo['id']];
         //$projectsInfo[$address][] = [$projectInfo['name'], $projectInfo['id']];
-        $projectsInfo[$address][] = array($projectInfo['id'] => $projectInfo['name']);
+        $projectsInfo[$address][] = array("id" => $projectInfo['id'], "name" => $projectInfo['name']);
     }
     
     return $projectsInfo;
