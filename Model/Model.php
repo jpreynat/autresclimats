@@ -470,7 +470,8 @@ function projectsLocationService() {
             $address = $projectInfo['city'] . ', ' ;
         }
         $address = $address . $projectInfo['country'];
-        $projectsInfo[$projectInfo['name']] = [$address, $projectInfo['id']];
+        //$projectsInfo[$projectInfo['name']] = [$address, $projectInfo['id']];
+        $projectsInfo[$address][] = [$projectInfo['name'], $projectInfo['id']];
     }
     
     return $projectsInfo;
