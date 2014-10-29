@@ -30,3 +30,12 @@
   color: #426e70;
   text-decoration: none;
 }
+
+.infoWindow p {
+  font-size: 1.4rem;
+}
+
+.infoWindow h4 {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
