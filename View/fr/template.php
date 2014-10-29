@@ -9,6 +9,7 @@
         <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/yeti/bootstrap.min.css" rel="stylesheet">
         <link href="../css/styles.css" rel="stylesheet">
         <link href="../css/lightbox.css" rel="stylesheet">
+        <link href="../css/mapsstyles.css" rel="stylesheet">
     </head>
     
     <body>
@@ -125,6 +126,9 @@
                    e.preventDefault();
                    window.open('files/ACVolet2.pdf');
                 });
+                
+                //ENABLE MAPS
+                locateProjects();
             });
         </script>
         

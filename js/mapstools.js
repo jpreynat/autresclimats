@@ -4,8 +4,8 @@ var map,
 
 function initializeMap() {
   var mapOptions = {
-    center: { lat: 48.858093, lng: 2.294694},
-    zoom: 3
+    center: { lat: 30, lng: 8},
+    zoom: 2
   };
   
   map = new google.maps.Map(document.getElementById('map-canvas'),
@@ -64,7 +64,7 @@ function codeAddress(address, projects) {
 function locateProjects() {
   initializeMap();
   $.ajax({
-    url: '//jsbin.com/zequca/js',
+    url: '//autresclimats-jpreynat.rhcloud.com/index.php?action=projectsLocationInfo',
     dataType: 'json',
     success: function(data) {
       for (var address in data) {
