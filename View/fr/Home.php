@@ -85,7 +85,9 @@
 <section>
 <div class="row">
     <div class="col-sm-12">
-    <div id="map-canvas"></div>
+        <div class="map_container">
+            <div id="map_canvas" class="map_canvas"></div>
+        </div>
     </div>
 </div>
 </section>
