@@ -8,7 +8,7 @@ function initializeMap() {
     zoom: 2
   };
   
-  map = new google.maps.Map(document.getElementById('map-canvas'),
+  map = new google.maps.Map(document.getElementById('map_canvas'),
                                 mapOptions);
   
   geocoder = new google.maps.Geocoder();
