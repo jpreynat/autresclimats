@@ -83,6 +83,7 @@
 </article>
 
 <section>
+<h4 class="page-header"><strong>Retrouvez les projets d'Autres Climats à travers le monde</strong></h4>
 <div class="row">
     <div class="col-sm-12">
         <div class="map_container">
