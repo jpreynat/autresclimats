@@ -82,6 +82,14 @@
 </div>
 </article>
 
+<section>
+<div class="row">
+    <div class="col-sm-12">
+    <div id="map-canvas"></div>
+    </div>
+</div>
+</section>
+
 <?php $contents = ob_get_clean(); ?>
 
 <?php $javascript = ''; ?>

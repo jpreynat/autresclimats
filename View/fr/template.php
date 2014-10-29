@@ -105,6 +105,8 @@
         <script src="js/jquery.jrumble.1.3.min.js"></script>
         <script src="js/holder.js"></script>
         <script src="js/lightbox.min.js"></script>
+        <script src="//maps.google.com/maps/api/js?sensor=false"></script>
+        <script src="js/mapstools.js"></script>
         
         <script type="text/javascript">
             $(document).ready(function() {
