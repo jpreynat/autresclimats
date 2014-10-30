@@ -96,7 +96,7 @@
         
         <footer>
         <div class="container">
-            <p class="text-muted"><a href="index.php?action=login"></a></p>
+            <p class="text-muted"><a href="index.php?action=login">Administration</a></p>
             <p class="text-muted">&copy; jpreynat</p>
         </div>
         </footer>
