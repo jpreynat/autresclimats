@@ -6,7 +6,7 @@
 
 <div class="row">
 
-  	<div class="col-sm-7 home-page">
+  	<div class="col-xs-7 home-page">
   	
         <h1>Other Climates</h1>
         <br>
@@ -40,7 +40,7 @@
     
     </div>
   
-    <div class="col-sm-4">
+    <div class="col-xs-4">
     
         <img src="https://lh3.googleusercontent.com/-1cgJdyB4JFw/U-kTSyZtGbI/AAAAAAAAACs/37Yu383VAm0/w608-h602-no/Other%2BClimates%2BSquare%2BLogo.png"
              class="img-responsive home-logo"/>
@@ -62,7 +62,7 @@
 <?php if (!$project['p_logo'])
         $project['p_logo'] = 'js/holder.js/200x200'; ?>
 
-    <div class="col-md-3 text-center">
+    <div class="col-md-3 col-xs-6 text-center">
         <div class="img-container">
             <div class="row img-thumbnail">
                 <a href="<?= "index.php?action=project&id=" . $project['p_id'] ?>">

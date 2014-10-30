@@ -62,7 +62,8 @@ p {
 
 .img-container {
     height: 260px;
-    width: 290px;
+    /*width: 290px;*/
+    width: 800px;
     display: table-cell;
     vertical-align: middle;
     float: none;

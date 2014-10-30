@@ -15,7 +15,7 @@
 <?php if (!$project['p_logo'])
         $project['p_logo'] = 'js/holder.js/200x200'; ?>
 
-    <div class="col-md-3 text-center">
+    <div class="col-md-3 col-xs-6 text-center">
         <div class="img-container">
         
             <div class="row img-thumbnail">
