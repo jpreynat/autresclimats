@@ -93,6 +93,13 @@
 </div>
 </section>
 
+<section id="footer-admin">
+    <div class="container">
+        <p class="text-muted"><a href="index.php?action=login">Administration</a></p>
+        <p class="text-muted">&copy; jpreynat</p><br>
+    </div>
+</section>
+
 <?php $contents = ob_get_clean(); ?>
 
 <?php $javascript = ''; ?>
