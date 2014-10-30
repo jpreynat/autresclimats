@@ -85,6 +85,24 @@
 </div>
 </article>
 
+<section>
+<h4 class="page-header"><strong>Descubre los proyectos de Otros Climas a través del mundo</strong></h4>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="map_container">
+            <div id="map_canvas" class="map_canvas"></div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="footer-admin">
+    <div class="container">
+        <p class="text-muted"><a href="index.php?action=login">Administración</a></p>
+        <p class="text-muted">&copy; jpreynat</p><br>
+    </div>
+</section>
+
 <?php $contents = ob_get_clean(); ?>
 
 <?php $javascript = ''; ?>
