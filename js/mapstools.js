@@ -55,8 +55,10 @@ function codeAddress(address, projects) {
         globalIW.open(map, marker);
       });
       
+      return true;
     } else {
-      setTimeout(codeAddress(address, projects), 250);
+      //setTimeout(codeAddress(address, projects), 250);
+      return false;
     }
   });
 }
@@ -68,9 +70,10 @@ function locateProjects() {
     dataType: 'json',
     success: function(data) {
       for (var address in data) {
-        setTimeout(codeAddress(address, data[address]), 50);
-        alert(address, data[address]);
-        //codeAddress(address, data[address]);
+        var placedLocation = codeAddress(address, data[address]);
+        if (!placedLocation) {
+          setTimeout(codeAddress(address, data[address]), 1000);
+        }
       }    
     }
   });
