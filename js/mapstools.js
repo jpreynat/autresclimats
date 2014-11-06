@@ -69,6 +69,7 @@ function locateProjects() {
     success: function(data) {
       for (var address in data) {
         setTimeout(codeAddress(address, data[address]), 50);
+        alert(address, data[address]);
         //codeAddress(address, data[address]);
       }    
     }
