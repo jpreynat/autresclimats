@@ -54,11 +54,8 @@ function codeAddress(address, projects) {
         globalIW = infoWindow;
         globalIW.open(map, marker);
       });
-      
-      return true;
     } else {
-      //setTimeout(codeAddress(address, projects), 250);
-      return false;
+      setTimeout(codeAddress(address, projects), 500);
     }
   });
 }
@@ -70,10 +67,7 @@ function locateProjects() {
     dataType: 'json',
     success: function(data) {
       for (var address in data) {
-        var placedLocation = codeAddress(address, data[address]);
-        if (!placedLocation) {
-          setTimeout(codeAddress(address, data[address]), 1000);
-        }
+        codeAddress(address, data[address]);
       }    
     }
   });
