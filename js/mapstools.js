@@ -68,7 +68,7 @@ function locateProjects() {
     dataType: 'json',
     success: function(data) {
       for (var address in data) {
-        codeAddress(address, data[address]);
+        setTimeout(codeAddress(address, data[address]), 200);
       }    
     }
   });
