@@ -55,6 +55,7 @@ function codeAddress(address, projects) {
         globalIW.open(map, marker);
       });
     } else {
+      alert("Geocode failed, status=" + status);
       setTimeout(codeAddress(address, projects), 500);
     }
   });
