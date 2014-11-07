@@ -56,7 +56,7 @@ function codeAddress(address, projects) {
       });
     } else {
       //alert("Geocode failed, status=" + status);
-      setTimeout(codeAddress(address, projects), 500);
+      setTimeout(codeAddress(address, projects), 1500);
     }
   });
 }
