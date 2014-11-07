@@ -67,8 +67,9 @@ function locateProjects() {
     url: '//autresclimats-jpreynat.rhcloud.com/index.php?action=projectsLocationInfo',
     dataType: 'json',
     success: function(data) {
+      var i = 1;
       for (var address in data) {
-        setTimeout(codeAddress(address, data[address]), 200);
+        setTimeout(codeAddress(address, data[address]), 100 * i++);
       }    
     }
   });
