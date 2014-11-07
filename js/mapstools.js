@@ -55,8 +55,9 @@ function codeAddress(address, projects) {
         globalIW.open(map, marker);
       });
     } else {
-      //alert("Geocode failed, status=" + status);
-      setTimeout(codeAddress(address, projects), 1500);
+      setTimeout(function() {
+        codeAddress(address, projects);
+        }, 500);
     }
   });
 }
@@ -69,8 +70,9 @@ function locateProjects() {
     success: function(data) {
       var i = 0;
       for (var address in data) {
-        i++;
-        setTimeout(codeAddress(address, data[address]), 500 * i);
+        setTimeout(function() {
+          codeAddress(address, data[address]);
+          }, 200 * i++);
       }    
     }
   });
