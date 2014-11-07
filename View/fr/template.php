@@ -105,7 +105,7 @@
         <script src="js/jquery.jrumble.1.3.min.js"></script>
         <script src="js/holder.js"></script>
         <script src="js/lightbox.min.js"></script>
-        <script src="//maps.google.com/maps/api/js?sensor=false"></script>
+        <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyDgF9-hv09KVH_BYGZgv-Rund5lKZkLifM"></script>
         <script src="js/mapstools.js"></script>
         
         <script type="text/javascript">
