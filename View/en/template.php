@@ -122,10 +122,70 @@
                 });
                 
                 // ENABLE POPUP FOR DOCUMENTATION
+                
+                // DOC FOR PART 1
+                $('#docVolet1').click(function(e) {
+                   e.preventDefault();
+                   window.open('files/ACVolet1.pdf');
+                });
+                
+                // DOC FOR PART 2
                 $('#docVolet2').click(function(e) {
                    e.preventDefault();
                    window.open('files/ACVolet2.pdf');
                 });
+                
+                //FRENCH ARTICLES
+                // ARTICLE BALLONS POUR ENERGIE VERTE
+                $('#artBallonsPourEnergie').click(function(e) {
+                   e.preventDefault();
+                   window.open('files/Ballons pour energie verte.odt');
+                });
+                
+                // ARTICLE CONTRE LA FASCINATION DU DESASTRE
+                $('#artContreLaFascination').click(function(e) {
+                   e.preventDefault();
+                   window.open('files/Contre la fascination du desastre.pdf');
+                });
+                
+                // ARTICLE L'INTERNATIONALE DES DECLASSES
+                $('#artInternationaleDesDeclasses').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/L'internationale des declasses.pdf");
+                });
+                
+                // ARTICLE LE LOCALISME EST DECALE, LE MONDIALISME EST ILLUSOIRE
+                $('#artLocalismeMondialisme').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/Le localisme est decale, le mondialisme est illusoire.pdf");
+                });
+                
+                // ARTICLE PART DU PLASTIQUE PERDU EN MER
+                $('#artPartDuPlastique').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/Part du plastique perdu en mer.odt");
+                });
+                
+                //ENGLISH ARTICLES
+                // ARTICLE THE HINDU - COMPILATION
+                $('#artHinduCompilation').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/The Hindu - Compilation.odt");
+                });
+                
+                // ARTICLE THE HINDU - THE ECONOMIC CONSEQUENCES OF NEHRU
+                $('#artHinduNehru').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/The Hindu - The economic consequences of Nehru.docx");
+                });
+                
+                // ARTICLE THE HINDU - WORRISOME TRENDS IN AGRICULTURE
+                $('#artHinduWorrisome').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/The Hindu - Worrisome trends in agriculture.docx");
+                });
+                
+                //SPANISH ARTICLES
                 
                 //ENABLE MAPS
                 locateProjects();

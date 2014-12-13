@@ -145,7 +145,8 @@
             </p>
             <p>
                 La coordinación será asegurada desde Francia por Elsa Münch<br>
-                <a href="index.php?action=contact">Únance a los actores de la « Mobilización activa »</a>
+                <a href="index.php?action=contact">Únance a los actores de la « Mobilización activa »</a><br>
+                <a id="docVolet1" href="#">Presentación de la 1era parte</a>
             </p>
             
         
@@ -161,7 +162,7 @@
                 <a id="docVolet2" href="#">Presentación de la 2nda parte</a>
             </p>
         </div>
-        
+        <!--
         <div class="col-sm-4 col-sm-offset-1 text-center about-contact">
             <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c116.0.160.160/p160x160/970164_546637382053805_1659763638_n.jpg?oh=844879a85957f1e3e5a83392ec522c27&amp;oe=54714D18&amp;__gda__=1416000347_a2b9a0b76834595afe395806525562e7" class="img img-responsive img-thumbnail img-contact">
             <p class="about-label"><em>Raphaëlle Pallarès</em></p>
@@ -170,6 +171,7 @@
             <img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10485526_10204587660602118_7874936852379322337_n.jpg?oh=a8c32a8efc246cde47303696afd9645d&amp;oe=545FC8E8" class="img img-responsive img-thumbnail img-contact">
             <p class="about-label"><em>Kelly Gene</em></p>
         </div>
+        -->
     </div>
 </div>
     
