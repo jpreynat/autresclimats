@@ -34,6 +34,17 @@ html, body, section {
     box-shadow: #ccc 1px 1px 10px;
 }
 
+/* Home Page articles */
+#articles a {
+    color: #006C90;
+    font-weight: 300;
+    line-height: 3rem;
+}
+
+#articles h4 {
+    margin-bottom: 2.7rem;
+}
+
 /* Override default text-size */
 p {
     font-weight: 300;
