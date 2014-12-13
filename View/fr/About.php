@@ -146,6 +146,7 @@
             <p>
               La coordination du volet 1 est assurée depuis la France par Elsa Münch.<br>
               <a href="index.php?action=contact">Rejoignez les acteurs du Volet 1</a>
+              <a id="docVolet1" href="#">Documentation Volet 1</a>
             </p>
             
         

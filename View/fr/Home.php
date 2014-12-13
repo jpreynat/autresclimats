@@ -82,6 +82,32 @@
 </div>
 </article>
 
+<section id="articles">
+  <h4 class="page-header"><strong>Les articles disponibles</strong></h4>
+  <div class="row">
+    <div id="french-articles" class="col-xs-4 articles-list">
+      <h4>En français</h4>
+      <a id="artBallonsPourEnergie" href="#">Ballons pour énergie verte</a>
+      <a id="artContreLaFascination" href="#">Contre la fascination du désastre</a>
+      <a id="artInternationaleDesDeclasses" href="#">L'internationale des déclassés</a>
+      <a id="artLocalismeMondialisme" href="#">Le localisme est décalé, le mondialisme est illusoire</a>
+      <a id="artPartDuPlastique" href="#">Part du plastique perdu en mer</a>
+    </div>
+    
+    <div id="english-articles" class="col-xs-4 articles-list">
+      <h4>En anglais</h4>
+      <a id="artHinduCompilation" href="#">The Hindu - Compilation</a>
+      <a id="artHinduNehru" href="#">The Hindu - The economic consequences of Nehru</a>
+      <a id="artHinduWorrisome" href="#">The Hindu - Worrisome trends in agriculture</a>
+    </div>
+    
+    <div id="spanish-articles" class="col-xs-4 articles-list">
+      <h4>En espagnol</h4>
+      <p>A venir...</p>
+    </div>
+  </div>
+</section>
+
 <section>
 <h4 class="page-header"><strong>Retrouvez les projets d'Autres Climats à travers le monde</strong></h4>
 <div class="row">
