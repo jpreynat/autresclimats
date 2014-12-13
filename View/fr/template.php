@@ -138,8 +138,7 @@
                 // ARTICLE BALLONS POUR ENERGIE VERTE
                 $('#artBallonsPourEnergie').click(function(e) {
                    e.preventDefault();
-                   var article = encodeURIComponent('Ballons pour energie verte.odt');
-                   window.open('files/' + article);
+                   window.open('files/Ballons_pour_energie_verte.odt');
                 });
                 
                 // ARTICLE CONTRE LA FASCINATION DU DESASTRE
