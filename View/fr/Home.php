@@ -88,10 +88,18 @@
     <div id="french-articles" class="col-xs-4 articles-list">
       <h4>En français</h4>
       <a id="artBallonsPourEnergie" href="#">Ballons pour énergie verte</a><br>
+      <a id="artChevronPollueur" href="#">Chevron pollueur mais pas payeur en Équateur</a><br>
       <a id="artContreLaFascination" href="#">Contre la fascination du désastre</a><br>
+      <a id="artEcolePourTous" href="#">Des parents d'élèves défendent l'ecole pour tous</a><br>
+      <a id="artEquateurBiodiversite" href="#">En Équateur, la biodiversité à l'épreuve de la solidarité internationale</a><br>
+      <a id="artExtremesDroitesMutantes" href="#">Extrêmes droites mutantes en Europe</a><br>
       <a id="artInternationaleDesDeclasses" href="#">L'internationale des déclassés</a><br>
       <a id="artLocalismeMondialisme" href="#">Le localisme est décalé, le mondialisme est illusoire</a><br>
-      <a id="artPartDuPlastique" href="#">Part du plastique perdu en mer</a>
+      <a id="artEntreprisesEmploi" href="#">Les entreprises ne créent pas l'emploi</a><br>
+      <a id="artPartDuPlastique" href="#">Part du plastique perdu en mer</a><br>
+      <a id="artQuandLaFinance" href="#">Quand la finance se branche sur la nature</a><br>
+      <a id="artTeleramaSpeculation" href="#">Télérama - Le climat est à la spéculation</a><br>
+      <a id="artUnEcologiste" href="#">Un écologiste peut en cacher un autre</a>
     </div>
     
     <div id="english-articles" class="col-xs-4 articles-list">
