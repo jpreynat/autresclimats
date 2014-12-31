@@ -162,7 +162,7 @@
                 // ARTICLE EN EQUATEUR, LA BIODIVERSITE A L'EPREUVE DE LA SOLIDARITE INTERNATIONALE
                 $('#artEquateurBiodiversite').click(function(e) {
                    e.preventDefault();
-                   window.open("files/En Equateur, la biodiversite à l'epreuve de la solidarite internationale.pdf");
+                   window.open("files/En Equateur, la biodiversite a l'epreuve de la solidarite internationale.pdf");
                 });
                 
                 // ARTICLE EXTREMES DROITES MUTANTES EN EUROPE

@@ -82,10 +82,22 @@
 </div>
 </article>
 
+<section>
+<h4 class="page-header"><strong>Retrouvez les projets d'Autres Climats à travers le monde</strong></h4>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="map_container">
+            <div id="map_canvas" class="map_canvas"></div>
+        </div>
+    </div>
+</div>
+</section>
+
+
 <section id="articles">
   <h4 class="page-header"><strong>Les articles disponibles</strong></h4>
   <div class="row">
-    <div id="french-articles" class="col-xs-4 articles-list">
+    <div id="french-articles" class="col-xs-12 articles-list">
       <h4>En français</h4>
       <a id="artBallonsPourEnergie" href="#">Ballons pour énergie verte</a><br>
       <a id="artChevronPollueur" href="#">Chevron pollueur mais pas payeur en Équateur</a><br>
@@ -102,30 +114,20 @@
       <a id="artUnEcologiste" href="#">Un écologiste peut en cacher un autre</a>
     </div>
     
-    <div id="english-articles" class="col-xs-4 articles-list">
+    <div id="english-articles" class="col-xs-12 articles-list text-right">
       <h4>En anglais</h4>
       <a id="artHinduCompilation" href="#">The Hindu - Compilation</a><br>
       <a id="artHinduNehru" href="#">The Hindu - The economic consequences of Nehru</a><br>
       <a id="artHinduWorrisome" href="#">The Hindu - Worrisome trends in agriculture</a>
     </div>
     
-    <div id="spanish-articles" class="col-xs-4 articles-list">
+    <div id="spanish-articles" class="col-xs-12 articles-list">
       <h4>En espagnol</h4>
       <p>A venir...</p>
     </div>
   </div>
 </section>
 
-<section>
-<h4 class="page-header"><strong>Retrouvez les projets d'Autres Climats à travers le monde</strong></h4>
-<div class="row">
-    <div class="col-xs-12">
-        <div class="map_container">
-            <div id="map_canvas" class="map_canvas"></div>
-        </div>
-    </div>
-</div>
-</section>
 
 <section id="footer-admin">
     <div class="container">
