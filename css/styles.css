@@ -42,7 +42,11 @@ html, body, section {
 }
 
 #articles h4 {
-    margin-bottom: 2.7rem;
+    margin-bottom: 2rem;
+}
+
+.articles-list {
+    margin-bottom: 3rem;
 }
 
 /* Override default text-size */
