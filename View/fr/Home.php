@@ -93,7 +93,6 @@
 </div>
 </section>
 
-
 <section id="articles">
   <h4 class="page-header"><strong>Les articles disponibles</strong></h4>
   <div class="row">
@@ -127,7 +126,6 @@
     </div>
   </div>
 </section>
-
 
 <section id="footer-admin">
     <div class="container">

@@ -82,6 +82,17 @@
 </div>
 </article>
 
+<section>
+<h4 class="page-header"><strong>Discover Other Climates projects worldwide</strong></h4>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="map_container">
+            <div id="map_canvas" class="map_canvas"></div>
+        </div>
+    </div>
+</div>
+</section>
+
 <section id="articles">
   <h4 class="page-header"><strong>Available articles</strong></h4>
   <div class="row">
@@ -114,17 +125,6 @@
       <p>Coming soon...</p>
     </div>
   </div>
-</section>
-
-<section>
-<h4 class="page-header"><strong>Discover Other Climates projects worldwide</strong></h4>
-<div class="row">
-    <div class="col-xs-12">
-        <div class="map_container">
-            <div id="map_canvas" class="map_canvas"></div>
-        </div>
-    </div>
-</div>
 </section>
 
 <section id="footer-admin">
