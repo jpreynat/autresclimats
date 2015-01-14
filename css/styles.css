@@ -109,6 +109,11 @@ p {
     text-transform: uppercase;
 }
 
+.project-info > div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /* About page */
 .about-page img {
     box-shadow: #ccc 1px 1px 8px;

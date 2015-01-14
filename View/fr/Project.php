@@ -21,7 +21,7 @@
 
     <!-- #################### GENERAL INFORMATIONS ################### -->
 
-    <div class="row">
+    <div class="row project-info">
         <div class="col-sm-4">
             
             <h4 class="page-header">Lieu</h4>
@@ -36,35 +36,35 @@
             
         </div>
         
-        <div class="col-sm-4 col-sm-offset-4">
+        <div class="col-sm-5 col-sm-offset-3 text-right">
             
             <h4 class="page-header">Thème</h4>
-            <p><?= $project['theme_fr'] ?></p>
+            <p class="text-right"><?= $project['theme_fr'] ?></p>
             
         </div>
     </div>
     
     <!-- #################### PROJECTS INFORMATIONS ################### -->
     
-    <div class="row">
+    <div class="row project-info">
         <h4 class="page-header">Projets menés par l'association</h4>
         <p><?= $project['p_proj_fr'] ?></p>
     </div>
     
-    <div class="row">
+    <div class="row project-info">
         <h4 class="page-header">Actions présentées dans le cadre d'Autres Climats</h4>
         <p><?= $project['p_summ_fr'] ?></p>
     </div>
     
-    <div class="row">
+    <div class="row project-info">
         <h4 class="page-header">Bénéficiaires</h4>
         <p><?= $project['p_bene_fr'] ?></p>
     </div>
     
     <!-- #################### CONTACT INFORMATIONS ################### -->
     
-    <div class="row">
-        <div class="col-sm-5">
+    <div class="row project-info">
+        <div class="col-sm-4 col-sm-offset-4 text-center">
         
             <h4 class="page-header">Contact</h4>
             
