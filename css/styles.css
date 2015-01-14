@@ -301,5 +301,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         margin: 20px auto;
         border-radius: 2px;
         box-shadow: #ccc 1px 1px 10px;
+        float: none;
     }
 }
