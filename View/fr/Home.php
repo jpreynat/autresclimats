@@ -96,7 +96,7 @@
 <section id="articles">
   <h4 class="page-header"><strong>Les articles disponibles</strong></h4>
   <div class="row">
-    <div id="french-articles" class="col-xs-6 articles-list">
+    <div id="french-articles" class="col-xs-12 col-md-6 articles-list">
       <h4>En français</h4>
       <a id="artBallonsPourEnergie" href="#">Ballons pour énergie verte</a><br>
       <a id="artChevronPollueur" href="#">Chevron pollueur mais pas payeur en Équateur</a><br>
@@ -113,7 +113,7 @@
       <a id="artUnEcologiste" href="#">Un écologiste peut en cacher un autre</a>
     </div>
     
-    <div id="english-articles" class="col-xs-6 articles-list text-right">
+    <div id="english-articles" class="col-xs-12 col-md-6 articles-list text-right">
       <h4>En anglais</h4>
       <a id="artHinduCompilation" href="#">The Hindu - Compilation</a><br>
       <a id="artHinduNehru" href="#">The Hindu - The economic consequences of Nehru</a><br>

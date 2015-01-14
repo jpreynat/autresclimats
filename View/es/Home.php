@@ -6,7 +6,7 @@
 
 <div class="row">
 
-  	<div class="col-xs-7 home-page">
+  	<div class="col-sm-7 col-xs-12 home-page">
   	
         <h1>Otros Climas</h1>
         <br>
@@ -43,7 +43,7 @@
     
     </div>
   
-    <div class="col-xs-4">
+    <div class="col-sm-4 col-xs-12">
     
         <img src="https://lh3.googleusercontent.com/-1cgJdyB4JFw/U-kTSyZtGbI/AAAAAAAAACs/37Yu383VAm0/w608-h602-no/Other%2BClimates%2BSquare%2BLogo.png"
              class="img-responsive home-logo"/>
@@ -99,7 +99,7 @@
 <section id="articles">
   <h4 class="page-header"><strong>Los artículos disponibles</strong></h4>
   <div class="row">
-    <div id="french-articles" class="col-xs-6 articles-list">
+    <div id="french-articles" class="col-xs-12 col-md-6 articles-list">
       <h4>En francés</h4>
       <a id="artBallonsPourEnergie" href="#">Ballons pour énergie verte</a><br>
       <a id="artChevronPollueur" href="#">Chevron pollueur mais pas payeur en Équateur</a><br>
@@ -116,7 +116,7 @@
       <a id="artUnEcologiste" href="#">Un écologiste peut en cacher un autre</a>
     </div>
     
-    <div id="english-articles" class="col-xs-6 articles-list text-right">
+    <div id="english-articles" class="col-xs-12 col-md-6 articles-list text-right">
       <h4>En inglés</h4>
       <a id="artHinduCompilation" href="#">The Hindu - Compilation</a><br>
       <a id="artHinduNehru" href="#">The Hindu - The economic consequences of Nehru</a><br>
