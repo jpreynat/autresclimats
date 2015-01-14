@@ -294,3 +294,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     }
 }
 */
+@media (max-width: 767px) {
+    .home-logo {
+        width: 50%;
+        max-width: 300px;
+        margin: 20px auto;
+        border-radius: 2px;
+        box-shadow: #ccc 1px 1px 10px;
+    }
+}
