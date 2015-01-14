@@ -47,18 +47,24 @@
     <!-- #################### PROJECTS INFORMATIONS ################### -->
     
     <div class="row project-info">
+        <div class="col-sm-12">
         <h4 class="page-header">Proyectos llevados por la asociación</h4>
         <p><?= $project['p_proj_es'] ?></p>
+        </div>
     </div>
     
     <div class="row project-info">
+        <div class="col-sm-12">
         <h4 class="page-header">Acciones presentadas en el marco de Otros Climas</h4>
         <p><?= $project['p_summ_es'] ?></p>
+        </div>
     </div>
     
     <div class="row project-info">
+        <div class="col-sm-12">
         <h4 class="page-header">Beneficiarios</h4>
         <p><?= $project['p_bene_es'] ?></p>
+        </div>
     </div>
     
     <!-- #################### CONTACT INFORMATIONS ################### -->
