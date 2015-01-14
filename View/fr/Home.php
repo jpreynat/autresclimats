@@ -6,7 +6,7 @@
 
 <div class="row">
 
-  	<div class="col-xs-7 home-page">
+  	<div class="col-sm-7 col-xs-12 home-page">
   	
         <h1>Autres Climats</h1>
         <br>
@@ -40,7 +40,7 @@
     
     </div>
   
-    <div class="col-xs-4">
+    <div class="col-sm-4 col-xs-12">
     
         <img src="https://lh3.googleusercontent.com/-1cgJdyB4JFw/U-kTSyZtGbI/AAAAAAAAACs/37Yu383VAm0/w608-h602-no/Other%2BClimates%2BSquare%2BLogo.png"
              class="img-responsive home-logo"/>
