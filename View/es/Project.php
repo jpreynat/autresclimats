@@ -6,6 +6,7 @@
 
 <header>
     <div class="row">
+        <div class="col-sm-12">
         <!-- INSERT IMAGE IF EXISTS -->
         <?php if ($project['p_logo']): ?>
         <?php echo '<img src="' . $project['p_logo'] . '" alt="' . $project['p_name'] . '" class="img-thumbnail img-description pull-right" />'; ?>
@@ -13,6 +14,7 @@
         
         <div class="page-header">
             <h1><?= $project['p_name'] ?></h1>
+        </div>
         </div>
     </div>
 </header>
