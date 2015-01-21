@@ -52,6 +52,7 @@ function getProjectsBySection($section) {
             .' FROM projects'
             .' INNER JOIN countries ON projects.coun_id = countries.coun_id'
             .' WHERE p_sect=' . $section
+            .' OR p_sect=0'
             .' ORDER BY p_name';
     
     $projects = $db->query($query);
