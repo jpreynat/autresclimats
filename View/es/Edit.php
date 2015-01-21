@@ -88,6 +88,7 @@
                 <select class="form-control" id="p_sect" name="p_sect">
                     <option value="1" <?php if($project['p_sect'] == 1) { echo "selected"; } ?>>Volet 1</option>
                     <option value="2" <?php if($project['p_sect'] == 2) { echo "selected"; } ?>>Volet 2</option>
+                    <option value="0" <?php if($project['p_sect'] == 0) { echo "selected"; } ?>>Volet 1 et 2</option>
                 </select>
             </div>
         </div>

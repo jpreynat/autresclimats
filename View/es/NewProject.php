@@ -74,6 +74,7 @@
                 <select class="form-control" id="p_sect" name="p_sect">
                     <option value="1">Volet 1</option>
                     <option value="2">Volet 2</option>
+                    <option value="0">Volet 1 et 2</option>
                 </select>
             </div>
         </div>
