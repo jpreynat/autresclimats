@@ -118,9 +118,28 @@
     
     <div id="english-articles" class="col-xs-12 col-md-6 articles-list text-right">
       <h4>English</h4>
+      <a id="artAPortrait" href="#">A portrait of modern inequality</a><br>
+      <a id="artAWhiff" href="#">A whiff of fresh air</a><br>
+      <a id="artAbandoningTheIdea" href="#">Abandoning the idea of India</a><br>
+      <a id="artAnEngineeringGraduate" href="#">An engineering graduate turns into a successful entrepreneur</a><br>
+      <a id="artDecentHumour" href="#">Decent humour, dissent, not prohibited</a><br>
+      <a id="artEasyToCarry" href="#">Easy to carry effective solar powered insect trapper</a><br>
+      <a id="artHowExpensive" href="#">How expensive it is to be poor</a><br>
+      <a id="artIdeologyAndTheRise" href="#">Ideology and the rise of terror</a><br>
+      <a id="artImprovingAnUnworkable" href="#">Improving an unworkable law</a><br>
+      <a id="artInDavos" href="#">In Davos, worrying about inequality</a><br>
+      <a id="artIntellectualClimate" href="#">Intellectual climate of inspiring concepts</a><br>
+      <a id="artIslamicDifference" href="#">Islamic difference and radicalisation</a><br>
+      <a id="artMeaningfulMemory" href="#">Meaningful memory</a><br>
+      <a id="artNGOsOppose" href="#">NGOs oppose panel report</a><br>
+      <a id="artNoEndToChild" href="#">No end to child Labour</a><br>
+      <a id="artSheSoldHerKidney" href="#">She sold her kidney to set right land records</a><br>
+      <a id="artSolarPanels" href="#">Solar panels on top of canal impress UN chief</a><br>
       <a id="artHinduCompilation" href="#">The Hindu - Compilation</a><br>
       <a id="artHinduNehru" href="#">The Hindu - The economic consequences of Nehru</a><br>
-      <a id="artHinduWorrisome" href="#">The Hindu - Worrisome trends in agriculture</a>
+      <a id="artHinduWorrisome" href="#">The Hindu - Worrisome trends in agriculture</a><br>
+      <a id="artTheOscars" href="#">The oscars and the rest of us</a><br>
+      <a id="artTheyDefyDisability" href="#">They defy disability with dance</a>
     </div>
     
     <div id="spanish-articles" class="col-xs-12 articles-list">

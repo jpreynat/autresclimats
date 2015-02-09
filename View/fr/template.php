@@ -232,6 +232,108 @@
                 });
                 
                 //ENGLISH ARTICLES -----------------------------------------------------------------------------------------------
+                // ARTICLE A PORTRAIT OF MODERN INEQUALITY
+                $('#artAPortrait').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/A portrait of modern inequality.pdf");
+                });
+                
+                // ARTICLE A WHIFF OF FRESH AIR
+                $('#artAWhiff').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/A whiff of fresh air.pdf");
+                });
+                
+                // ARTICLE ABANDONING THE IDEA OF INDIA
+                $('#artAbandoningTheIdea').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/Abandoning the idea of India.pdf");
+                });
+                
+                // ARTICLE AN ENGINEERING GRADUATE TURNS INTO A SUCCESSFUL ENTREPRENEUR
+                $('#artAnEngineeringGraduate').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/An engineering graduate turns into a successful entrepreneur.pdf");
+                });
+                
+                // ARTICLE DECENT HUMOUR, DISSENT, NOT PROHIBITED
+                $('#artDecentHumour').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/Decent humour, dissent, not prohibited.pdf");
+                });
+                
+                // ARTICLE EASY TO CARRY EFFECTIVE SOLAR POWERED INSECT TRAPPER
+                $('#artEasyToCarry').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/Easy to carry effective solar powered insect trapper.pdf");
+                });
+                
+                // ARTICLE HOW EXPENSIVE IT IS TO BE POOR
+                $('#artHowExpensive').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/How expensive it is to be poor.pdf");
+                });
+                
+                // ARTICLE IDEOLOGY AND THE RISE OF TERROR
+                $('#artIdeologyAndTheRise').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/Ideology and the rise of terror.pdf");
+                });
+                
+                // ARTICLE IMPROVING AN UNWORKABLE LAW
+                $('#artImprovingAnUnworkable').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/Improving an unworkable law.pdf");
+                });
+                
+                // ARTICLE IN DAVOS, WORRYING ABOUT INEQUALITY
+                $('#artInDavos').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/In Davos, worrying about inequality.pdf");
+                });
+                
+                // ARTICLE INTELLECTUAL CLIMATE OF INSPIRING CONCEPTS
+                $('#artIntellectualClimate').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/Intellectual climate of inspiring concepts.pdf");
+                });
+                
+                // ARTICLE ISLAMIC DIFFERENCE AND RADICALISATION
+                $('#artIslamicDifference').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/Islamic difference and radicalisation.pdf");
+                });
+                
+                // ARTICLE MEANINGFUL MEMORY
+                $('#artMeaningfulMemory').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/Meaningful memory.pdf");
+                });
+                
+                // ARTICLE NGOS OPPOSE PANEL REPORT
+                $('#artNGOsOppose').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/NGOs oppose panel report.pdf");
+                });
+                
+                // ARTICLE NO END TO CHILD LABOUR
+                $('#artNoEndToChild').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/No end to child Labour.pdf");
+                });
+                
+                // ARTICLE SHE SOLD HER KIDNEY TO SET RIGHT LAND RECORDS
+                $('#artSheSoldHerKidney').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/She sold her kidney to set right land records.pdf");
+                });
+                
+                // ARTICLE SOLAR PANELS ON TOP OF CANAL IMPRESS UN CHIEF
+                $('#artSolarPanels').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/Solar panels on top of canal impress UN chief.pdf");
+                });
+                
                 // ARTICLE THE HINDU - COMPILATION
                 $('#artHinduCompilation').click(function(e) {
                    e.preventDefault();
@@ -248,6 +350,18 @@
                 $('#artHinduWorrisome').click(function(e) {
                    e.preventDefault();
                    window.open("files/en/The Hindu - Worrisome trends in agriculture.docx");
+                });
+                
+                // ARTICLE THE OSCARS AND THE REST OF US
+                $('#artTheOscars').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/The oscars and the rest of us.pdf");
+                });
+                
+                // ARTICLE THEY DEFY DISABILITY WITH DANCE
+                $('#artTheyDefyDisability').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/They defy disability with dance.pdf");
                 });
                 
                 //SPANISH ARTICLES -----------------------------------------------------------------------------------------------
