@@ -107,13 +107,16 @@
       <a id="artEcolePourTous" href="#">Des parents d'élèves défendent l'ecole pour tous</a><br>
       <a id="artEquateurBiodiversite" href="#">En Équateur, la biodiversité à l'épreuve de la solidarité internationale</a><br>
       <a id="artExtremesDroitesMutantes" href="#">Extrêmes droites mutantes en Europe</a><br>
+      <a id="artEcologieIndustrielle" href="#">L'écologie industrielle comme processus de developpement territorial</a><br>
       <a id="artInternationaleDesDeclasses" href="#">L'internationale des déclassés</a><br>
       <a id="artLocalismeMondialisme" href="#">Le localisme est décalé, le mondialisme est illusoire</a><br>
       <a id="artEntreprisesEmploi" href="#">Les entreprises ne créent pas l'emploi</a><br>
       <a id="artPartDuPlastique" href="#">Part du plastique perdu en mer</a><br>
       <a id="artQuandLaFinance" href="#">Quand la finance se branche sur la nature</a><br>
       <a id="artTeleramaSpeculation" href="#">Télérama - Le climat est à la spéculation</a><br>
-      <a id="artUnEcologiste" href="#">Un écologiste peut en cacher un autre</a>
+      <a id="artUnEcologiste" href="#">Un écologiste peut en cacher un autre</a><br>
+      <a id="artUneNouvelleSynergie" href="#">Une nouvelle synergie entre le territoire, la firme et le consommateur</a><br>
+      <a id="artartVersDeNouveaux" href="#">Vers de nouveaux modèles productifs et organisationnels</a>
     </div>
     
     <div id="english-articles" class="col-xs-12 col-md-6 articles-list text-right">

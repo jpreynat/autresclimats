@@ -111,7 +111,7 @@
         
         <script type="text/javascript">
             $(document).ready(function() {
-                // ENABLE ACTIVE CLASS FOR MENU
+                // ENABLE ACTIVE CLASS FOR MENU ----------------------------------------------------------------------
                 $('.dropdown').hover(function() {
                     $(this).children('.dropdown-menu').show();
                     $(this).addClass('open');
@@ -121,7 +121,7 @@
                     $(this).removeClass('open');
                 });
                 
-                // ENABLE POPUP FOR DOCUMENTATION
+                // ENABLE POPUP FOR DOCUMENTATION ----------------------------------------------------------------------
                 
                 // DOC FOR PART 1
                 $('#docVolet1').click(function(e) {
@@ -135,105 +135,123 @@
                    window.open('files/ACVolet2.pdf');
                 });
                 
-                //FRENCH ARTICLES
+                //FRENCH ARTICLES -----------------------------------------------------------------------------------------------
                 // ARTICLE BALLONS POUR ENERGIE VERTE
                 $('#artBallonsPourEnergie').click(function(e) {
                    e.preventDefault();
-                   window.open('files/Ballons pour energie verte.odt');
+                   window.open('files/fr/Ballons pour energie verte.odt');
                 });
                 
                 // ARTICLE CHEVRON POLLUEUR MAIS PAS PAYEUR EN EQUATEUR
                 $('#artChevronPollueur').click(function(e) {
                    e.preventDefault();
-                   window.open('files/Chevron pollueur mais pas payeur en Equateur.pdf');
+                   window.open('files/fr/Chevron pollueur mais pas payeur en Equateur.pdf');
                 });
                 
                 // ARTICLE CONTRE LA FASCINATION DU DESASTRE
                 $('#artContreLaFascination').click(function(e) {
                    e.preventDefault();
-                   window.open('files/Contre la fascination du desastre.pdf');
+                   window.open('files/fr/Contre la fascination du desastre.pdf');
                 });
                 
                 // ARTICLE DES PARENTS D'ELEVES DEFENDENT L'ECOLE POUR TOUS
                 $('#artEcolePourTous').click(function(e) {
                    e.preventDefault();
-                   window.open("files/Des parents d'eleves defendent l'ecole pour tous.pdf");
+                   window.open("files/fr/Des parents d'eleves defendent l'ecole pour tous.pdf");
                 });
                                 
                 // ARTICLE EN EQUATEUR, LA BIODIVERSITE A L'EPREUVE DE LA SOLIDARITE INTERNATIONALE
                 $('#artEquateurBiodiversite').click(function(e) {
                    e.preventDefault();
-                   window.open("files/En Equateur, la biodiversite a l'epreuve de la solidarite internationale.pdf");
+                   window.open("files/fr/En Equateur, la biodiversite a l'epreuve de la solidarite internationale.pdf");
                 });
                 
                 // ARTICLE EXTREMES DROITES MUTANTES EN EUROPE
                 $('#artExtremesDroitesMutantes').click(function(e) {
                    e.preventDefault();
-                   window.open("files/Extremes droites mutantes en Europe.pdf");
+                   window.open("files/fr/Extremes droites mutantes en Europe.pdf");
+                });
+                
+                // ARTICLE L'ECOLOGIE INDUSTRIELLE COMME PROCESSUS DE DEVELOPPEMENT TERRITORIAL
+                $('#artEcologieIndustrielle').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/fr/L'ecologie industrielle comme processus de developpement territorial.pdf");
                 });
                 
                 // ARTICLE L'INTERNATIONALE DES DECLASSES
                 $('#artInternationaleDesDeclasses').click(function(e) {
                    e.preventDefault();
-                   window.open("files/L'internationale des declasses.pdf");
+                   window.open("files/fr/L'internationale des declasses.pdf");
                 });
                 
                 // ARTICLE LE LOCALISME EST DECALE, LE MONDIALISME EST ILLUSOIRE
                 $('#artLocalismeMondialisme').click(function(e) {
                    e.preventDefault();
-                   window.open("files/Le localisme est decale, le mondialisme est illusoire.pdf");
+                   window.open("files/fr/Le localisme est decale, le mondialisme est illusoire.pdf");
                 });
                 
                 // ARTICLE LES ENTREPRISES NE CREENT PAS L'EMPLOI
                 $('#artEntreprisesEmploi').click(function(e) {
                    e.preventDefault();
-                   window.open("files/Les entreprises ne creent pas l'emploi.pdf");
+                   window.open("files/fr/Les entreprises ne creent pas l'emploi.pdf");
                 });
                 
                 // ARTICLE PART DU PLASTIQUE PERDU EN MER
                 $('#artPartDuPlastique').click(function(e) {
                    e.preventDefault();
-                   window.open("files/Part du plastique perdu en mer.odt");
+                   window.open("files/fr/Part du plastique perdu en mer.odt");
                 });
                 
                 // ARTICLE QUAND LA FINANCE SE BRANCHE SUR LA NATURE
                 $('#artQuandLaFinance').click(function(e) {
                    e.preventDefault();
-                   window.open("files/Quand la finance se branche sur la nature.pdf");
+                   window.open("files/fr/Quand la finance se branche sur la nature.pdf");
                 });
                 
                 // ARTICLE TELERAMA - LE CLIMAT EST A LA SPECULATION
                 $('#artTeleramaSpeculation').click(function(e) {
                    e.preventDefault();
-                   window.open("files/Telerama - Le climat est a la speculation.pdf");
+                   window.open("files/fr/Telerama - Le climat est a la speculation.pdf");
                 });
                 
                 // ARTICLE UN ECOLOGISTE PEUT EN CACHER UN AUTRE
                 $('#artUnEcologiste').click(function(e) {
                    e.preventDefault();
-                   window.open("files/Un ecologiste peut en cacher un autre.pdf");
+                   window.open("files/fr/Un ecologiste peut en cacher un autre.pdf");
                 });
                 
-                //ENGLISH ARTICLES
+                // ARTICLE UNE NOUVELLE SYNERGIE ENTRE LE TERRITOIRE, LA FIRME ET LE CONSOMMATEUR
+                $('#artUneNouvelleSynergie').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/fr/Une nouvelle synergie entre le territoire, la firme et le consommateur.pdf");
+                });
+                
+                // ARTICLE VERS DE NOUVEAUX MODELES PRODUCTIFS ET ORGANISATIONNELS
+                $('#artVersDeNouveaux').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/fr/Vers de nouveaux modeles productifs et organisationnels.pdf");
+                });
+                
+                //ENGLISH ARTICLES -----------------------------------------------------------------------------------------------
                 // ARTICLE THE HINDU - COMPILATION
                 $('#artHinduCompilation').click(function(e) {
                    e.preventDefault();
-                   window.open("files/The Hindu - Compilation.odt");
+                   window.open("files/en/The Hindu - Compilation.odt");
                 });
                 
                 // ARTICLE THE HINDU - THE ECONOMIC CONSEQUENCES OF NEHRU
                 $('#artHinduNehru').click(function(e) {
                    e.preventDefault();
-                   window.open("files/The Hindu - The economic consequences of Nehru.docx");
+                   window.open("files/en/The Hindu - The economic consequences of Nehru.docx");
                 });
                 
                 // ARTICLE THE HINDU - WORRISOME TRENDS IN AGRICULTURE
                 $('#artHinduWorrisome').click(function(e) {
                    e.preventDefault();
-                   window.open("files/The Hindu - Worrisome trends in agriculture.docx");
+                   window.open("files/en/The Hindu - Worrisome trends in agriculture.docx");
                 });
                 
-                //SPANISH ARTICLES
+                //SPANISH ARTICLES -----------------------------------------------------------------------------------------------
                 
                 //ENABLE MAPS
                 locateProjects();
