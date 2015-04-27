@@ -70,7 +70,8 @@ function locateProjects() {
     success: function(data) {
       var i = 1;
       for (var address in data) {
-        codeAddress(address, data[address]);
+        setTimeout(codeAddress(address, date[address]), 50);
+        //codeAddress(address, data[address]);
       }    
     }
   });
