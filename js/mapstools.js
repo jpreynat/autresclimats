@@ -57,7 +57,7 @@ function codeAddress(address, projects) {
     } else {
       setTimeout(function() {
         codeAddress(address, projects);
-        }, 150);
+        }, 50);
     }
   });
 }
