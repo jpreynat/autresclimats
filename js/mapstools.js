@@ -57,7 +57,7 @@ function codeAddress(address, projects) {
     } else {
       setTimeout(function() {
         codeAddress(address, projects);
-        }, 100);
+        }, 150);
     }
   });
 }
@@ -70,10 +70,7 @@ function locateProjects() {
     success: function(data) {
       var i = 1;
       for (var address in data) {
-        setTimeout(function () {
-          codeAddress(address, date[address]);
-        }, 50);
-        //codeAddress(address, data[address]);
+        codeAddress(address, data[address]);
       }    
     }
   });
