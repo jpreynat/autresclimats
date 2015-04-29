@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title><?= $page_title ?></title>
         
         <link href="autresclimats.ico" rel="shortcut icon" type="image/x-icon">
