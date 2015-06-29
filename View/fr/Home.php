@@ -56,7 +56,9 @@
     <div class="col-xs-12">
       <h2>Évènement</h2>
       <p>
-        INDP India et AEIP participeront, le mardi 30 juin, à la table ronde qui se tiendra au siège de l'UNESCO à Paris :
+        INDP India et AEIP participeront au <a href="http://fr.unesco.org/events/role-femmes-lutte-contre-pauvrete-quatrieme-forum-international-ong-partenaires-officiels" target="_blank">
+        Quatrième Forum international des ONG partenaires officiels de l'UNESCO</a>. <br/>
+        A cette occasion, INDP interviendra le mardi 30 juin à la table ronde :
       </p>
       
       <div class="row event">
