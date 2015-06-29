@@ -226,6 +226,12 @@
                    window.open("files/fr/Une nouvelle synergie entre le territoire, la firme et le consommateur.pdf");
                 });
                 
+                // ARTICLE UNESCO - LES JEUNES, UN PASSAGE OBLIGE POUR LA PAIX
+                $('#artUNESCOLesJeunes').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/fr/UNESCO - Les jeunes, un passage oblige pour la paix.pdf");
+                });
+                
                 // ARTICLE VERS DE NOUVEAUX MODELES PRODUCTIFS ET ORGANISATIONNELS
                 $('#artVersDeNouveaux').click(function(e) {
                    e.preventDefault();

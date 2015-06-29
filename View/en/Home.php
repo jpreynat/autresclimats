@@ -113,7 +113,8 @@
       <a id="artTeleramaSpeculation" href="#">Télérama - Le climat est à la spéculation</a><br>
       <a id="artUnEcologiste" href="#">Un écologiste peut en cacher un autre</a><br>
       <a id="artUneNouvelleSynergie" href="#">Une nouvelle synergie entre le territoire, la firme et le consommateur</a><br>
-      <a id="artartVersDeNouveaux" href="#">Vers de nouveaux modèles productifs et organisationnels</a>
+      <a id="artUNESCOLesJeunes" href="#">UNESCO - Les jeunes, un passage obligé pour la paix</a><br>
+      <a id="artVersDeNouveaux" href="#">Vers de nouveaux modèles productifs et organisationnels</a>
     </div>
     
     <div id="english-articles" class="col-xs-12 col-md-6 articles-list text-right">
