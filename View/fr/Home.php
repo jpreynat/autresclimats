@@ -51,6 +51,33 @@
 
 </header>
 
+<section id="events">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Évènement</h2>
+      <p>
+        INDP India et AEIP participeront, le mardi 30 juin, à la table ronde qui se tiendra au siège de l'UNESCO à Paris :
+      </p>
+      
+      <div class="row event">
+        <div class="col-xs-2 text-center event-time">
+          <p class="text-center">Mardi 30 Juin</p>
+          <p class="text-center">14:30 - 16:00</p>
+        </div>
+        <div class="col-xs-10">
+          <p class="text-center">
+            <strong>« Redynamiser la lutte contre la pauvreté »</strong><br>
+       	    <em>Les femmes agents du changement pour un développement durable<br>
+            Le rôle des médias, le rôle des TIC et de la recherche</em><br>
+          </p>
+        </div>
+      </div>
+      <p>
+        Pour plus d'informations, nous vous invitons à contacter <a href="mailto:indp1999@gmail.com">Augustin Brutus</a> d'INDP ou <a href="mailto:raoulalonso@yahoo.fr">Raul Alonso</a> de l'AIEP.
+      </p>
+    </div>
+  </div>
+</section>
 
 <article class="home-page">
 

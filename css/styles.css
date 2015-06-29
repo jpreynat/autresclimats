@@ -34,6 +34,25 @@ html, body, section {
     box-shadow: #ccc 1px 1px 10px;
 }
 
+#events {
+    background-color: #FEFEFE;
+    margin-top: 2rem;
+    padding: 2rem;
+    border: 1px dashed #D0D0D0;
+}
+
+#events h2 {
+    margin-top: 0;
+}
+
+#events .event {
+    margin: 2rem 0;
+}
+
+.event .event-time {
+    margin-top: 1rem;
+}
+
 /* Home Page articles */
 #articles a {
     color: #006C90;
