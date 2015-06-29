@@ -46,11 +46,11 @@ html, body, section {
 }
 
 #events .event {
-    margin: 2rem 0;
+    margin: 2.5rem 0;
 }
 
 .event .event-time {
-    margin-top: 1rem;
+    font-size: 1.4rem;
 }
 
 /* Home Page articles */

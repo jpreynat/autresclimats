@@ -61,18 +61,16 @@
         A cette occasion, INDP interviendra le mardi 30 juin à la table ronde :
       </p>
       
-      <div class="row event">
-        <div class="col-xs-2 text-center event-time">
-          <p class="text-center">Mardi 30 Juin</p>
-          <p class="text-center">14:30 - 16:00</p>
-        </div>
-        <div class="col-xs-10">
-          <p class="text-center">
-            <strong>« Redynamiser la lutte contre la pauvreté »</strong><br>
-       	    <em>Les femmes agents du changement pour un développement durable<br>
-            Le rôle des médias, le rôle des TIC et de la recherche</em><br>
-          </p>
-        </div>
+      <div class="event">
+        <p class="text-center">
+          <strong>« Redynamiser la lutte contre la pauvreté »</strong><br>
+     	    <em>Les femmes agents du changement pour un développement durable<br>
+          Le rôle des médias, le rôle des TIC et de la recherche</em><br>
+        </p>
+        <p class="text-center event-time">
+          Mardi 30 Juin<br/>
+          14:30 - 16:00
+        </p>
       </div>
       <p>
         Pour plus d'informations, nous vous invitons à contacter <a href="mailto:indp1999@gmail.com">Augustin Brutus</a> d'INDP ou <a href="mailto:raoulalonso@yahoo.fr">Raul Alonso</a> de l'AIEP.
