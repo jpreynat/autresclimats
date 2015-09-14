@@ -51,6 +51,26 @@
 
 </header>
 
+<section id="home-gallery">
+  <div class="row">
+    <div class="col-xs-12">
+      <h4 class="page-header">
+        <strong>Focus on the old rainwater collection systems in India</strong>
+      </h4>
+      <a href="files/img/stepwells/01.jpg" data-lightbox="stepwells" data-title="Neemrana Baoli - Neemrana, Rajasthan">
+        <img src="files/img/stepwells/01.jpg" class="img-responsive img-thumbnail center-block" />
+      </a>
+      <a href="files/img/stepwells/02.jpg" data-lightbox="stepwells" data-title=""></a>
+      <a href="files/img/stepwells/03.jpg" data-lightbox="stepwells" data-title="Helical Vav - Champaner"></a>
+      <a href="files/img/stepwells/04.jpg" data-lightbox="stepwells" data-title="Rani ki Vav - Patan"></a>
+      <a href="files/img/stepwells/05.jpg" data-lightbox="stepwells" data-title=""></a>
+      <a href="files/img/stepwells/06.jpg" data-lightbox="stepwells" data-title="Rudabai Vav - Adalaj"></a>
+      <a href="files/img/stepwells/07.jpg" data-lightbox="stepwells" data-title="Dada Harir Vav - Ahmedabad"></a>
+      <a href="files/img/stepwells/08.jpg" data-lightbox="stepwells" data-title="Mertani Baoli - Jhunjhunu"></a>
+      <a href="files/img/stepwells/09.jpg" data-lightbox="stepwells" data-title="Bhamaria Vav - Mehmedabad"></a>
+    </div>
+  </div>
+</section>
 
 <article class="home-page">
 
