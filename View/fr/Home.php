@@ -51,6 +51,25 @@
 
 </header>
 
+<section id="home-gallery">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Focus sur les anciens systèmes de collecte d'eau de pluie en Inde</h2>
+      <a href="files/img/stepwells/01.jpg" data-lightbox="stepwells">
+        <img src="files/img/stepwells/01.jpg" class="img-responsive" />
+      </a>
+      <a href="files/img/stepwells/02.jpg" data-lightbox="stepwells"></a>
+      <a href="files/img/stepwells/03.jpg" data-lightbox="stepwells"></a>
+      <a href="files/img/stepwells/04.jpg" data-lightbox="stepwells"></a>
+      <a href="files/img/stepwells/05.jpg" data-lightbox="stepwells"></a>
+      <a href="files/img/stepwells/06.jpg" data-lightbox="stepwells"></a>
+      <a href="files/img/stepwells/07.jpg" data-lightbox="stepwells"></a>
+      <a href="files/img/stepwells/08.jpg" data-lightbox="stepwells"></a>
+      <a href="files/img/stepwells/09.jpg" data-lightbox="stepwells"></a>
+    </div>
+  </div>
+</section>
+<!--
 <section id="events">
   <div class="row">
     <div class="col-xs-12">
@@ -78,6 +97,7 @@
     </div>
   </div>
 </section>
+-->
 
 <article class="home-page">
 
