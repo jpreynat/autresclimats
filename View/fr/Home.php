@@ -53,10 +53,10 @@
 
 <section id="home-gallery">
   <div class="row">
-    <div class="col-xs-12">
+    <div class="col-md-12 col-xs-8 col-xs-offset-2 text-center">
       <h2>Focus sur les anciens systèmes de collecte d'eau de pluie en Inde</h2>
       <a href="files/img/stepwells/01.jpg" data-lightbox="stepwells">
-        <img src="files/img/stepwells/01.jpg" class="img-responsive" />
+        <img src="files/img/stepwells/01.jpg" class="img-responsive img-thumbnail center-block" />
       </a>
       <a href="files/img/stepwells/02.jpg" data-lightbox="stepwells"></a>
       <a href="files/img/stepwells/03.jpg" data-lightbox="stepwells"></a>
