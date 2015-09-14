@@ -53,19 +53,21 @@
 
 <section id="home-gallery">
   <div class="row">
-    <div class="col-md-12 col-xs-8 col-xs-offset-2 text-center">
-      <h2>Focus sur les anciens systèmes de collecte d'eau de pluie en Inde</h2>
-      <a href="files/img/stepwells/01.jpg" data-lightbox="stepwells">
+    <div class="col-xs-12">
+      <h4 class="page-header">
+        <strong>Focus sur les anciens systèmes de collecte d'eau de pluie en Inde</strong>
+      </h4>
+      <a href="files/img/stepwells/01.jpg" data-lightbox="stepwells" data-title="Neemrana Baoli - Neemrana, Rajasthan">
         <img src="files/img/stepwells/01.jpg" class="img-responsive img-thumbnail center-block" />
       </a>
-      <a href="files/img/stepwells/02.jpg" data-lightbox="stepwells"></a>
-      <a href="files/img/stepwells/03.jpg" data-lightbox="stepwells"></a>
-      <a href="files/img/stepwells/04.jpg" data-lightbox="stepwells"></a>
-      <a href="files/img/stepwells/05.jpg" data-lightbox="stepwells"></a>
-      <a href="files/img/stepwells/06.jpg" data-lightbox="stepwells"></a>
-      <a href="files/img/stepwells/07.jpg" data-lightbox="stepwells"></a>
-      <a href="files/img/stepwells/08.jpg" data-lightbox="stepwells"></a>
-      <a href="files/img/stepwells/09.jpg" data-lightbox="stepwells"></a>
+      <a href="files/img/stepwells/02.jpg" data-lightbox="stepwells" data-title=""></a>
+      <a href="files/img/stepwells/03.jpg" data-lightbox="stepwells" data-title="Helical Vav - Champaner"></a>
+      <a href="files/img/stepwells/04.jpg" data-lightbox="stepwells" data-title="Rani ki Vav - Patan"></a>
+      <a href="files/img/stepwells/05.jpg" data-lightbox="stepwells" data-title=""></a>
+      <a href="files/img/stepwells/06.jpg" data-lightbox="stepwells" data-title="Rudabai Vav - Adalaj"></a>
+      <a href="files/img/stepwells/07.jpg" data-lightbox="stepwells" data-title="Dada Harir Vav - Ahmedabad"></a>
+      <a href="files/img/stepwells/08.jpg" data-lightbox="stepwells" data-title="Mertani Baoli - Jhunjhunu"></a>
+      <a href="files/img/stepwells/09.jpg" data-lightbox="stepwells" data-title="Bhamaria Vav - Mehmedabad"></a>
     </div>
   </div>
 </section>

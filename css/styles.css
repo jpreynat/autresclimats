@@ -34,6 +34,10 @@ html, body, section {
     box-shadow: #ccc 1px 1px 10px;
 }
 
+#home-gallery {
+    margin-bottom: 5rem;
+}
+
 #events {
     background-color: #FEFEFE;
     margin-top: 2rem;
