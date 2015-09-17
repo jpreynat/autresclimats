@@ -55,7 +55,7 @@
   <div class="row">
     <div class="col-xs-12">
       <h4 class="page-header">
-        <strong>Focus on the old rainwater collection systems in India</strong>
+        <strong>Former rain water recovery system in India</strong>
       </h4>
       <a href="files/img/stepwells/01.jpg" data-lightbox="stepwells" data-title="Neemrana Baoli - Neemrana, Rajasthan">
         <img src="files/img/stepwells/01.jpg" class="img-responsive img-thumbnail center-block" />
