@@ -341,6 +341,18 @@
                    window.open("files/en/Solar panels on top of canal impress UN chief.pdf");
                 });
                 
+                // ARTICLE THE ECONOMIST - LEARNING UNLEASHED
+                $('#artEcoLearning').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/The Economist - Learning unleashed.pdf");
+                });
+                
+                // ARTICLE THE ECONOMIST - THE $1-A-WEEK SCHOOL
+                $('#artEcoOneDollarAWeek').click(function(e) {
+                   e.preventDefault();
+                   window.open("files/en/The Economist - The $1-a-week school.pdf");
+                });
+                
                 // ARTICLE THE HINDU - COMPILATION
                 $('#artHinduCompilation').click(function(e) {
                    e.preventDefault();

@@ -185,6 +185,8 @@
       <a id="artNoEndToChild" href="#">No end to child Labour</a><br>
       <a id="artSheSoldHerKidney" href="#">She sold her kidney to set right land records</a><br>
       <a id="artSolarPanels" href="#">Solar panels on top of canal impress UN chief</a><br>
+      <a id="artEcoLearning" href="#">The Economist - Learning unleashed</a><br>
+      <a id="artEcoOneDollarAWeek" href="#">The Economist - The $1-a-week school</a><br>
       <a id="artHinduCompilation" href="#">The Hindu - Compilation</a><br>
       <a id="artHinduNehru" href="#">The Hindu - The economic consequences of Nehru</a><br>
       <a id="artHinduWorrisome" href="#">The Hindu - Worrisome trends in agriculture</a><br>
