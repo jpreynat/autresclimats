@@ -55,6 +55,16 @@
   <div class="row">
     <div class="col-xs-12">
       <h4 class="page-header">
+        <strong>Un très court extrait du film <i>Marionnettes en Culture de Paix</i> de Claude Yvans</strong>
+      </h4>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-Sil6MiKe-8" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <h4 class="page-header">
         <strong>Les anciens systèmes de collecte d'eau de pluie en Inde</strong>
       </h4>
       <a href="files/img/stepwells/01.jpg" data-lightbox="stepwells" data-title="Neemrana Baoli - Neemrana, Rajasthan">
